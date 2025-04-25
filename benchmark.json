@@ -1,0 +1,697 @@
+{
+    "benchmark": {
+        "image_types": [
+            "REAL",
+            "ANIMATED",
+            "AI_GENERATED"
+        ],
+        "question_types": {
+            "Q1": "direct_recognition",
+            "Q2": "property_inference",
+            "Q3": "counterfactual_reasoning"
+        },
+        "property_categories": {
+            "Q1": [
+                "physical",
+                "taxonomic"
+            ],
+            "Q2": [
+                "functional",
+                "relational"
+            ],
+            "Q3": [
+                "physical",
+                "taxonomic",
+                "functional",
+                "relational"
+            ]
+        },
+        "images": [
+            {
+                "image_id": "image01",
+                "image_type": "REAL",
+                "source": "google images",
+                "path": "data/REAL/image01.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of wood are present?",
+                        "answer": "5",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of breakable items?",
+                        "answer": "3",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If one of the metal objects were replaced by a wooden object, how many wooden objects would be there in the image?",
+                        "answer": "6",
+                        "property_category": "physical"
+                    }
+                ]
+            },
+            {
+                "image_id": "image02",
+                "image_type": "REAL",
+                "source": "google images",
+                "path": "data/REAL/image02.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many mammals are present in the image?",
+                        "answer": "10",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of items that can store other items?",
+                        "answer": "7",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If one of the zebra were replaced by a tree, how many mammals would be present in the image?",
+                        "answer": "9",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image03",
+                "image_type": "REAL",
+                "source": "unsplash",
+                "path": "data/REAL/image03.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of rubber are present?",
+                        "answer": "4",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects with the primary purpose of illumination can be seen?",
+                        "answer": "5",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the person riding one of the bicycles were replaced by a pedestrian, how many objects that have handles would be present?",
+                        "answer": "2",
+                        "property_category": "physical"
+                    }
+                ]
+            },
+            {
+                "image_id": "image04",
+                "image_type": "REAL",
+                "source": "COCO",
+                "path": "data/REAL/image04.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many tools are visible in the image?",
+                        "answer": "9",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many cutting tools are present in this image?",
+                        "answer": "2",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the red handle were replaced by a wooden handle, how many colored artifacts would remain in the image?",
+                        "answer": "0",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image05",
+                "image_type": "REAL",
+                "source": "google images",
+                "path": "data/REAL/image05.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many furniture items are present that have legs?",
+                        "answer": "8",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of containers that cannot hold hot liquids?",
+                        "answer": "6",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the room were transformed into an open workspace instead of a meeting room, how many privacy features would need to be removed?",
+                        "answer": "2",
+                        "property_category": "functional",
+                        "answer_verification": "door, glass wall"
+                    }
+                ]
+            },
+            {
+                "image_id": "image06",
+                "image_type": "REAL",
+                "source": "google images",
+                "path": "data/REAL/image06.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many reptiles are visible in this enclosure?",
+                        "answer": "5",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many reptilian couples, at maximum, are present?",
+                        "answer": "2",
+                        "property_category": "relational"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If all the small pebbles forming the mosaic floor were replaced with sand, how many natural elements would still be visible in the enclosure?",
+                        "answer": "3",
+                        "property_category": "taxonomic",
+                        "answer_verification": "grass, rocks, reptiles"
+                    }
+                ]
+            },
+            {
+                "image_id": "image07",
+                "image_type": "REAL",
+                "source": "COCO",
+                "path": "data/REAL/image07.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many birds are visible in this image?",
+                        "answer": "6",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are present that can comfortably seat a human?",
+                        "answer": "5",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the birds sitting together only on one railing were to fly away, how many birds would remain?",
+                        "answer": "3",
+                        "property_category": "taxonomic/relational"
+                    }
+                ]
+            },
+            {
+                "image_id": "image08",
+                "image_type": "REAL",
+                "source": "unsplash",
+                "path": "data/REAL/image08.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many reptiles are visible in this image?",
+                        "answer": "3",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are present that act as support?",
+                        "answer": "1",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If one turtle slid off the log into the water, how many turtles would be in the water?",
+                        "answer": "2",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image09",
+                "image_type": "REAL",
+                "source": "unsplash",
+                "path": "data/REAL/image09.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many different types of vegetables are present in the image?",
+                        "answer": "5",
+                        "property_category": "taxonomic",
+                        "answer_verification": "Purple Cauliflower, White Cauliflower, Romanesco Cauliflower, Red cherry tomatoes, Orange cherry tomatoes"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are used as containers?",
+                        "answer": "3",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the bag of limes were removed and replaced with two additional avocados, how many fruits would be present in total on the table, considering avocados are fruits?",
+                        "answer": "6",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image10",
+                "image_type": "REAL",
+                "source": "unsplash",
+                "path": "data/REAL/image10.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects are present that are flexible?",
+                        "answer": "4",
+                        "property_category": "physical",
+                        "answer_verification": "watch straps"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of items that are battery powered?",
+                        "answer": "7",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If two phones with three camera lenses were replaced with phones having two camera lenses, how many phones with two camera lenses would be present?",
+                        "answer": "3",
+                        "property_category": "physical"
+                    }
+                ]
+            },
+            {
+                "image_id": "image01",
+                "image_type": "ANIMATED",
+                "source": "google images",
+                "path": "data/ANIMATED/image01.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many mammals are present in total?",
+                        "answer": "9",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are visible that can store items?",
+                        "answer": "1",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the bear were to be replaced by a tree, how many different types of mammals would be there at the zoo?",
+                        "answer": "4",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image02",
+                "image_type": "ANIMATED",
+                "source": "google images",
+                "path": "data/ANIMATED/image02.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many kitchen tools are visible in the image?",
+                        "answer": "3",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of items that require electricity to operate?",
+                        "answer": "6",
+                        "property_category": "functional",
+                        "answer_verification": "fridge, extractor hood, stove, oven, 2 lamps"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If blinds were installed for the windows above the sink, how many transparent objects would remain?",
+                        "answer": "2",
+                        "property_category": "physical",
+                        "answer_verification": "window, oven"
+                    }
+                ]
+            },
+            {
+                "image_id": "image03",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image03.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of glass are present?",
+                        "answer": "2",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many tools are visible that can be used for cutting?",
+                        "answer": "4",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the worker was not wearing ear protection, how many protective items would remain?",
+                        "answer": "1",
+                        "property_category": "functional"
+                    }
+                ]
+            },
+            {
+                "image_id": "image04",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image04.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of rubber are present?",
+                        "answer": "5",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Excluding the drawers, how many items in the workshop serve as containers for storage?",
+                        "answer": "3",
+                        "property_category": "functional",
+                        "answer_verification": "two bottles, one plant pot"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If an electric fan were placed on the workstation to provide ventilation, how many objects in the room would require electricity to operate?",
+                        "answer": "3",
+                        "property_category": "functional"
+                    }
+                ]
+            },
+            {
+                "image_id": "image05",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image05.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many birds are visible in the image?",
+                        "answer": "6",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are present that act as support?",
+                        "answer": "1",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the clouds were to completely cover the sky, blocking the sunlight, how many natural elements would still be visible?",
+                        "answer": "3",
+                        "property_category": "taxonomic",
+                        "answer_verification": "clouds, tree, birds"
+                    }
+                ]
+            },
+            {
+                "image_id": "image06",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image06.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects are present that have chimneys?",
+                        "answer": "6",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are visible that are means of transportation?",
+                        "answer": "3",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the bus were replaced by a pedestrian, how many mammals would be present?",
+                        "answer": "2",
+                        "property_category": "taxonomic"
+                    }
+                ]
+            },
+            {
+                "image_id": "image07",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image07.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of glass are present?",
+                        "answer": "1",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "Count the number of items that can be used to carry liquid?",
+                        "answer": "6",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the waste to be disposed was color-coded to match the bins, how many objects are to be thrown in the bin on the right?",
+                        "answer": "1",
+                        "property_category": "physical",
+                        "answer_verification": "trash bag"
+                    }
+                ]
+            },
+            {
+                "image_id": "image08",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image08.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects are present that have legs?",
+                        "answer": "6",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many items are visible that are openable?",
+                        "answer": "8",
+                        "property_category": "functional",
+                        "answer_verification": "laptop, bottle, two books, two markers, two windows"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the bottle was removed from the table, how many objects are present on top of the table?",
+                        "answer": "4",
+                        "property_category": "relational",
+                        "answer_verification": "laptop, plant pot, two books"
+                    }
+                ]
+            },
+            {
+                "image_id": "image09",
+                "image_type": "ANIMATED",
+                "source": "freepik",
+                "path": "data/ANIMATED/image09.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of wood are present?",
+                        "answer": "3",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many kitchen items are visible that can be used for cutting?",
+                        "answer": "7",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the two jars on the top shelf were removed, how many breakable items would be present in the image?",
+                        "answer": "8",
+                        "property_category": "functional"
+                    }
+                ]
+            },
+            {
+                "image_id": "image10",
+                "image_type": "ANIMATED",
+                "source": "google images",
+                "path": "data/ANIMATED/image10.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of plastic are visible?",
+                        "answer": "4",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many items are visible that can record audio?",
+                        "answer": "5",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the microphones were replaced with headsets for every character, how many objects in total would be present that are worn on the head?",
+                        "answer": "8",
+                        "property_category": "functional/relational",
+                        "answer_verification": "2 caps, 6 headsets"
+                    }
+                ]
+            },
+            {
+                "image_id": "image01",
+                "image_type": "AI_GENERATED",
+                "source": "GPT4o DALL.E",
+                "path": "data/AI_GENERATED/image01.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of rubber are visible?",
+                        "answer": "7",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are visible that are means of transportation?",
+                        "answer": "4",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the car in the driveway were to leave, how many objects primarily made of metal would be present?",
+                        "answer": "4",
+                        "property_category": "physical",
+                        "answer_verification": "car on the left, swing set, car in garage, bike"
+                    }
+                ]
+            },
+            {
+                "image_id": "image02",
+                "image_type": "AI_GENERATED",
+                "source": "GPT4o ImageGen",
+                "path": "data/AI_GENERATED/image02.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects made of concrete are present?",
+                        "answer": "5",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are visible that can be used for lifting?",
+                        "answer": "3",
+                        "property_category": "functional",
+                        "answer_verification": "crane, two paint cans with handles"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the orange paint spilled all over one of the plexiglass sheets, how many objects would remain that are transparent?",
+                        "answer": "1",
+                        "property_category": "physical"
+                    }
+                ]
+            },
+            {
+                "image_id": "image03",
+                "image_type": "AI_GENERATED",
+                "source": "GPT4o ImageGen",
+                "path": "data/AI_GENERATED/image03.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many mammals are present in the image?",
+                        "answer": "5",
+                        "property_category": "taxonomic"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are visible that are used for both meat and wool production?",
+                        "answer": "2",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the two sheep were replaced by a cow grazing in the same area, how many objects would be present in between the two fences?",
+                        "answer": "3",
+                        "property_category": "relational"
+                    }
+                ]
+            },
+            {
+                "image_id": "image04",
+                "image_type": "AI_GENERATED",
+                "source": "GPT4o ImageGen",
+                "path": "data/AI_GENERATED/image04.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects are visible that are made of paper?",
+                        "answer": "7",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many objects are present that behave as storage spaces?",
+                        "answer": "3",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the glasses were placed inside the ceramic container, and we use this container as a dividing line between the left and right sides of the bookshelf, how many objects would be on the right side?",
+                        "answer": "4",
+                        "property_category": "relational",
+                        "answer_verification": "headphone, three books"
+                    }
+                ]
+            },
+            {
+                "image_id": "image05",
+                "image_type": "AI_GENERATED",
+                "source": "Grok 3",
+                "path": "data/AI_GENERATED/image05.jpg",
+                "questions": [
+                    {
+                        "id": "Q1",
+                        "question": "How many objects are visible that are made of porcelain?",
+                        "answer": "3",
+                        "property_category": "physical"
+                    },
+                    {
+                        "id": "Q2",
+                        "question": "How many decoration items are present in the image?",
+                        "answer": "6",
+                        "property_category": "functional"
+                    },
+                    {
+                        "id": "Q3",
+                        "question": "If the drinks were split evenly between the two humans, how many drinks would each human consume?",
+                        "answer": "3",
+                        "property_category": "relational"
+                    }
+                ]
+            }
+        ]
+    }
+}
