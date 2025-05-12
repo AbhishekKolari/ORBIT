@@ -1,0 +1,7 @@
+Starting at Tue Apr 29 23:35:34 CEST 2025
+Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-internvl2-5.ipynb
+Output Notebook: internvl2-5_output.ipynb
+Executing:   0%|          | 0/15 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   7%|▋         | 1/15 [00:01<00:23,  1.65s/cell]Executing:  27%|██▋       | 4/15 [00:03<00:08,  1.30cell/s]Executing:  33%|███▎      | 5/15 [00:06<00:15,  1.56s/cell]Executing:  40%|████      | 6/15 [00:08<00:15,  1.69s/cell]Executing:  80%|████████  | 12/15 [00:09<00:01,  1.99cell/s]Executing:  87%|████████▋ | 13/15 [00:19<00:01,  1.99cell/s]Executing:  93%|█████████▎| 14/15 [01:12<00:08,  8.39s/cell]Executing: 100%|██████████| 15/15 [01:15<00:00,  5.04s/cell]
+Finished at Tue Apr 29 23:36:50 CEST 2025
+Total execution time: 1 minutes and 16 seconds
