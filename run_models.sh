@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #SBATCH --job-name=nb_run
-#SBATCH --time=02:00:00
+#SBATCH --time=24:00:00
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
-#SBATCH --partition=fatq
+#SBATCH --partition=defq
 #SBATCH -C A6000
 #SBATCH --gres=gpu:1
 #SBATCH --output=qwen2-5-vl-32b_notebook_%j.out
@@ -26,4 +26,4 @@ SECONDS=0  # built-in bash timer
 papermill /var/scratch/ave303/OP_bench/opa-benchmark-smolvlm2-qwen2-5-vl.ipynb qwen2-5-vl-32b_output.ipynb
 
 echo "Finished at $(date)"
-echo "Total execution time: $(($SECONDS / 60)) minutes and $(($SECONDS % 60)) seconds"
+echo "Total execution time: $(($SECONDS / 3600)) hours $(($SECONDS / 60)) minutes and $(($SECONDS % 60)) seconds"
