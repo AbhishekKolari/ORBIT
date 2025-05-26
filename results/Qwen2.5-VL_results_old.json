@@ -109,7 +109,7 @@
         "image_type": "REAL",
         "question_id": "Q3",
         "question": "If the person riding one of the bicycles were replaced by a pedestrian, how many objects that have handles would be present?",
-        "ground_truth": "5",
+        "ground_truth": "2",
         "model_answer": "2",
         "model_reasoning": [
             "bicycles"
@@ -149,13 +149,11 @@
         "question_id": "Q3",
         "question": "If the red handle were replaced by a wooden handle, how many colored artifacts would remain in the image?",
         "ground_truth": "0",
-        "model_answer": "3",
+        "model_answer": "1",
         "model_reasoning": [
-            "red",
-            "blue",
-            "silver"
+            "red handle"
         ],
-        "raw_answer": "3 [red, blue, silver]",
+        "raw_answer": "1 [red handle]",
         "property_category": "taxonomic"
     },
     {
@@ -228,7 +226,7 @@
         "image_type": "REAL",
         "question_id": "Q3",
         "question": "If all the small pebbles forming the mosaic floor were replaced with sand, how many natural elements would still be visible in the enclosure?",
-        "ground_truth": "5",
+        "ground_truth": "3",
         "model_answer": "3",
         "model_reasoning": [
             "grass",
@@ -275,7 +273,7 @@
             "birds"
         ],
         "raw_answer": "3 [birds]",
-        "property_category": "relational"
+        "property_category": "taxonomic/relational"
     },
     {
         "image_id": "image08",
@@ -536,7 +534,7 @@
         "model_answer": "10",
         "model_reasoning": [],
         "raw_answer": "There are 10 objects positioned for student use to place other items in the image. These include the desks and chairs in the classroom.",
-        "property_category": "relational"
+        "property_category": "functional/relational"
     },
     {
         "image_id": "image14",
@@ -716,7 +714,7 @@
             "pitchfork"
         ],
         "raw_answer": "2 [watering can, pitchfork]",
-        "property_category": "taxonomic"
+        "property_category": "physical/taxonomic"
     },
     {
         "image_id": "image19",
@@ -828,9 +826,9 @@
         "ground_truth": "3",
         "model_answer": "4",
         "model_reasoning": [
-            "kitchen tools"
+            "spoons"
         ],
-        "raw_answer": "4 [kitchen tools]",
+        "raw_answer": "4 [spoons]",
         "property_category": "taxonomic"
     },
     {
@@ -1177,7 +1175,7 @@
             "headsets"
         ],
         "raw_answer": "5 [headsets]",
-        "property_category": "relational"
+        "property_category": "functional/relational"
     },
     {
         "image_id": "image11",
@@ -1429,11 +1427,11 @@
         "question_id": "Q2",
         "question": "How many objects are visible that are attached to the wall or ceiling?",
         "ground_truth": "4",
-        "model_answer": "5",
+        "model_answer": "4",
         "model_reasoning": [
             "objects"
         ],
-        "raw_answer": "5 [objects]",
+        "raw_answer": "4 [objects]",
         "property_category": "relational"
     },
     {
@@ -1791,11 +1789,11 @@
         "question_id": "Q2",
         "question": "How many objects are visible that are designed to contain liquids?",
         "ground_truth": "8",
-        "model_answer": "4",
+        "model_answer": "5",
         "model_reasoning": [
             "objects"
         ],
-        "raw_answer": "4 [objects]",
+        "raw_answer": "5 [objects]",
         "property_category": "functional"
     },
     {
