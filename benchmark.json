@@ -100,7 +100,7 @@
                     {
                         "id": "Q3",
                         "question": "If the person riding one of the bicycles were replaced by a pedestrian, how many objects that have handles would be present?",
-                        "answer": "2",
+                        "answer": "5",
                         "property_category": "physical"
                     }
                 ]
@@ -179,9 +179,9 @@
                     {
                         "id": "Q3",
                         "question": "If all the small pebbles forming the mosaic floor were replaced with sand, how many natural elements would still be visible in the enclosure?",
-                        "answer": "3",
+                        "answer": "5",
                         "property_category": "taxonomic",
-                        "answer_verification": "grass, rocks, reptiles"
+                        "answer_verification": "grass, rocks, reptiles, sand, stone wall"
                     }
                 ]
             },
@@ -207,7 +207,7 @@
                         "id": "Q3",
                         "question": "If the birds sitting together only on one railing were to fly away, how many birds would remain?",
                         "answer": "3",
-                        "property_category": "taxonomic/relational"
+                        "property_category": "relational"
                     }
                 ]
             },
@@ -392,7 +392,7 @@
                         "id": "Q2",
                         "question": "How many objects are positioned for student use to place other items?",
                         "answer": "7",
-                        "property_category": "functional/relational"
+                        "property_category": "relational"
                     },
                     {
                         "id": "Q3",
@@ -525,7 +525,7 @@
                         "id": "Q1",
                         "question": "How many gardening tools are present that are made of metal?",
                         "answer": "5",
-                        "property_category": "physical/taxonomic",
+                        "property_category": "taxonomic",
                         "answer_verification": "scissors, weed cutter, three gardening forks"
                     },
                     {
@@ -836,7 +836,7 @@
                         "id": "Q3",
                         "question": "If the microphones were replaced with headsets for every character, how many objects in total would be present that are worn on the head?",
                         "answer": "8",
-                        "property_category": "functional/relational",
+                        "property_category": "relational",
                         "answer_verification": "2 caps, 6 headsets"
                     }
                 ]
