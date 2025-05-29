@@ -896,7 +896,7 @@
         "image_type": "REAL",
         "question_id": "Q3",
         "question": "If the stack of books on the table in the foreground was moved to the shelf, how many objects in physical contact with the table would be present?",
-        "ground_truth": "1",
+        "ground_truth": "2",
         "model_answer": "2",
         "model_reasoning": [
             "Open book",

@@ -4,7 +4,7 @@
 #SBATCH --time=00:05:00        # Just 5 minutes
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
-#SBATCH --partition=defq
+#SBATCH --partition=fatq
 #SBATCH --gres=gpu:1
 #SBATCH --output=test_notebook_%j.out
 

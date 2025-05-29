@@ -890,6 +890,50 @@
         "property_category": "functional"
     },
     {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects in the background are present that have legs?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chairs",
+            "chairs",
+            "chairs",
+            "chairs"
+        ],
+        "raw_answer": "4 [chairs, chairs, chairs, chairs]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects in the foreground are visible that are foldable?",
+        "ground_truth": "4",
+        "model_answer": "2",
+        "model_reasoning": [
+            "book",
+            "stack of books"
+        ],
+        "raw_answer": "2 [book, stack of books]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the stack of books on the table in the foreground was moved to the shelf, how many objects in physical contact with the table would be present?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "open book",
+            "jar with pencils"
+        ],
+        "raw_answer": "2 [open book, jar with pencils]",
+        "property_category": "relational"
+    },
+    {
         "image_id": "image01",
         "image_type": "ANIMATED",
         "question_id": "Q1",
