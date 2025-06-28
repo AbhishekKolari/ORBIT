@@ -1,0 +1,7 @@
+Starting at Tue Jun 10 12:56:16 CEST 2025
+Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-gemini2.0Flash.ipynb
+Output Notebook: gemini2.0Flash_output.ipynb
+Executing:   0%|          | 0/15 [00:00<?, ?cell/s]Executing notebook with kernel: op_bench
+Executing:   7%|▋         | 1/15 [00:01<00:22,  1.63s/cell]Executing:  27%|██▋       | 4/15 [00:03<00:08,  1.23cell/s]Executing:  33%|███▎      | 5/15 [00:08<00:19,  1.99s/cell]Executing:  80%|████████  | 12/15 [00:08<00:01,  1.87cell/s]Executing:  93%|█████████▎| 14/15 [00:19<00:00,  1.87cell/s]Executing: 100%|██████████| 15/15 [00:43<00:00,  4.00s/cell]Executing: 100%|██████████| 15/15 [00:45<00:00,  3.01s/cell]
+Finished at Tue Jun 10 12:57:02 CEST 2025
+Total execution time: 0 hours 0 minutes and 46 seconds

@@ -1,0 +1,257 @@
+[
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many birds are visible in this image?",
+        "ground_truth": "6",
+        "model_answer": "7",
+        "model_reasoning": [
+            "bird",
+            "bird",
+            "bird",
+            "bird",
+            "bird",
+            "bird",
+            "bird"
+        ],
+        "raw_answer": "7 [bird, bird, bird, bird, bird, bird, bird]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that can comfortably seat a human?",
+        "ground_truth": "5",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "6 [chair, chair, chair, chair, chair, chair]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the birds sitting together only on one railing were to fly away, how many birds would remain?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "bird",
+            "chair",
+            "railing"
+        ],
+        "raw_answer": "4 [bird, chair, railing]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many reptiles are visible in this image?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "turtle",
+            "turtle",
+            "turtle",
+            "turtle"
+        ],
+        "raw_answer": "4 [turtle, turtle, turtle, turtle]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that act as support?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "log"
+        ],
+        "raw_answer": "1 [log]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one turtle slid off the log into the water, how many turtles would be in the water?",
+        "ground_truth": "2",
+        "model_answer": "1",
+        "model_reasoning": [
+            "turtle"
+        ],
+        "raw_answer": "1 [turtle]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many different types of vegetables are present in the image?",
+        "ground_truth": "5",
+        "model_answer": "7",
+        "model_reasoning": [
+            "Cauliflower",
+            "Avocado",
+            "Tomatoes",
+            "Limes",
+            "Romanesco broccoli",
+            "Melon",
+            "Pomegranate"
+        ],
+        "raw_answer": "7 [Cauliflower, Avocado, Tomatoes, Limes, Romanesco broccoli, Melon, Pomegranate]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are used as containers?",
+        "ground_truth": "3",
+        "model_answer": "3",
+        "model_reasoning": [
+            "container",
+            "container",
+            "container"
+        ],
+        "raw_answer": "3 [container, container, container]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the bag of limes were removed and replaced with two additional avocados, how many fruits would be present in total on the table, considering avocados are fruits?",
+        "ground_truth": "6",
+        "model_answer": "28",
+        "model_reasoning": [
+            "avocado",
+            "tomatoes",
+            "limes",
+            "lemon",
+            "pomegranate"
+        ],
+        "raw_answer": "28 [avocado, tomatoes, limes, lemon, pomegranate]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects are present that are flexible?",
+        "ground_truth": "4",
+        "model_answer": "6",
+        "model_reasoning": [
+            "watch band",
+            "watch band",
+            "watch band",
+            "watch band",
+            "tablet cover",
+            "watch band"
+        ],
+        "raw_answer": "6 [watch band, watch band, watch band, watch band, tablet cover, watch band]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of items that are battery powered?",
+        "ground_truth": "7",
+        "model_answer": "6",
+        "model_reasoning": [
+            "phone",
+            "phone",
+            "phone",
+            "phone",
+            "tablet",
+            "tablet"
+        ],
+        "raw_answer": "6 [phone, phone, phone, phone, tablet, tablet]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If two phones with three camera lenses were replaced with phones having two camera lenses, how many phones with two camera lenses would be present?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "phone",
+            "phone",
+            "phone",
+            "phone",
+            "phone",
+            "phone"
+        ],
+        "raw_answer": "2 [phone, phone, phone, phone, phone, phone]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of glass are present on the table?",
+        "ground_truth": "10",
+        "model_answer": "9",
+        "model_reasoning": [
+            "glass",
+            "glass",
+            "glass",
+            "glass",
+            "bottle",
+            "bottle",
+            "bottle",
+            "glass",
+            "glass"
+        ],
+        "raw_answer": "9 [glass, glass, glass, glass, bottle, bottle, bottle, glass, glass]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present at the table that can be used for sitting?",
+        "ground_truth": "8",
+        "model_answer": "7",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "7 [chair, chair, chair, chair, chair, chair, chair]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the tables in the center are removed, how many objects are visible that have legs?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "table",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "4 [table, chair, chair, chair]",
+        "property_category": "physical"
+    }
+]

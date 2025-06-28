@@ -1,0 +1,10 @@
+# .gitignore
+
+# .env
+.env
+
+# # .env.local
+# .env.local
+
+# # .env.development.local
+# .env.development.local

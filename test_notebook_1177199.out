@@ -1,4 +1,0 @@
-Input Notebook:  analyse_results.ipynb
-Output Notebook: analyse_results.ipynb
-Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: op_bench
-Executing:   6%|▌         | 1/18 [00:03<00:58,  3.44s/cell]Executing:  39%|███▉      | 7/18 [00:03<00:04,  2.66cell/s]Executing:  72%|███████▏  | 13/18 [00:03<00:00,  5.67cell/s]Executing: 100%|██████████| 18/18 [00:08<00:00,  1.88cell/s]Executing: 100%|██████████| 18/18 [00:09<00:00,  1.87cell/s]

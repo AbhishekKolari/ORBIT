@@ -38,3 +38,5 @@ bitsandbytes
 # flash-attn
 triton
 num2words
+einops
+timm
