@@ -26,13 +26,18 @@ Benchmark for Visual Inference Tasks' involving object property counting and rea
 
 ## Getting Started
 
-1. Setup and Dependencies:
-   Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site.
-   `conda create -n [env_name] python=3.12`
-   Activate it and install all necessary libraries:
-   `pip install -r requirements.txt`
-   Create ipykernel for the use of Jupyter Notebooks:
-   `python -m ipykernel install --user --name [env_name] --display-name "[any_name]"`
+1. **Setup and Dependencies**:<br>
+   Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site.<br>
+   ```bash 
+   conda create -n [env_name] python=3.12
+
+   Activate it and install all necessary libraries: <br>
+   ```bash 
+   pip install -r requirements.txt
+
+   Create ipykernel for the use of Jupyter Notebooks:<br>
+   ```bash
+   python -m ipykernel install --user --name [env_name] --display-name "[any_name]"
 
 2. Download models:  
    `python download_models.py`
