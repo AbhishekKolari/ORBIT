@@ -26,28 +26,36 @@ Benchmark for Visual Inference Tasks' involving object property counting and rea
 
 ## Getting Started
 
-1. **Setup and Dependencies**:<br>
-   Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site.<br>
+1. **Setup and Dependencies**:  
+   Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site.
    ```bash 
    conda create -n [env_name] python=3.12
-
-   Activate it and install all necessary libraries: <br>
+   ```
+   Activate it and install all necessary libraries:  
    ```bash 
    pip install -r requirements.txt
-
-   Create ipykernel for the use of Jupyter Notebooks:<br>
+   ```
+   Create ipykernel for the use of Jupyter Notebooks:
    ```bash
    python -m ipykernel install --user --name [env_name] --display-name "[any_name]"
+   ```
 
-2. Download models:  
-   `python download_models.py`
+2. **Download models**:
+   ```bash
+   python download_models.py
+   ```
 
-3. Tweak model parameters and dataset batches in `opa-benchmark-<model-names>.ipynb`
+3. **Tweak model parameters and dataset batches** in `opa-benchmark-<model-names>.ipynb`
 
-2. Run inference via SLURM and change file path names accordingly:  
-   `sbatch run_models.sh`
+4. **Run inference via SLURM** (change file paths accordingly):
+   ```bash
+   sbatch run_models.sh
+   ```
 
-3. Analyze results:  
-   Open and run `analyse_results.ipynb`
+5. **Analyze results**:  
+   Tweak `analyse_results.ipynb` and run  
+   ```bash
+   sbatch analyse.sh
+   ```
 
  
