@@ -1,4 +1,4 @@
-# OP_bench - ORBIT
+<h1 align="center"> ORBIT: An <u>O</u>bject Property <u>R</u>easoning <u>B</u>enchmark for Visual <u>I</u>nference <u>T</u>asks</h1>
 
 This repository contains the codebase and resources for the thesis experiments on 'ORBIT: An Object Property Reasoning
 Benchmark for Visual Inference Tasks' involving object property counting and reasoning with vision-language models.
