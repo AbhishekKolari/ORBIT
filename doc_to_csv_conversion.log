@@ -1,0 +1,50 @@
+2025-07-22 15:38:19,305 - INFO - Successfully loaded Excel file using engine: openpyxl
+2025-07-22 15:38:19,328 - INFO - AI_Generated: 120 images assigned - {'AK': 28, 'HK': 40, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-22 15:38:19,328 - INFO - Animated: 120 images assigned - {'AK': 32, 'HK': 13, 'YJ': 13, 'Fl': 31, 'FdH': 31}
+2025-07-22 15:38:19,328 - INFO - Real: 120 images assigned - {'AK': 12, 'HK': 19, 'YJ': 35, 'Fl': 27, 'FdH': 27}
+2025-07-22 15:38:19,328 - INFO - Converting /var/scratch/ave303/OP_bench/Real_questions_Annotation.docx to Real_questions.csv
+2025-07-22 15:38:19,590 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/Real_questions_Annotation.docx
+2025-07-22 15:38:19,598 - INFO - Successfully created CSV: Real_questions.csv with 360 rows
+2025-07-22 15:38:19,599 - INFO - Annotator distribution in Real_questions.csv: {'YJ': 35, 'Fl': 27, 'FdH': 27, 'HK': 19, 'AK': 12}
+2025-07-22 15:38:19,600 - INFO - Images with questions: 120
+2025-07-22 15:38:19,601 - INFO - Converting /var/scratch/ave303/OP_bench/Animated_questions_Annotation.docx to Animated_questions.csv
+2025-07-22 15:38:19,866 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/Animated_questions_Annotation.docx
+2025-07-22 15:38:19,872 - INFO - Successfully created CSV: Animated_questions.csv with 360 rows
+2025-07-22 15:38:19,873 - INFO - Annotator distribution in Animated_questions.csv: {'AK': 32, 'Fl': 31, 'FdH': 31, 'HK': 13, 'YJ': 13}
+2025-07-22 15:38:19,875 - INFO - Images with questions: 120
+2025-07-22 15:38:19,875 - INFO - Converting /var/scratch/ave303/OP_bench/AI_Generated_questions_Annotation.docx to AI_Generated_questions.csv
+2025-07-22 15:38:20,193 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/AI_Generated_questions_Annotation.docx
+2025-07-22 15:38:20,199 - INFO - Successfully created CSV: AI_Generated_questions.csv with 360 rows
+2025-07-22 15:38:20,200 - INFO - Annotator distribution in AI_Generated_questions.csv: {'HK': 40, 'AK': 28, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-22 15:38:20,201 - INFO - Images with questions: 120
+2025-07-22 15:38:20,201 - INFO - Conversion process completed!
+2025-07-22 15:38:20,201 - INFO - 
+Annotator Assignment Summary:
+2025-07-22 15:38:20,201 - INFO - AI_Generated: {'AK': 28, 'HK': 40, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-22 15:38:20,201 - INFO - Animated: {'AK': 32, 'HK': 13, 'YJ': 13, 'Fl': 31, 'FdH': 31}
+2025-07-22 15:38:20,202 - INFO - Real: {'AK': 12, 'HK': 19, 'YJ': 35, 'Fl': 27, 'FdH': 27}
+2025-07-27 18:58:21,089 - INFO - Successfully loaded Excel file using engine: openpyxl
+2025-07-27 18:58:21,112 - INFO - AI_Generated: 120 images assigned - {'AK': 28, 'HK': 40, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-27 18:58:21,112 - INFO - Animated: 120 images assigned - {'AK': 32, 'HK': 13, 'YJ': 13, 'Fl': 31, 'FdH': 31}
+2025-07-27 18:58:21,112 - INFO - Real: 120 images assigned - {'AK': 12, 'HK': 19, 'YJ': 35, 'Fl': 27, 'FdH': 27}
+2025-07-27 18:58:21,112 - INFO - Converting /var/scratch/ave303/OP_bench/Real_questions_Annotation.docx to Real_questions.csv
+2025-07-27 18:58:21,372 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/Real_questions_Annotation.docx
+2025-07-27 18:58:21,380 - INFO - Successfully created CSV: Real_questions.csv with 360 rows
+2025-07-27 18:58:21,381 - INFO - Annotator distribution in Real_questions.csv: {'YJ': 35, 'Fl': 27, 'FdH': 27, 'HK': 19, 'AK': 12}
+2025-07-27 18:58:21,382 - INFO - Images with questions: 120
+2025-07-27 18:58:21,383 - INFO - Converting /var/scratch/ave303/OP_bench/Animated_questions_Annotation.docx to Animated_questions.csv
+2025-07-27 18:58:21,649 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/Animated_questions_Annotation.docx
+2025-07-27 18:58:21,656 - INFO - Successfully created CSV: Animated_questions.csv with 360 rows
+2025-07-27 18:58:21,658 - INFO - Annotator distribution in Animated_questions.csv: {'AK': 32, 'Fl': 31, 'FdH': 31, 'HK': 13, 'YJ': 13}
+2025-07-27 18:58:21,659 - INFO - Images with questions: 120
+2025-07-27 18:58:21,659 - INFO - Converting /var/scratch/ave303/OP_bench/AI_Generated_questions_Annotation.docx to AI_Generated_questions.csv
+2025-07-27 18:58:21,989 - INFO - Parsed 120 images from /var/scratch/ave303/OP_bench/AI_Generated_questions_Annotation.docx
+2025-07-27 18:58:21,995 - INFO - Successfully created CSV: AI_Generated_questions.csv with 360 rows
+2025-07-27 18:58:21,996 - INFO - Annotator distribution in AI_Generated_questions.csv: {'HK': 40, 'AK': 28, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-27 18:58:21,997 - INFO - Images with questions: 120
+2025-07-27 18:58:21,997 - INFO - Conversion process completed!
+2025-07-27 18:58:21,998 - INFO - 
+Annotator Assignment Summary:
+2025-07-27 18:58:21,998 - INFO - AI_Generated: {'AK': 28, 'HK': 40, 'YJ': 24, 'Fl': 14, 'FdH': 14}
+2025-07-27 18:58:21,998 - INFO - Animated: {'AK': 32, 'HK': 13, 'YJ': 13, 'Fl': 31, 'FdH': 31}
+2025-07-27 18:58:21,998 - INFO - Real: {'AK': 12, 'HK': 19, 'YJ': 35, 'Fl': 27, 'FdH': 27}

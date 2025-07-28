@@ -1,0 +1,399 @@
+2025-07-27 19:57:27,319 - INFO - === PDF TO JSON CONVERSION STARTED ===
+2025-07-27 19:57:27,319 - INFO - Input PDF: /var/scratch/ave303/OP_bench/ORBIT_data.pdf
+2025-07-27 19:57:27,319 - INFO - Output JSON: benchmark.json
+2025-07-27 19:57:27,319 - INFO - Starting PDF extraction from: /var/scratch/ave303/OP_bench/ORBIT_data.pdf
+2025-07-27 19:57:27,581 - INFO - PDF opened successfully. Total pages: 360
+2025-07-27 19:57:40,723 - INFO - Parsing PDF content into sections...
+2025-07-27 19:57:40,724 - INFO - Found section: REAL
+2025-07-27 19:57:40,725 - INFO - Found section: ANIMATED
+2025-07-27 19:57:40,725 - INFO - Found section: AI_GENERATED
+2025-07-27 19:57:40,725 - INFO - Total sections found: 3
+2025-07-27 19:57:40,725 - INFO - Processing section: REAL
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 01: theme='kitchen', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 02: theme='zoo', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 03: theme='biking', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 04: theme='tools', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 05: theme='meeting room', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 06: theme='zoo', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 07: theme='urban', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 08: theme='zoo', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 09: theme='market', questions=3
+2025-07-27 19:57:40,726 - INFO - Processed REAL Image 10: theme='tech', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 11: theme='meeting room', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 12: theme='gym', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 13: theme='bedroom', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 14: theme='classroom', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 15: theme='garage', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 16: theme='garage', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 17: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 18: theme='camping', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 19: theme='gardening', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 20: theme='library', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 21: theme='wardrobe', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 22: theme='wardrobe', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 23: theme='wardrobe', questions=3
+2025-07-27 19:57:40,727 - INFO - Processed REAL Image 24: theme='home setup', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 25: theme='wardrobe', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 26: theme='wardrobe', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 27: theme='wardrobe', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 28: theme='wardrobe', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 29: theme='home setup', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 30: theme='wardrobe', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 31: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 32: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 33: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 34: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 35: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 36: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 37: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 38: theme='salon', questions=3
+2025-07-27 19:57:40,728 - INFO - Processed REAL Image 39: theme='salon', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 40: theme='salon', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 41: theme='gym', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 42: theme='gym', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 43: theme='gym', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 44: theme='gym', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 45: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 46: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 47: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 48: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 49: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 50: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 51: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 52: theme='meeting room', questions=3
+2025-07-27 19:57:40,729 - INFO - Processed REAL Image 53: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 54: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 55: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 56: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 57: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 58: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 59: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 60: theme='home setup', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 61: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 62: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 63: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 64: theme='meeting room', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 65: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 66: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 67: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,730 - INFO - Processed REAL Image 68: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 69: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 70: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 71: theme='garage', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 72: theme='garage', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 73: theme='library', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 74: theme='library', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 75: theme='library', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 76: theme='library', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 77: theme='library', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 78: theme='tools', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 79: theme='tools', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 80: theme='construction', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 81: theme='driveway', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 82: theme='urban', questions=3
+2025-07-27 19:57:40,731 - INFO - Processed REAL Image 83: theme='driveway', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 84: theme='urban', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 85: theme='driveway', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 86: theme='driveway', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 87: theme='urban', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 88: theme='urban', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 89: theme='urban', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 90: theme='driveway', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 91: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 92: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 93: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 94: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 95: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 96: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 97: theme='zoo', questions=3
+2025-07-27 19:57:40,732 - INFO - Processed REAL Image 98: theme='zoo', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 99: theme='laboratory', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 100: theme='laboratory', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 101: theme='laboratory', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 102: theme='laboratory', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 103: theme='market', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 104: theme='urban', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 105: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 106: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 107: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 108: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 109: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 110: theme='kitchen', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 111: theme='tech', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 112: theme='tools', questions=3
+2025-07-27 19:57:40,733 - INFO - Processed REAL Image 113: theme='gardening', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 114: theme='bedroom', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 115: theme='biking', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 116: theme='biking', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 117: theme='urban', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 118: theme='garage', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 119: theme='classroom', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed REAL Image 120: theme='home setup', questions=3
+2025-07-27 19:57:40,734 - INFO - Completed section REAL: 120 images processed
+2025-07-27 19:57:40,734 - INFO - Processing section: ANIMATED
+2025-07-27 19:57:40,734 - INFO - Processed ANIMATED Image 01: theme='zoo', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed ANIMATED Image 02: theme='kitchen', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed ANIMATED Image 03: theme='garage', questions=3
+2025-07-27 19:57:40,734 - INFO - Processed ANIMATED Image 04: theme='biking', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 05: theme='park', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 06: theme='urban', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 07: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 08: theme='meeting room', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 09: theme='kitchen', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 10: theme='home setup', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 11: theme='kitchen', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 12: theme='gardening', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 13: theme='kitchen', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 14: theme='salon', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 15: theme='home setup', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 16: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 17: theme='bedroom', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 18: theme='garage', questions=3
+2025-07-27 19:57:40,735 - INFO - Processed ANIMATED Image 19: theme='gym', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 20: theme='meeting room', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 21: theme='wardrobe', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 22: theme='wardrobe', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 23: theme='wardrobe', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 24: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 25: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 26: theme='bedroom', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 27: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 28: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 29: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 30: theme='bedroom', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 31: theme='bedroom', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 32: theme='home setup', questions=3
+2025-07-27 19:57:40,736 - INFO - Processed ANIMATED Image 33: theme='garage', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 34: theme='laboratory', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 35: theme='park', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 36: theme='urban', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 37: theme='kitchen', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 38: theme='home setup', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 39: theme='home setup', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 40: theme='kitchen', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 41: theme='wardrobe', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 42: theme='market', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 43: theme='salon', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 44: theme='salon', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 45: theme='salon', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 46: theme='salon', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 47: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,737 - INFO - Processed ANIMATED Image 48: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 49: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 50: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 51: theme='garage', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 52: theme='garage', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 53: theme='biking', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 54: theme='home setup', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 55: theme='urban', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 56: theme='garage', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 57: theme='garage', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 58: theme='construction', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 59: theme='construction', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 60: theme='bedroom', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 61: theme='bedroom', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 62: theme='bedroom', questions=3
+2025-07-27 19:57:40,738 - INFO - Processed ANIMATED Image 63: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 64: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 65: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 66: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 67: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 68: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 69: theme='home setup', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 70: theme='farm', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 71: theme='farm', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 72: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 73: theme='bedroom', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 74: theme='urban', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 75: theme='urban', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 76: theme='urban', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 77: theme='tools', questions=3
+2025-07-27 19:57:40,739 - INFO - Processed ANIMATED Image 78: theme='tools', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 79: theme='garage', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 80: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 81: theme='urban', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 82: theme='urban', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 83: theme='urban', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 84: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 85: theme='urban', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 86: theme='kitchen', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 87: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 88: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 89: theme='laboratory', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 90: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 91: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 92: theme='home setup', questions=3
+2025-07-27 19:57:40,740 - INFO - Processed ANIMATED Image 93: theme='bedroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 94: theme='home setup', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 95: theme='kitchen', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 96: theme='meeting room', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 97: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 98: theme='laboratory', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 99: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 100: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 101: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 102: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 103: theme='classroom', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 104: theme='park', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 105: theme='zoo', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 106: theme='zoo', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 107: theme='zoo', questions=3
+2025-07-27 19:57:40,741 - INFO - Processed ANIMATED Image 108: theme='zoo', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 109: theme='zoo', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 110: theme='garage', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 111: theme='urban', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 112: theme='urban', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 113: theme='urban', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 114: theme='park', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 115: theme='park', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 116: theme='park', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 117: theme='park', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 118: theme='kitchen', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 119: theme='urban', questions=3
+2025-07-27 19:57:40,742 - INFO - Processed ANIMATED Image 120: theme='zoo', questions=3
+2025-07-27 19:57:40,742 - INFO - Completed section ANIMATED: 120 images processed
+2025-07-27 19:57:40,742 - INFO - Processing section: AI_GENERATED
+2025-07-27 19:57:40,742 - INFO - Processed AI_GENERATED Image 01: theme='driveway', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 02: theme='construction', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 03: theme='farm', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 04: theme='library', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 05: theme='picnic', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 06: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 07: theme='camping', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 08: theme='gym', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 09: theme='garage', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 10: theme='kitchen', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 11: theme='bedroom', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 12: theme='classroom', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 13: theme='kitchen', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 14: theme='kitchen', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 15: theme='kitchen', questions=3
+2025-07-27 19:57:40,743 - INFO - Processed AI_GENERATED Image 16: theme='kitchen', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 17: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 18: theme='construction', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 19: theme='garage', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 20: theme='biking', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 21: theme='park', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 22: theme='park', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 23: theme='biking', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 24: theme='laboratory', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 25: theme='laboratory', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 26: theme='classroom', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 27: theme='park', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 28: theme='market', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 29: theme='tools', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 30: theme='tools', questions=3
+2025-07-27 19:57:40,744 - INFO - Processed AI_GENERATED Image 31: theme='library', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 32: theme='library', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 33: theme='kitchen', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 34: theme='kitchen', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 35: theme='picnic', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 36: theme='picnic', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 37: theme='picnic', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 38: theme='picnic', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 39: theme='laboratory', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 40: theme='bedroom', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 41: theme='bedroom', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 42: theme='bedroom', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 43: theme='home setup', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 44: theme='home setup', questions=3
+2025-07-27 19:57:40,745 - INFO - Processed AI_GENERATED Image 45: theme='zoo', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 46: theme='zoo', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 47: theme='kitchen', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 48: theme='kitchen', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 49: theme='garage', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 50: theme='camping', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 51: theme='gym', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 52: theme='beach cleanup', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 53: theme='garage', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 54: theme='kitchen', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 55: theme='classroom', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 56: theme='classroom', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 57: theme='classroom', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 58: theme='kitchen', questions=3
+2025-07-27 19:57:40,746 - INFO - Processed AI_GENERATED Image 59: theme='kitchen', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 60: theme='home setup', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 61: theme='kitchen', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 62: theme='picnic', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 63: theme='construction', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 64: theme='farm', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 65: theme='farm', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 66: theme='library', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 67: theme='library', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 68: theme='picnic', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 69: theme='picnic', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 70: theme='construction', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 71: theme='farm', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 72: theme='farm', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 73: theme='library', questions=3
+2025-07-27 19:57:40,747 - INFO - Processed AI_GENERATED Image 74: theme='farm', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 75: theme='library', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 76: theme='library', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 77: theme='picnic', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 78: theme='construction', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 79: theme='library', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 80: theme='farm', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 81: theme='camping', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 82: theme='home setup', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 83: theme='home setup', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 84: theme='home setup', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 85: theme='kitchen', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 86: theme='zoo', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 87: theme='zoo', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 88: theme='bustop', questions=3
+2025-07-27 19:57:40,748 - INFO - Processed AI_GENERATED Image 89: theme='bustop', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 90: theme='bustop', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 91: theme='driveway', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 92: theme='driveway', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 93: theme='driveway', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 94: theme='library', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 95: theme='library', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 96: theme='picnic', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 97: theme='picnic', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 98: theme='picnic', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 99: theme='park', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 100: theme='park', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 101: theme='home setup', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 102: theme='kitchen', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 103: theme='kitchen', questions=3
+2025-07-27 19:57:40,749 - INFO - Processed AI_GENERATED Image 104: theme='market', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 105: theme='market', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 106: theme='market', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 107: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 108: theme='construction', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 109: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 110: theme='biking', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 111: theme='garage', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 112: theme='garage', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 113: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 114: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 115: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 116: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 117: theme='home setup', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 118: theme='park', questions=3
+2025-07-27 19:57:40,750 - INFO - Processed AI_GENERATED Image 119: theme='tech', questions=3
+2025-07-27 19:57:40,751 - INFO - Processed AI_GENERATED Image 120: theme='kitchen', questions=3
+2025-07-27 19:57:40,751 - INFO - Completed section AI_GENERATED: 120 images processed
+2025-07-27 19:57:40,751 - INFO - === EXTRACTION SUMMARY ===
+2025-07-27 19:57:40,751 - INFO - Total images processed: 360
+2025-07-27 19:57:40,751 - INFO - REAL: 120 images
+2025-07-27 19:57:40,751 - INFO - ANIMATED: 120 images
+2025-07-27 19:57:40,751 - INFO - AI_GENERATED: 120 images
+2025-07-27 19:57:40,751 - INFO - Total questions extracted: 1080
+2025-07-27 19:57:40,751 - INFO - Expected questions: 1080
+2025-07-27 19:57:40,751 - INFO - Validating extracted data...
+2025-07-27 19:57:40,751 - INFO - === VALIDATION RESULTS ===
+2025-07-27 19:57:40,751 - INFO - Section distribution: {'REAL': 120, 'ANIMATED': 120, 'AI_GENERATED': 120}
+2025-07-27 19:57:40,751 - INFO - Property categories: {'physical': 244, 'functional': 220, 'relational': 283, 'taxonomic': 333}
+2025-07-27 19:57:40,751 - INFO - REAL themes (22): ['beach cleanup', 'bedroom', 'biking', 'camping', 'classroom', 'construction', 'driveway', 'garage', 'gardening', 'gym', 'home setup', 'kitchen', 'laboratory', 'library', 'market', 'meeting room', 'salon', 'tech', 'tools', 'urban', 'wardrobe', 'zoo']
+2025-07-27 19:57:40,751 - INFO - ANIMATED themes (20): ['beach cleanup', 'bedroom', 'biking', 'classroom', 'construction', 'farm', 'garage', 'gardening', 'gym', 'home setup', 'kitchen', 'laboratory', 'market', 'meeting room', 'park', 'salon', 'tools', 'urban', 'wardrobe', 'zoo']
+2025-07-27 19:57:40,751 - INFO - AI_GENERATED themes (21): ['beach cleanup', 'bedroom', 'biking', 'bustop', 'camping', 'classroom', 'construction', 'driveway', 'farm', 'garage', 'gym', 'home setup', 'kitchen', 'laboratory', 'library', 'market', 'park', 'picnic', 'tech', 'tools', 'zoo']
+2025-07-27 19:57:40,752 - INFO - Data validation passed - no issues found!
+2025-07-27 19:57:40,752 - INFO - Creating benchmark JSON file: benchmark.json
+2025-07-27 19:57:40,761 - INFO - Successfully saved benchmark JSON to: benchmark.json
+2025-07-27 19:57:40,761 - INFO - === BENCHMARK SUMMARY ===
+2025-07-27 19:57:40,761 - INFO - Total images in benchmark: 360
+2025-07-27 19:57:40,762 - INFO - Total questions in benchmark: 1080
+2025-07-27 19:57:40,762 - INFO - Images per section: {'REAL': 120, 'ANIMATED': 120, 'AI_GENERATED': 120}
+2025-07-27 19:57:40,762 - INFO - Benchmark file size: 456,899 bytes
+2025-07-27 19:57:40,762 - INFO - === PDF TO JSON CONVERSION COMPLETED SUCCESSFULLY ===

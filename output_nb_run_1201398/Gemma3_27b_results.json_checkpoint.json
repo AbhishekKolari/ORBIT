@@ -1,0 +1,183 @@
+[
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many green objects are present?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "plant"
+        ],
+        "raw_answer": "1 [plant]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of objects that can be used as containers and sealable?",
+        "ground_truth": "10",
+        "model_answer": "5",
+        "model_reasoning": [
+            "jars",
+            "canisters",
+            "egg basket",
+            "container with lid",
+            "container with lid"
+        ],
+        "raw_answer": "5 [jars, canisters, egg basket, container with lid, container with lid]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the tray containing objects is removed from the rod, how many objects are visible that remain hanging from the rod?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Mug",
+            "Mug"
+        ],
+        "raw_answer": "2 [Mug, Mug]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are present in the image?",
+        "ground_truth": "10",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Giraffe",
+            "Zebra",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "5 [Giraffe, Zebra, Human, Human, Human]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of detachable items that can store other items?",
+        "ground_truth": "3",
+        "model_answer": "3",
+        "model_reasoning": [
+            "backpack",
+            "backpack",
+            "bag"
+        ],
+        "raw_answer": "3 [backpack, backpack, bag]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one of the zebras were replaced by a tree, how many mammals would be present in the image?",
+        "ground_truth": "9",
+        "model_answer": "7",
+        "model_reasoning": [
+            "Giraffe",
+            "Zebra",
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "7 [Giraffe, Zebra, Human, Human, Human, Human, Human]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are present?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Tires (x4)"
+        ],
+        "raw_answer": "4 [Tires (x4)]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects with the primary purpose of illumination are switched on?",
+        "ground_truth": "4",
+        "model_answer": "7",
+        "model_reasoning": [
+            "Street lights"
+        ],
+        "raw_answer": "7 [Street lights]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the person riding one of the bicycles were replaced by a pedestrian, how many wheels would be present?",
+        "ground_truth": "2",
+        "model_answer": "3",
+        "model_reasoning": [
+            "bicycle wheel",
+            "bicycle wheel"
+        ],
+        "raw_answer": "3 [bicycle wheel, bicycle wheel]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many tools are visible in the image?",
+        "ground_truth": "9",
+        "model_answer": "7",
+        "model_reasoning": [
+            "knife",
+            "scissors",
+            "corkscrew",
+            "can opener",
+            "toothpick",
+            "tweezers",
+            "reamer"
+        ],
+        "raw_answer": "7 [knife, scissors, corkscrew, can opener, toothpick, tweezers, reamer]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many cutting tools are present in this image?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Knife",
+            "Scissors"
+        ],
+        "raw_answer": "2 [Knife, Scissors]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the red handle were replaced by a wooden handle, how many artifacts with blue parts would remain in the image?",
+        "ground_truth": "3",
+        "model_answer": "1",
+        "model_reasoning": [
+            "background"
+        ],
+        "raw_answer": "1 [background]",
+        "property_category": "physical"
+    }
+]
