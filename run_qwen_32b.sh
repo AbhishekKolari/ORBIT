@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --job-name=py_run
+#SBATCH --time=48:00:00
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=defq
+#SBATCH -C A6000
+#SBATCH --gres=gpu:1
+#SBATCH --output=opa_benchmark_py_%j.out
+
+module load cuda12.3/toolkit
+module load cuDNN/cuda12.3
+
+source ~/.bashrc
+conda activate op_bench
+
+cd /var/scratch/ave303/OP_bench
+
+mkdir -p output_py_run_$SLURM_JOB_ID
+cd output_py_run_$SLURM_JOB_ID
+
+echo "Starting at $(date)"
+SECONDS=0  # built-in bash timer
+
+python ../opa_benchmark_smolvlm2_qwen2_5_vl.py > opa_benchmark_py_output.log 2>&1
+
+echo "Finished at $(date)"
+echo "Total execution time: $(($SECONDS / 3600)) hours $((($SECONDS % 3600) / 60)) minutes and $(($SECONDS % 60)) seconds" 
