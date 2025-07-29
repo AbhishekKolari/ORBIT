@@ -1,0 +1,5 @@
+Starting at Tue Jul 29 14:17:47 CEST 2025
+Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-smolvlm2-qwen2-5-vl.ipynb
+Output Notebook: spacethinker-qwen2-5-vl_3b_output.ipynb
+Executing:   0%|          | 0/17 [00:00<?, ?cell/s]Executing notebook with kernel: op_bench
+Executing:   6%|▌         | 1/17 [00:01<00:25,  1.61s/cell]Executing:  24%|██▎       | 4/17 [00:03<00:10,  1.27cell/s]Executing:  29%|██▉       | 5/17 [00:08<00:25,  2.12s/cell]Executing:  53%|█████▎    | 9/17 [00:09<00:06,  1.19cell/s]Executing:  88%|████████▊ | 15/17 [00:19<00:01,  1.19cell/s]

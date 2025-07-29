@@ -1,0 +1,3831 @@
+[
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many green objects are present?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Plant"
+        ],
+        "raw_answer": "<1 [Plant]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of objects that can be used as containers and sealable?",
+        "ground_truth": "10",
+        "model_answer": "5",
+        "model_reasoning": [
+            "jar",
+            "jar",
+            "jar",
+            "jar",
+            "jar"
+        ],
+        "raw_answer": "5 [jar, jar, jar, jar, jar]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image01",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the tray containing objects is removed from the rod, how many objects are visible that remain hanging from the rod?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "mug",
+            "mug"
+        ],
+        "raw_answer": "2 [mug, mug]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are present in the image?",
+        "ground_truth": "10",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Giraffe",
+            "Zebra",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "<5 [Giraffe, Zebra, Human, Human, Human]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of detachable items that can store other items?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "backpack",
+            "handbag"
+        ],
+        "raw_answer": "2 [backpack, handbag]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image02",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one of the zebras were replaced by a tree, how many mammals would be present in the image?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Giraffe",
+            "Zebra",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "4 [Giraffe, Zebra, Human, Human]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are present?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "tires",
+            "wheels",
+            "pedals",
+            "handlebars"
+        ],
+        "raw_answer": "<4 [tires, wheels, pedals, handlebars]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects with the primary purpose of illumination are switched on?",
+        "ground_truth": "4",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Streetlight",
+            "Streetlight",
+            "Streetlight"
+        ],
+        "raw_answer": "<3 [Streetlight, Streetlight, Streetlight]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image03",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the person riding one of the bicycles were replaced by a pedestrian, how many wheels would be present?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "front wheel",
+            "back wheel",
+            "front wheel",
+            "back wheel"
+        ],
+        "raw_answer": "4 [front wheel, back wheel, front wheel, back wheel]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many tools are visible in the image?",
+        "ground_truth": "9",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Scissors",
+            "Bottle Opener",
+            "Corkscrew",
+            "Tweezers",
+            "Nail File",
+            "Toothpick",
+            "Pliers",
+            "Knife"
+        ],
+        "raw_answer": "8 [Scissors, Bottle Opener, Corkscrew, Tweezers, Nail File, Toothpick, Pliers, Knife]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many cutting tools are present in this image?",
+        "ground_truth": "2",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Knife"
+        ],
+        "raw_answer": "<1 [Knife]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image04",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the red handle were replaced by a wooden handle, how many artifacts with blue parts would remain in the image?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Corkscrew",
+            "Bottle Opener",
+            "Toothpick Holder",
+            "Needle"
+        ],
+        "raw_answer": "<4 [Corkscrew, Bottle Opener, Toothpick Holder, Needle]>\n\nThe red handle is replaced by a wooden one, but the corkscrew, bottle opener, toothpick holder, and needle retain their blue parts.",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image05",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are present that have legs?",
+        "ground_truth": "9",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "6 [chair, chair, chair, chair, chair, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image05",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on another object?",
+        "ground_truth": "3",
+        "model_answer": "1",
+        "model_reasoning": [
+            "plant"
+        ],
+        "raw_answer": "1 [plant]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image05",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the air freshener on the wall is replaced by a hanging plant, how many objects are present that require water to grow?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Hanging Plant",
+            "Air Freshener",
+            "Plant Pot",
+            "Water Bottle"
+        ],
+        "raw_answer": "4 [Hanging Plant, Air Freshener, Plant Pot, Water Bottle]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image06",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many reptiles are visible in this enclosure?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Iguana",
+            "Iguana",
+            "Iguana",
+            "Iguana"
+        ],
+        "raw_answer": "4 [Iguana, Iguana, Iguana, Iguana]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image06",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many reptilian couples, at maximum, are present?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Iguana",
+            "Iguana",
+            "Iguana",
+            "Iguana"
+        ],
+        "raw_answer": "4 [Iguana, Iguana, Iguana, Iguana]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image06",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If a new lizard appears looking to the left, how many lizards in the image are looking to the right?",
+        "ground_truth": "3",
+        "model_answer": "0",
+        "model_reasoning": [
+            "Iguana"
+        ],
+        "raw_answer": "0 [Iguana]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many birds are visible in this image?",
+        "ground_truth": "6",
+        "model_answer": "5",
+        "model_reasoning": [
+            "bird1",
+            "bird2",
+            "bird3",
+            "bird4",
+            "bird5"
+        ],
+        "raw_answer": "5 [bird1, bird2, bird3, bird4, bird5]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that can comfortably seat a human?",
+        "ground_truth": "5",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chairs"
+        ],
+        "raw_answer": "6 [chairs]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image07",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the birds that are sitting together only on one railing were to fly away, how many birds would remain?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "bird1",
+            "bird2",
+            "bird3",
+            "bird4"
+        ],
+        "raw_answer": "4 [bird1, bird2, bird3, bird4]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many reptiles are visible in this image?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Turtle",
+            "Turtle"
+        ],
+        "raw_answer": "<2 [Turtle, Turtle]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that act as support?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "log"
+        ],
+        "raw_answer": "1 [log]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image08",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one turtle slid off the log into the water, how many turtles would be in the water?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "turtle"
+        ],
+        "raw_answer": "2 [turtle]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many different types of white vegetables are present in the image?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "cauliflower",
+            "broccoli"
+        ],
+        "raw_answer": "2 [cauliflower, broccoli]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are used as containers?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "plastic bag",
+            "plastic container",
+            "plastic container",
+            "plastic container"
+        ],
+        "raw_answer": "<4 [plastic bag, plastic container, plastic container, plastic container]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image09",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the bag of limes were removed and replaced with two additional avocados, how many fruits would be present in total on the table, considering avocados are fruits?",
+        "ground_truth": "6",
+        "model_answer": "6",
+        "model_reasoning": [
+            "Avocado",
+            "Tomato",
+            "Carrot",
+            "Broccoli",
+            "Cauliflower",
+            "Lime"
+        ],
+        "raw_answer": "<6 [Avocado, Tomato, Carrot, Broccoli, Cauliflower, Lime]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects are present that are flexible, ignoring the cases?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Apple Watch",
+            "iPad",
+            "iPad Pro",
+            "iPad Mini"
+        ],
+        "raw_answer": "4 [Apple Watch, iPad, iPad Pro, iPad Mini]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "Count the number of items that are battery powered?",
+        "ground_truth": "7",
+        "model_answer": "5",
+        "model_reasoning": [
+            "iPhone 11",
+            "iPhone 11 Pro",
+            "iPhone 11 Pro Max",
+            "iPad",
+            "Apple Watch"
+        ],
+        "raw_answer": "5 [iPhone 11, iPhone 11 Pro, iPhone 11 Pro Max, iPad, Apple Watch]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image10",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If two phones with three camera lenses were replaced with phones having two camera lenses, how many phones with two camera lenses would be present?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "iPhone 11 Pro Max",
+            "iPhone 11 Pro",
+            "iPhone 11",
+            "iPhone 11 Pro Max"
+        ],
+        "raw_answer": "4 [iPhone 11 Pro Max, iPhone 11 Pro, iPhone 11, iPhone 11 Pro Max]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of glass are present on the table?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "glass cups",
+            "water bottles"
+        ],
+        "raw_answer": "4 [glass cups, water bottles]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present at the table that can be used for sitting?",
+        "ground_truth": "8",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chairs"
+        ],
+        "raw_answer": "6 [chairs]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image11",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the tables in the center are removed, how many objects are visible that have legs?",
+        "ground_truth": "10",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chairs",
+            "table legs"
+        ],
+        "raw_answer": "6 [chairs, table legs]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image12",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many pieces of gym equipment are visible in the image?",
+        "ground_truth": "8",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Treadmill",
+            "Stationary Bikes",
+            "Elliptical Trainer",
+            "Stationary Bikes",
+            "Stationary Bikes"
+        ],
+        "raw_answer": "5 [Treadmill, Stationary Bikes, Elliptical Trainer, Stationary Bikes, Stationary Bikes]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image12",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that can block sunlight from entering the room?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Windows",
+            "Curtains",
+            "Potted Plants",
+            "Wall Art"
+        ],
+        "raw_answer": "4 [Windows, Curtains, Potted Plants, Wall Art]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image12",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If two of the stationary bikes were replaced by two treadmills, how many objects would be present that can be run on?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Treadmill",
+            "Treadmill",
+            "Stationary Bike",
+            "Stationary Bike"
+        ],
+        "raw_answer": "4 [Treadmill, Treadmill, Stationary Bike, Stationary Bike]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image13",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are present in the room?",
+        "ground_truth": "6",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Desk",
+            "Chair",
+            "Bed",
+            "Lamp",
+            "Lamp"
+        ],
+        "raw_answer": "5 [Desk, Chair, Bed, Lamp, Lamp]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image13",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many individual items are on the white table on the left?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Lamp",
+            "Lamp"
+        ],
+        "raw_answer": "<2 [Lamp, Lamp]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image13",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the two bedside lamps were removed, how many objects are present that need electricity?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Desk lamp",
+            "Floor lamp",
+            "Wall sconce",
+            "Table lamp"
+        ],
+        "raw_answer": "4 [Desk lamp, Floor lamp, Wall sconce, Table lamp]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image14",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects are present that are transparent?",
+        "ground_truth": "6",
+        "model_answer": "0",
+        "model_reasoning": [
+            "transparent"
+        ],
+        "raw_answer": " 0 [transparent]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image14",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are positioned for student use to place other items?",
+        "ground_truth": "7",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chairs",
+            "tables",
+            "desks"
+        ],
+        "raw_answer": "6 [chairs, tables, desks]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image14",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the exit signages were removed, how many objects would be present that hang from the ceiling?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "exit sign"
+        ],
+        "raw_answer": " 2 [exit sign]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image15",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many wheels are fully visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "front left",
+            "front right",
+            "rear left",
+            "rear right"
+        ],
+        "raw_answer": "4 [front left, front right, rear left, rear right]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image15",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to move the cars up?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "HOOSIER",
+            "BENDPAK"
+        ],
+        "raw_answer": "<2 [HOOSIER, BENDPAK]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image15",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the car on the ground is removed from the image, how many objects are present inside or outside the garage that can be used for transportation?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Car",
+            "Truck",
+            "Motorcycle",
+            "Bicycle"
+        ],
+        "raw_answer": "4 [Car, Truck, Motorcycle, Bicycle]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image16",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are present?",
+        "ground_truth": "5",
+        "model_answer": "0",
+        "model_reasoning": [
+            "rubber"
+        ],
+        "raw_answer": "0 [rubber]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image16",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are on the seat of the two-wheeler?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Seat cover",
+            "Tool box"
+        ],
+        "raw_answer": "<2 [Seat cover, Tool box]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image16",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the car in the center is fixed and driven out of the garage, how many objects made of rubber would be visible in the image?",
+        "ground_truth": "3",
+        "model_answer": "0",
+        "model_reasoning": [
+            "None"
+        ],
+        "raw_answer": "0 [None]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image17",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many yellow colored objects are present?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "gloves",
+            "boots",
+            "boots",
+            "boots"
+        ],
+        "raw_answer": "<4 [gloves, boots, boots, boots]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image17",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that are used to protect the head?",
+        "ground_truth": "5",
+        "model_answer": "2",
+        "model_reasoning": [
+            "helmet",
+            "hat"
+        ],
+        "raw_answer": "2 [helmet, hat]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image17",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one person leaves the cleaning group, how many mammals would remain?",
+        "ground_truth": "5",
+        "model_answer": "0",
+        "model_reasoning": [
+            "person"
+        ],
+        "raw_answer": "0 [person]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image18",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many humans are visible in the image?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Person 1",
+            "Person 2"
+        ],
+        "raw_answer": "<2 [Person 1, Person 2]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image18",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that provide shelter?",
+        "ground_truth": "9",
+        "model_answer": "6",
+        "model_reasoning": [
+            "TENTS",
+            "TENTS",
+            "TENTS",
+            "TENTS",
+            "TENTS",
+            "TENTS"
+        ],
+        "raw_answer": "6 [TENTS, TENTS, TENTS, TENTS, TENTS, TENTS]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image18",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the mammals are to all step inside the shelters, how many types of natural elements are visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Clouds",
+            "Trees",
+            "Rocks",
+            "Grass"
+        ],
+        "raw_answer": "4 [Clouds, Trees, Rocks, Grass]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image19",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many gardening tools are present that are made of metal?",
+        "ground_truth": "5",
+        "model_answer": "2",
+        "model_reasoning": [
+            "shovel",
+            "fork"
+        ],
+        "raw_answer": "2 [shovel, fork]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image19",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present in the garden that can be used to hold and carry picked vegetables and fruits?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Baskets",
+            "Buckets",
+            "Pots",
+            "Containers"
+        ],
+        "raw_answer": "4 [Baskets, Buckets, Pots, Containers]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image19",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If half the woven baskets are filled, how many containers used to carry vegetables or fruits would remain empty?",
+        "ground_truth": "3",
+        "model_answer": "0",
+        "model_reasoning": [
+            "Basket"
+        ],
+        "raw_answer": "0 [Basket]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects in the background are present that have legs?",
+        "ground_truth": "8",
+        "model_answer": "2",
+        "model_reasoning": [
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "<2 [chair, chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects in the foreground are visible that are foldable?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "book"
+        ],
+        "raw_answer": "1 [book]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image20",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the stack of books on the table in the foreground was moved to the shelf, how many objects in physical contact with the table would be present?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            "open book",
+            "pencil holder",
+            "stack of books"
+        ],
+        "raw_answer": "0 [open book, pencil holder, stack of books]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image21",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many entirely metal objects are visible?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "drawer handles",
+            "closet rods",
+            "light fixtures",
+            "door handle"
+        ],
+        "raw_answer": "<4 [drawer handles, closet rods, light fixtures, door handle]>\n\nThe image shows a modern walk-in closet with various storage elements. There are four entirely metal objects: three drawer handles on the lower section of the closet, two closet rods for hanging clothes, and a light fixture that is part of the ceiling structure. Additionally, there is a door handle visible on one of the closet doors.",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image21",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are hanging from a rod?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "shirt",
+            "dress",
+            "jacket",
+            "blouse"
+        ],
+        "raw_answer": "4 [shirt, dress, jacket, blouse]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image21",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the open shelf below the clothes was installed with two hooks, how many objects would be visible with the purpose of hanging items?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Clothes",
+            "Hangers",
+            "Hooks",
+            "Shelves"
+        ],
+        "raw_answer": "4 [Clothes, Hangers, Hooks, Shelves]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image22",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many hangers made of plastic are present?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "hanger",
+            "hanger",
+            "hanger",
+            "hanger"
+        ],
+        "raw_answer": "4 [hanger, hanger, hanger, hanger]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image22",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many pairs of footwear are visible?",
+        "ground_truth": "6",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Heels",
+            "Heels",
+            "Heels",
+            "Heels",
+            "Heels",
+            "Heels",
+            "Heels",
+            "Heels"
+        ],
+        "raw_answer": "<8 [Heels, Heels, Heels, Heels, Heels, Heels, Heels, Heels]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image22",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If two striped clothes replace one striped object on the top shelf, how many striped objects that are used as containers would be present?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "striped bucket",
+            "striped bucket",
+            "striped bucket",
+            "striped bucket"
+        ],
+        "raw_answer": "4 [striped bucket, striped bucket, striped bucket, striped bucket]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image23",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many fashion accessories are visible?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "purse",
+            "purse",
+            "purse",
+            "sweater"
+        ],
+        "raw_answer": "4 [purse, purse, purse, sweater]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image23",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items can be seen that are hanging?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "sweater",
+            "sweater",
+            "sweater",
+            "sweater"
+        ],
+        "raw_answer": "4 [sweater, sweater, sweater, sweater]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image23",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all boxes were made pink, how many boxes and bags would be visible with a shade of pink?",
+        "ground_truth": "7",
+        "model_answer": "5",
+        "model_reasoning": [
+            "boxes",
+            "bags"
+        ],
+        "raw_answer": "5 [boxes, bags]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image24",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of glass are visible?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "vase",
+            "candle holder"
+        ],
+        "raw_answer": "2 [vase, candle holder]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image24",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible beside the wardrobe?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "plant",
+            "vase"
+        ],
+        "raw_answer": "2 [plant, vase]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image24",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the glass objects and their contents are removed, how many container-like objects are present?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "pots",
+            "vases",
+            "glass jars",
+            "candle holders"
+        ],
+        "raw_answer": "4 [pots, vases, glass jars, candle holders]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image25",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many items that have legs are present?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Stool"
+        ],
+        "raw_answer": "<1 [Stool]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image25",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that are foldable and can retain that state?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Towels",
+            "Pillows",
+            "Blankets",
+            "Sheets"
+        ],
+        "raw_answer": "4 [Towels, Pillows, Blankets, Sheets]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image25",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the woven basket and pillow were removed from the closet and placed on the cabinet, how many objects would be placed directly on top of the cabinet?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Basket",
+            "Pillow",
+            "Flower Arrangement",
+            "Bowl"
+        ],
+        "raw_answer": "<4 [Basket, Pillow, Flower Arrangement, Bowl]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image26",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are present?",
+        "ground_truth": "4",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Closet",
+            "Chair",
+            "Ottoman",
+            "Dresser",
+            "Bench",
+            "Mirror",
+            "Shelving Unit",
+            "Storage Unit"
+        ],
+        "raw_answer": "<8 [Closet, Chair, Ottoman, Dresser, Bench, Mirror, Shelving Unit, Storage Unit]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image26",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items hang on the right half of the closet?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Shirt",
+            "Shirt",
+            "Shirt",
+            "Shirt"
+        ],
+        "raw_answer": "4 [Shirt, Shirt, Shirt, Shirt]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image26",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all footwear from the lowest shelf were removed, how many compartments in the lowest shelf of the entire closet would remain empty?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Shoebox",
+            "Shoes",
+            "Shoes",
+            "Shoes"
+        ],
+        "raw_answer": "4 [Shoebox, Shoes, Shoes, Shoes]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image27",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many items made of paper are present?",
+        "ground_truth": "3",
+        "model_answer": "0",
+        "model_reasoning": [
+            "none"
+        ],
+        "raw_answer": "0 [none]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image27",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many clothing items hang from the top rod?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Towel",
+            "Shirt"
+        ],
+        "raw_answer": "<2 [Towel, Shirt]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image27",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the white hanging item and all items on the top shelf are removed, how many objects remain that can be worn?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "hat",
+            "shirt"
+        ],
+        "raw_answer": "2 [hat, shirt]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image28",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many clothing items are present?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Shirt",
+            "Pants",
+            "Sweater",
+            "Blouse"
+        ],
+        "raw_answer": "4 [Shirt, Pants, Sweater, Blouse]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image28",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many pairs of stacked items are visible?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            ""
+        ],
+        "raw_answer": "0 [ ]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image28",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the two objects on the top shelf are removed, how many objects are present that can contain other items?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "plant",
+            "basket",
+            "clothes",
+            "clothes"
+        ],
+        "raw_answer": "4 [plant, basket, clothes, clothes]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image29",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many pieces of furniture are present?",
+        "ground_truth": "5",
+        "model_answer": "5",
+        "model_reasoning": [
+            "TV stand",
+            "coffee table",
+            "bookshelf",
+            "couch",
+            "floor lamp"
+        ],
+        "raw_answer": "5 [TV stand, coffee table, bookshelf, couch, floor lamp]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image29",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that require electricity to operate?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "TV",
+            "Floor lamp",
+            "Bookshelf",
+            "Coffee table"
+        ],
+        "raw_answer": "<4 [TV, Floor lamp, Bookshelf, Coffee table]>\n\nThe TV, floor lamp, bookshelf, and coffee table all require electricity to operate.",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image29",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the sofas are removed, how many objects are present that have legs?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "floor lamp",
+            "coffee table",
+            "side table",
+            "bookshelf"
+        ],
+        "raw_answer": "4 [floor lamp, coffee table, side table, bookshelf]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image30",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many items made of wood are present?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Tie",
+            "Basket",
+            "Basket",
+            "Basket"
+        ],
+        "raw_answer": "<4 [Tie, Basket, Basket, Basket]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image30",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to secure pants?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "HANGER",
+            "HANGER",
+            "HANGER",
+            "HANGER"
+        ],
+        "raw_answer": "<4 [HANGER, HANGER, HANGER, HANGER]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image30",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the stacked items are to be paired up, how many maximum pairs are present amongst the stacked objects?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Jeans",
+            "Jeans",
+            "Jeans",
+            "Jeans"
+        ],
+        "raw_answer": "4 [Jeans, Jeans, Jeans, Jeans]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image31",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mirrors are visible in the image?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Mirror 1",
+            "Mirror 2",
+            "Mirror 3",
+            "Mirror 4"
+        ],
+        "raw_answer": "4 [Mirror 1, Mirror 2, Mirror 3, Mirror 4]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image31",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used for sitting?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chairs",
+            "chairs",
+            "chairs",
+            "chairs"
+        ],
+        "raw_answer": "4 [chairs, chairs, chairs, chairs]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image31",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If we remove each hanging beam that corresponds to a chair, how many hanging beams would remain?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "raw_answer": "4 [None, None, None, None]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image32",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have legs are present?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "table",
+            "table",
+            "table",
+            "table"
+        ],
+        "raw_answer": "4 [table, table, table, table]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image32",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are clearly visible that people can use to see themselves via reflections?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Mirror",
+            "Mirror"
+        ],
+        "raw_answer": "<2 [Mirror, Mirror]>\n\nThe image shows two mirrors that allow people to see themselves via reflections.",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image32",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the light bulbs are to be paired and removed, how many maximum pairs can be formed?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Mirror",
+            "Light Bulb",
+            "Chair",
+            "Table"
+        ],
+        "raw_answer": "4 [Mirror, Light Bulb, Chair, Table]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image33",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many pink objects are visible?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<2 [Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image33",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "In the room before the glass separation, how many objects are visible that provide a source of illumination?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling lights",
+            "floor lamps",
+            "overhead lights",
+            "wall sconces"
+        ],
+        "raw_answer": "4 [ceiling lights, floor lamps, overhead lights, wall sconces]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image33",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the whiteboard is removed, how many objects are present that can display information?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Mirrors",
+            "TV",
+            "Whiteboards",
+            "Chairs"
+        ],
+        "raw_answer": "4 [Mirrors, TV, Whiteboards, Chairs]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image34",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects are present that have stable legs?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Salon chair",
+            "Salon chair",
+            "Salon chair",
+            "Salon chair"
+        ],
+        "raw_answer": "4 [Salon chair, Salon chair, Salon chair, Salon chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image34",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many pairs of items are attached to the left wall?",
+        "ground_truth": "3",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Mirror",
+            "Mirror",
+            "Mirror"
+        ],
+        "raw_answer": "3 [Mirror, Mirror, Mirror]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image34",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the product items were removed, how many display compartments would remain empty?",
+        "ground_truth": "5",
+        "model_answer": "0",
+        "model_reasoning": [],
+        "raw_answer": "<0> []",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image35",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many hair salon tools are visible?",
+        "ground_truth": "10",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Hair Clipper",
+            "Hair Trimmer",
+            "Hair Clipper",
+            "Hair Clipper",
+            "Hair Clipper",
+            "Hair Clipper",
+            "Hair Clipper",
+            "Hair Clipper"
+        ],
+        "raw_answer": "8 [Hair Clipper, Hair Trimmer, Hair Clipper, Hair Clipper, Hair Clipper, Hair Clipper, Hair Clipper, Hair Clipper]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image35",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects that can display information on a screen are visible?",
+        "ground_truth": "2",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Trimmer with digital display"
+        ],
+        "raw_answer": "1 [Trimmer with digital display]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image35",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all shaver heads were removed, how many black objects would be visible?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Shaver head",
+            "Shaver head",
+            "Shaver head",
+            "Shaver head"
+        ],
+        "raw_answer": "4 [Shaver head, Shaver head, Shaver head, Shaver head]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image36",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of plastic are present?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Comb",
+            "Comb",
+            "Comb",
+            "Comb"
+        ],
+        "raw_answer": "4 [Comb, Comb, Comb, Comb]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image36",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many pairs of trimmer attachments are present?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Magic Edge",
+            "Comfortless",
+            "Magic Edge",
+            "Comfortless"
+        ],
+        "raw_answer": "4 [Magic Edge, Comfortless, Magic Edge, Comfortless]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image36",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the trimmer and all its heads are removed, how many objects that can cut are visible?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Scissors",
+            "Straight Razor",
+            "Comb",
+            "Hair Clipper"
+        ],
+        "raw_answer": "4 [Scissors, Straight Razor, Comb, Hair Clipper]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image37",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have arms are visible?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Hairdresser",
+            "Hairdresser",
+            "Hairdresser",
+            "Hairdresser"
+        ],
+        "raw_answer": "4 [Hairdresser, Hairdresser, Hairdresser, Hairdresser]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image37",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects behave as barriers?",
+        "ground_truth": "2",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Mirror",
+            "Table",
+            "Chair"
+        ],
+        "raw_answer": "<3 [Mirror, Table, Chair]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image37",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one person went to grab something from the right station, how many objects with legs would be present in that instance on the right side of the partition?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "4 [chair, chair, chair, chair]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image38",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have wheels are present?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "4 [chair, chair, chair, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image38",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects that require electricity to operate are fully visible?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "lights",
+            "hairdryer",
+            "mirror",
+            "lamp"
+        ],
+        "raw_answer": "4 [lights, hairdryer, mirror, lamp]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image38",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the hooks from the right wall are removed, how many objects are visible that hang from the right wall?",
+        "ground_truth": "6",
+        "model_answer": "0",
+        "model_reasoning": [
+            "none"
+        ],
+        "raw_answer": "0 [none]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image39",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many green colored objects are visible, ignoring the plants?",
+        "ground_truth": "1",
+        "model_answer": "0",
+        "model_reasoning": [
+            "green"
+        ],
+        "raw_answer": "0 [green]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image39",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects can be used to reflect?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Mirror",
+            "Wall Mirror",
+            "Floor Mirror",
+            "Large Mirror"
+        ],
+        "raw_answer": "<4 [Mirror, Wall Mirror, Floor Mirror, Large Mirror]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image39",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one ceiling object is removed, how many maximum pairs of light sources would be visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "light fixture",
+            "light fixture",
+            "light fixture",
+            "light fixture"
+        ],
+        "raw_answer": "4 [light fixture, light fixture, light fixture, light fixture]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image40",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "In the foreground, how many transparent objects are visible, treating connected parts of the same structure as one object?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Window",
+            "Mirror",
+            "Light Fixtures",
+            "Plant"
+        ],
+        "raw_answer": "4 [Window, Mirror, Light Fixtures, Plant]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image40",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many golden light sources that need electricity are visible?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Wall Sconce",
+            "Floor Lamp"
+        ],
+        "raw_answer": "<2 [Wall Sconce, Floor Lamp]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image40",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the cabinets and shelves in between the partitions are removed, how many furniture objects are visible in between the partitions?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            ""
+        ],
+        "raw_answer": "0 []",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image41",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are visible?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Woman",
+            "Man",
+            "Man",
+            "Man"
+        ],
+        "raw_answer": "<4 [Woman, Man, Man, Man]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image41",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many people are visible exercising with their heads pointed downwards?",
+        "ground_truth": "2",
+        "model_answer": "1",
+        "model_reasoning": [],
+        "raw_answer": "<1> [Woman, Man]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image41",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the weight rack is removed, how many objects are visible in front of the yellow mark?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "barbell",
+            "woman",
+            "barbell rack",
+            "yellow mark"
+        ],
+        "raw_answer": "4 [barbell, woman, barbell rack, yellow mark]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image42",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "Count the gym equipment that is visible?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Treadmill",
+            "Treadmill",
+            "Treadmill",
+            "Treadmill"
+        ],
+        "raw_answer": "4 [Treadmill, Treadmill, Treadmill, Treadmill]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image42",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used for recovery?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            "None"
+        ],
+        "raw_answer": "0 [None]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image42",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the windows beyond the pipe were covered, how many transparent objects would be present?",
+        "ground_truth": "6",
+        "model_answer": "0",
+        "model_reasoning": [
+            "window"
+        ],
+        "raw_answer": "0 [window]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image43",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many pieces of exercise equipment are visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Treadmill",
+            "Stationary Bike",
+            "Rowing Machine",
+            "Elliptical Trainer"
+        ],
+        "raw_answer": "4 [Treadmill, Stationary Bike, Rowing Machine, Elliptical Trainer]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image43",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects offer visibility to the outside world?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Windows",
+            "Treadmill",
+            "Exercise Bike",
+            "Rowing Machine"
+        ],
+        "raw_answer": "4 [Windows, Treadmill, Exercise Bike, Rowing Machine]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image43",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the human were taken as a reference point, how many transparent objects are present to the right of the human?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "window",
+            "window",
+            "window",
+            "window"
+        ],
+        "raw_answer": "4 [window, window, window, window]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image44",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many transparent objects are visible ignoring the lamp outside?",
+        "ground_truth": "7",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Windows",
+            "Glass door",
+            "Glass wall",
+            "Glass railing",
+            "Glass window"
+        ],
+        "raw_answer": "5 [Windows, Glass door, Glass wall, Glass railing, Glass window]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image44",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects can be used for cardio?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Treadmill",
+            "Treadmill"
+        ],
+        "raw_answer": "2 [Treadmill, Treadmill]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image44",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the whiteboard is cleaned, how many objects are attached to the whiteboard?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Pen",
+            "Marker"
+        ],
+        "raw_answer": "<2 [Pen, Marker]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image45",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are present?",
+        "ground_truth": "8",
+        "model_answer": "8",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "table"
+        ],
+        "raw_answer": "8 [chair, chair, chair, chair, chair, chair, chair, table]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image45",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can hold liquids?",
+        "ground_truth": "5",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Water bottle",
+            "Water bottle",
+            "Water bottle"
+        ],
+        "raw_answer": "<3 [Water bottle, Water bottle, Water bottle]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image45",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the fruits were taken as a reference point, how many objects are placed to the right of the fruits on the table?",
+        "ground_truth": "7",
+        "model_answer": "4",
+        "model_reasoning": [
+            "marker",
+            "marker",
+            "marker",
+            "marker"
+        ],
+        "raw_answer": "4 [marker, marker, marker, marker]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image46",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are visible?",
+        "ground_truth": "9",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<8 [Chair, Chair, Chair, Chair, Chair, Chair, Chair, Chair]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image46",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects can be used to write something?",
+        "ground_truth": "10",
+        "model_answer": "2",
+        "model_reasoning": [
+            "PEN",
+            "PENCIL"
+        ],
+        "raw_answer": "<2 [PEN, PENCIL]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image46",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If two of the writing sheets are removed from the table, how many pairs of writing sheets remain on the table?",
+        "ground_truth": "4",
+        "model_answer": "0",
+        "model_reasoning": [
+            "writing sheet"
+        ],
+        "raw_answer": "0 [writing sheet]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image47",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects with arms are present?",
+        "ground_truth": "10",
+        "model_answer": "6",
+        "model_reasoning": [
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<6 [Chair, Chair, Chair, Chair, Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image47",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on top of the table?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "laptop",
+            "speaker",
+            "mouse",
+            "keyboard"
+        ],
+        "raw_answer": "4 [laptop, speaker, mouse, keyboard]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image47",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the blinds were lifted, how many objects would be visible that allow natural light to pass through?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Windows",
+            "Skylights",
+            "Sunlight",
+            "Daylight"
+        ],
+        "raw_answer": "4 [Windows, Skylights, Sunlight, Daylight]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image48",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many blue colored objects are present?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chairs",
+            "table",
+            "floor",
+            "wall"
+        ],
+        "raw_answer": "<4 [chairs, table, floor, wall]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image48",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to display information?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Whiteboard",
+            "Whiteboard"
+        ],
+        "raw_answer": "<2 [Whiteboard, Whiteboard]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image48",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the white vertical beam is considered a reference point, how many objects lie to the right of this beam?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "whiteboard",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "4 [whiteboard, chair, chair, chair]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image49",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many blue objects are visible?",
+        "ground_truth": "6",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<8 [Chair, Chair, Chair, Chair, Chair, Chair, Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image49",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many individual objects can be used as shelves?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Shelf",
+            "Shelving Unit",
+            "Bookshelf",
+            "Display Rack"
+        ],
+        "raw_answer": "<4 [Shelf, Shelving Unit, Bookshelf, Display Rack]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image49",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the monitor were removed, how many objects could be used to display information?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Whiteboard",
+            "Blackboard",
+            "Flipchart",
+            "Marker"
+        ],
+        "raw_answer": "4 [Whiteboard, Blackboard, Flipchart, Marker]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image50",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many electronic items are present?",
+        "ground_truth": "6",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Laptop",
+            "Laptop"
+        ],
+        "raw_answer": "<2 [Laptop, Laptop]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image50",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on top of the table next to the window, ignoring the vase and flower arrangement?",
+        "ground_truth": "6",
+        "model_answer": "0",
+        "model_reasoning": [
+            ""
+        ],
+        "raw_answer": "0 [ ]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image50",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the blinds were pulled on the object below the AC, how many objects would be present that allow natural light to enter?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Windows",
+            "Air Conditioning Unit",
+            "Pendant Light",
+            "Flower Arrangement"
+        ],
+        "raw_answer": "4 [Windows, Air Conditioning Unit, Pendant Light, Flower Arrangement]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image51",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are visible?",
+        "ground_truth": "8",
+        "model_answer": "8",
+        "model_reasoning": [
+            "chairs",
+            "tables"
+        ],
+        "raw_answer": "8 [chairs, tables]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image51",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many breakable objects are present on the table?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "glass",
+            "glass",
+            "glass",
+            "glass"
+        ],
+        "raw_answer": "4 [glass, glass, glass, glass]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image51",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the wooden door is shut, how many maximum pairs of light sources are present in the main room?",
+        "ground_truth": "7",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling lights",
+            "wall lights",
+            "floor lamps",
+            "overhead lights"
+        ],
+        "raw_answer": "4 [ceiling lights, wall lights, floor lamps, overhead lights]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image52",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many electronic items are present in the room?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Laptop"
+        ],
+        "raw_answer": "<1 [Laptop]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image52",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are on top of the table?",
+        "ground_truth": "5",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Pen",
+            "Cup",
+            "Bowl"
+        ],
+        "raw_answer": "<3 [Pen, Cup, Bowl]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image52",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the people in the room left, how many objects that have legs would be present?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "4 [chair, chair, chair, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image53",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have wheels are present?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Couch",
+            "Cube Table"
+        ],
+        "raw_answer": "<2 [Couch, Cube Table]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image53",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that provide natural light?",
+        "ground_truth": "6",
+        "model_answer": "6",
+        "model_reasoning": [
+            "Windows",
+            "Sunlight"
+        ],
+        "raw_answer": "<6 [Windows, Sunlight]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image53",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the two green ceiling lights are removed, how many artificial lighting sources are visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling lamp",
+            "pendant light",
+            "pendant light",
+            "pendant light"
+        ],
+        "raw_answer": "4 [ceiling lamp, pendant light, pendant light, pendant light]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image54",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are present?",
+        "ground_truth": "5",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "5 [Human, Human, Human, Human, Human]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image54",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are there that can be used to write?",
+        "ground_truth": "4",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Whiteboard",
+            "Marker"
+        ],
+        "raw_answer": "<2 [Whiteboard, Marker]]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image54",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one person left the room with their phone and laptop, how many objects would remain on the top of the table?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "laptop",
+            "phone",
+            "glass",
+            "pen"
+        ],
+        "raw_answer": "4 [laptop, phone, glass, pen]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image55",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are visible?",
+        "ground_truth": "6",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "5 [Human, Human, Human, Human, Human]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image55",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that provide a source of illumination, ignoring any digital gadgets?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling lights",
+            "wall sconces",
+            "recessed lighting",
+            "overhead lights"
+        ],
+        "raw_answer": "4 [ceiling lights, wall sconces, recessed lighting, overhead lights]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image55",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If transparent objects on the right of the table are removed, how many pairs of transparent objects are present at the center of the table?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "glass",
+            "glass",
+            "glass",
+            "glass"
+        ],
+        "raw_answer": "4 [glass, glass, glass, glass]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image56",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are visible?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Table",
+            "Chairs",
+            "TV",
+            "Bookshelf"
+        ],
+        "raw_answer": "4 [Table, Chairs, TV, Bookshelf]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image56",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many individual objects can be used as storage compartments?",
+        "ground_truth": "7",
+        "model_answer": "1",
+        "model_reasoning": [
+            "BOOKCASE"
+        ],
+        "raw_answer": "<1 [BOOKCASE]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image56",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the table and chairs are removed, how many wooden objects would be present?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [],
+        "raw_answer": "<0> [ ]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image57",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many furniture items are present in the background?",
+        "ground_truth": "9",
+        "model_answer": "2",
+        "model_reasoning": [
+            "whiteboard",
+            "whiteboard"
+        ],
+        "raw_answer": "2 [whiteboard, whiteboard]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image57",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to power electronics?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "plug",
+            "socket",
+            "wall outlet",
+            "switch"
+        ],
+        "raw_answer": "4 [plug, socket, wall outlet, switch]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image57",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the white objects in the foreground are made black, how many black objects are present in the foreground?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "white chair",
+            "white chair",
+            "white chair",
+            "white chair"
+        ],
+        "raw_answer": "4 [white chair, white chair, white chair, white chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image58",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many distinct object types made of graphite are visible?",
+        "ground_truth": "1",
+        "model_answer": "0",
+        "model_reasoning": [
+            "Graphite"
+        ],
+        "raw_answer": "0 [Graphite]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image58",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on top of the table?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Pencil holder",
+            "Plant",
+            "Water bottle",
+            "Glass"
+        ],
+        "raw_answer": "<4 [Pencil holder, Plant, Water bottle, Glass]>\n\nThe image shows a table with four distinct items placed on it: a pencil holder, a plant, a water bottle, and a glass.",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image58",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the blinds were pulled over one window, how many objects that are intended to provide illumination are visible?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling light",
+            "window light",
+            "floor lamp",
+            "wall sconce"
+        ],
+        "raw_answer": "4 [ceiling light, window light, floor lamp, wall sconce]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image59",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have legs are present?",
+        "ground_truth": "8",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "6 [chair, chair, chair, chair, chair, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image59",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible hanging from the right wall?",
+        "ground_truth": "9",
+        "model_answer": "6",
+        "model_reasoning": [
+            "certificates",
+            "awards",
+            "plaques"
+        ],
+        "raw_answer": "6 [certificates, awards, plaques]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image59",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If three people came in to have a meeting, how many mammals would be present?",
+        "ground_truth": "4",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Human",
+            "Dog"
+        ],
+        "raw_answer": "5 [Human, Dog]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image60",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many blue objects are present?",
+        "ground_truth": "10",
+        "model_answer": "8",
+        "model_reasoning": [
+            "chairs",
+            "table",
+            "rug",
+            "wall art",
+            "light fixture",
+            "plant",
+            "window",
+            "wall paneling"
+        ],
+        "raw_answer": "<8 [chairs, table, rug, wall art, light fixture, plant, window, wall paneling]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image60",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that are attached to the wall?",
+        "ground_truth": "5",
+        "model_answer": "2",
+        "model_reasoning": [
+            "painting",
+            "light fixture"
+        ],
+        "raw_answer": "<2 [painting, light fixture]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image60",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the curtains are pulled over the window, how many objects are visible that function as individual sources of illumination?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Chandelier",
+            "Wall Sconces",
+            "Window Light",
+            "Ceiling Light"
+        ],
+        "raw_answer": "4 [Chandelier, Wall Sconces, Window Light, Ceiling Light]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image61",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects having legs are present?",
+        "ground_truth": "7",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Table",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<4 [Table, Chair, Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image61",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects hang from the left wall?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Picture",
+            "Picture"
+        ],
+        "raw_answer": "<2 [Picture, Picture]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image61",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the blinds were pulled over the window, how many objects are visible that act as light sources?",
+        "ground_truth": "2",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Lamp"
+        ],
+        "raw_answer": "1 [Lamp]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image62",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many electronic items are present?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "TV"
+        ],
+        "raw_answer": "<1 [TV]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image62",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on top of the table?",
+        "ground_truth": "1",
+        "model_answer": "0",
+        "model_reasoning": [
+            ""
+        ],
+        "raw_answer": "0 []",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image62",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the grey objects in front that are placed next to each other are removed, how many grey objects would be visible?",
+        "ground_truth": "7",
+        "model_answer": "6",
+        "model_reasoning": [
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair",
+            "chair"
+        ],
+        "raw_answer": "6 [chair, chair, chair, chair, chair, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image63",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many electronic items are visible?",
+        "ground_truth": "3",
+        "model_answer": "1",
+        "model_reasoning": [
+            "TV"
+        ],
+        "raw_answer": "<1 [TV]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image63",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are placed on top of the TV stand?",
+        "ground_truth": "7",
+        "model_answer": "4",
+        "model_reasoning": [
+            "bottles",
+            "remote control",
+            "phone",
+            "glasses"
+        ],
+        "raw_answer": "4 [bottles, remote control, phone, glasses]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image63",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the TV is replaced with a window, how many sources of light would be present?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Window",
+            "Pendant Light"
+        ],
+        "raw_answer": "<2 [Window, Pendant Light]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image64",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have legs are present?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Table",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<4 [Table, Chair, Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image64",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to hold liquids?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "bottles",
+            "glasses",
+            "cups",
+            "water bottles"
+        ],
+        "raw_answer": "4 [bottles, glasses, cups, water bottles]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image64",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the three light fixtures right in front of the TV are removed, how many hanging light fixtures remain visible?",
+        "ground_truth": "5",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Hanging light fixture 1",
+            "Hanging light fixture 2",
+            "Hanging light fixture 3",
+            "Hanging light fixture 4",
+            "Hanging light fixture 5"
+        ],
+        "raw_answer": "5 [Hanging light fixture 1, Hanging light fixture 2, Hanging light fixture 3, Hanging light fixture 4, Hanging light fixture 5]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image65",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of plastic that are yellow are visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "plastic bag",
+            "plastic bag",
+            "plastic bag",
+            "plastic bag"
+        ],
+        "raw_answer": "4 [plastic bag, plastic bag, plastic bag, plastic bag]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image65",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are visible that are used as protective wear, ignoring the cap?",
+        "ground_truth": "4",
+        "model_answer": "0",
+        "model_reasoning": [
+            "None"
+        ],
+        "raw_answer": "0 [None]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image65",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If there was a high tide and the water covered the rocks, how many visible non-human natural elements would remain in the foreground?",
+        "ground_truth": "4",
+        "model_answer": "0",
+        "model_reasoning": [
+            "rocks"
+        ],
+        "raw_answer": "0 [rocks]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image66",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many yellow objects are visible?",
+        "ground_truth": "4",
+        "model_answer": "2",
+        "model_reasoning": [
+            "boots",
+            "boots"
+        ],
+        "raw_answer": "<2 [boots, boots]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image66",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items being used to collect debris are visible?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            "None"
+        ],
+        "raw_answer": "0 [None]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image66",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the workers removed their gloves, how many objects of protective wear would remain visible?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "hazmat suit",
+            "hat",
+            "gloves",
+            "boots"
+        ],
+        "raw_answer": "4 [hazmat suit, hat, gloves, boots]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image67",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are present?",
+        "ground_truth": "7",
+        "model_answer": "6",
+        "model_reasoning": [
+            "Human"
+        ],
+        "raw_answer": "<6 [Human]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image67",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to protect the head?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "hat",
+            "hat",
+            "hat",
+            "hat"
+        ],
+        "raw_answer": "<4 [hat, hat, hat, hat]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image67",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all people left after cleaning all the trash, how many natural elements would be visible?",
+        "ground_truth": "2",
+        "model_answer": "5",
+        "model_reasoning": [
+            "sand",
+            "water",
+            "sky",
+            "trees",
+            "clouds"
+        ],
+        "raw_answer": "5 [sand, water, sky, trees, clouds]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image68",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are visible?",
+        "ground_truth": "7",
+        "model_answer": "2",
+        "model_reasoning": [],
+        "raw_answer": "<2> [Cattle, Cow]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image68",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that can be used to collect trash?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "nets",
+            "bags",
+            "buckets",
+            "shovels"
+        ],
+        "raw_answer": "4 [nets, bags, buckets, shovels]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image68",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the people in the background were to leave, how many orange objects would be visible?",
+        "ground_truth": "6",
+        "model_answer": "0",
+        "model_reasoning": [
+            "orange object"
+        ],
+        "raw_answer": "0 [orange object]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image69",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many orange objects are present in the foreground?",
+        "ground_truth": "3",
+        "model_answer": "0",
+        "model_reasoning": [
+            "orange"
+        ],
+        "raw_answer": "0 [orange]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image69",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many containers are visible that can be used to collect trash?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Sacks",
+            "Sacks",
+            "Sacks",
+            "Sacks"
+        ],
+        "raw_answer": "<4 [Sacks, Sacks, Sacks, Sacks]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image69",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the workers are to be paired up, how many maximum pairs are visible?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Worker 1",
+            "Worker 2",
+            "Worker 3",
+            "Worker 4"
+        ],
+        "raw_answer": "4 [Worker 1, Worker 2, Worker 3, Worker 4]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image70",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many blue colored gloves are visible?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+        ],
+        "raw_answer": "<4 [blue, blue, blue, blue]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image70",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects can be used to gather debris?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "shovel",
+            "rake"
+        ],
+        "raw_answer": "2 [shovel, rake]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image70",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the people working on the right leave, how many cleanup tools would be visible?",
+        "ground_truth": "0",
+        "model_answer": "2",
+        "model_reasoning": [
+            "shovel",
+            "rake"
+        ],
+        "raw_answer": "2 [shovel, rake]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image71",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects are present that have wheels?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "car",
+            "car",
+            "car",
+            "car"
+        ],
+        "raw_answer": "4 [car, car, car, car]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image71",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to lift a car up?",
+        "ground_truth": "1",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Lift",
+            "Jack"
+        ],
+        "raw_answer": "<2 [Lift, Jack]>\n\nThe image shows a car being lifted by two different mechanisms: a lift and a jack.",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image71",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the car is removed, how many mammals are visible?",
+        "ground_truth": "1",
+        "model_answer": "0",
+        "model_reasoning": [
+            "person"
+        ],
+        "raw_answer": "0 [person]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image72",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are present in the foreground?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "tire",
+            "tire",
+            "tire",
+            "tire"
+        ],
+        "raw_answer": "4 [tire, tire, tire, tire]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image72",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used to lift up?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [],
+        "raw_answer": "<1> [car lift]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image72",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If one more vehicle was propped up in the garage, how many vehicles would be present?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Forster",
+            "Forster",
+            "Forster",
+            "Forster"
+        ],
+        "raw_answer": "4 [Forster, Forster, Forster, Forster]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image73",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many green furniture objects are visible?",
+        "ground_truth": "10",
+        "model_answer": "8",
+        "model_reasoning": [
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair",
+            "Chair"
+        ],
+        "raw_answer": "<8 [Chair, Chair, Chair, Chair, Chair, Chair, Chair, Chair]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image73",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects in the foreground hang from the ceiling?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Lamp",
+            "Lamp",
+            "Lamp",
+            "Lamp"
+        ],
+        "raw_answer": "<4 [Lamp, Lamp, Lamp, Lamp]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image73",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the chairs and shelves are removed, how many furniture items would remain visible?",
+        "ground_truth": "1",
+        "model_answer": "0",
+        "model_reasoning": [
+            "lights",
+            "tables",
+            "floor"
+        ],
+        "raw_answer": "0 [lights, tables, floor]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image74",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many electronic items are present?",
+        "ground_truth": "3",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Computer"
+        ],
+        "raw_answer": "<1 [Computer]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image74",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used for sitting?",
+        "ground_truth": "9",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chair",
+            "desk chair",
+            "table",
+            "desk"
+        ],
+        "raw_answer": "4 [chair, desk chair, table, desk]\n\nThere are four objects visible that can be used for sitting: one chair, one desk chair, one table, and one desk.",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image74",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the tables and chairs are removed, how many black units would be visible?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "desk",
+            "chair",
+            "desk",
+            "chair"
+        ],
+        "raw_answer": "4 [desk, chair, desk, chair]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image75",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many lamps are present on the ground floor?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Lamp",
+            "Lamp",
+            "Lamp",
+            "Lamp"
+        ],
+        "raw_answer": "<4 [Lamp, Lamp, Lamp, Lamp]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image75",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects hang from the ceiling?",
+        "ground_truth": "4",
+        "model_answer": "4",
+        "model_reasoning": [
+            "light fixture",
+            "light fixture",
+            "light fixture",
+            "light fixture"
+        ],
+        "raw_answer": "4 [light fixture, light fixture, light fixture, light fixture]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image75",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all objects on the first floor are removed, how many objects are present that can be used for the primary purpose of sitting?",
+        "ground_truth": "7",
+        "model_answer": "4",
+        "model_reasoning": [
+            "chairs",
+            "tables",
+            "benches",
+            "spiral staircase"
+        ],
+        "raw_answer": "4 [chairs, tables, benches, spiral staircase]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image76",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are visible?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Boy",
+            "Man",
+            "Woman",
+            "Boy"
+        ],
+        "raw_answer": "<4 [Boy, Man, Woman, Boy]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image76",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are placed on top of the coffee table?",
+        "ground_truth": "5",
+        "model_answer": "4",
+        "model_reasoning": [
+            "book",
+            "book",
+            "book",
+            "notebook"
+        ],
+        "raw_answer": "<4 [book, book, book, notebook]>",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image76",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the curtains were opened and the digital gadgets removed, how many light sources would be present?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "ceiling lights",
+            "floor lamp",
+            "overhead lights",
+            "wall sconces"
+        ],
+        "raw_answer": "4 [ceiling lights, floor lamp, overhead lights, wall sconces]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image77",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects that have arms are present?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            "None"
+        ],
+        "raw_answer": "0 [None]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image77",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are present that can display digital information?",
+        "ground_truth": "9",
+        "model_answer": "6",
+        "model_reasoning": [
+            "Monitors",
+            "Monitors",
+            "Monitors",
+            "Monitors",
+            "Monitors",
+            "Monitors"
+        ],
+        "raw_answer": "<6 [Monitors, Monitors, Monitors, Monitors, Monitors, Monitors]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image77",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If both protrusions on the wall in front indicate markers for the centre of the room, how many objects are attached to the ceiling in this centred space?",
+        "ground_truth": "10",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Ceiling light",
+            "Ceiling vent",
+            "Ceiling camera",
+            "Ceiling fan"
+        ],
+        "raw_answer": "4 [Ceiling light, Ceiling vent, Ceiling camera, Ceiling fan]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image78",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects with green parts are present?",
+        "ground_truth": "2",
+        "model_answer": "2",
+        "model_reasoning": [
+            "C-clamp",
+            "C-clamp"
+        ],
+        "raw_answer": "2 [C-clamp, C-clamp]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image78",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are visible that can be used as protective wear?",
+        "ground_truth": "4",
+        "model_answer": "2",
+        "model_reasoning": [
+            "ear protection",
+            "gloves"
+        ],
+        "raw_answer": "2 [ear protection, gloves]",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image78",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the protective wear, pencils, and measuring tape are taken, how many tools are visible?",
+        "ground_truth": "6",
+        "model_answer": "5",
+        "model_reasoning": [
+            "Helmet",
+            "Clamps",
+            "Hammer",
+            "Pliers",
+            "Tape Measure"
+        ],
+        "raw_answer": "5 [Helmet, Clamps, Hammer, Pliers, Tape Measure]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image79",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of metal are present?",
+        "ground_truth": "10",
+        "model_answer": "5",
+        "model_reasoning": [
+            "hammer",
+            "wrench",
+            "saw",
+            "clamps",
+            "trowel"
+        ],
+        "raw_answer": "5 [hammer, wrench, saw, clamps, trowel]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image79",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many items are designed to protect the user?",
+        "ground_truth": "3",
+        "model_answer": "2",
+        "model_reasoning": [
+            "Safety glasses",
+            "Hard hat"
+        ],
+        "raw_answer": "<2 [Safety glasses, Hard hat]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image79",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the protective gear is removed, how many objects are placed to the right of the hammer?",
+        "ground_truth": "3",
+        "model_answer": "4",
+        "model_reasoning": [
+            "wrench",
+            "spanner",
+            "goggles",
+            "clamp"
+        ],
+        "raw_answer": "4 [wrench, spanner, goggles, clamp]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image80",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many mammals are present?",
+        "ground_truth": "8",
+        "model_answer": "9",
+        "model_reasoning": [
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human",
+            "Human"
+        ],
+        "raw_answer": "<9 [Human, Human, Human, Human, Human, Human, Human, Human, Human]>",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image80",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that are designed to protect the head?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Hard hat",
+            "Hard hat",
+            "Hard hat",
+            "Hard hat"
+        ],
+        "raw_answer": "<4 [Hard hat, Hard hat, Hard hat, Hard hat]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image80",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If all the objects in the background are removed, how many yellow-shaded objects are in the foreground?",
+        "ground_truth": "6",
+        "model_answer": "4",
+        "model_reasoning": [
+            "helmet",
+            "safety vest",
+            "safety vest",
+            "safety vest"
+        ],
+        "raw_answer": "4 [helmet, safety vest, safety vest, safety vest]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image81",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are visible?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "tire"
+        ],
+        "raw_answer": "<1 [tire]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image81",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects can be used for sitting, ignoring the car?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Bench"
+        ],
+        "raw_answer": "<1 [Bench]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image81",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the car and the tree on the right are removed, how many objects with wheels are present in front of the right house?",
+        "ground_truth": "0",
+        "model_answer": "0",
+        "model_reasoning": [
+            "car",
+            "tree"
+        ],
+        "raw_answer": "0 [car, tree]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image82",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many vehicles are visible?",
+        "ground_truth": "3",
+        "model_answer": "3",
+        "model_reasoning": [
+            "Blue Golf",
+            "Silver Car",
+            "Orange Truck"
+        ],
+        "raw_answer": "3 [Blue Golf, Silver Car, Orange Truck]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image82",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are standing on the balcony?",
+        "ground_truth": "4",
+        "model_answer": "3",
+        "model_reasoning": [
+            "man",
+            "woman",
+            "man"
+        ],
+        "raw_answer": "3 [man, woman, man]",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image82",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the cars all moved, how many objects having arms are present?",
+        "ground_truth": "4",
+        "model_answer": "0",
+        "model_reasoning": [
+            "people"
+        ],
+        "raw_answer": "0 [people]",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image83",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many objects made of rubber are visible?",
+        "ground_truth": "4",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Wreath"
+        ],
+        "raw_answer": "<1 [Wreath]>",
+        "property_category": "physical"
+    },
+    {
+        "image_id": "image83",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects are visible that can be used for the primary purpose of sitting?",
+        "ground_truth": "1",
+        "model_answer": "1",
+        "model_reasoning": [
+            "Chair"
+        ],
+        "raw_answer": "<1 [Chair]>",
+        "property_category": "functional"
+    },
+    {
+        "image_id": "image83",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the car moved out of the driveway, how many window panes would be visible?",
+        "ground_truth": "8",
+        "model_answer": "4",
+        "model_reasoning": [
+            "Front door window",
+            "Side window",
+            "Rear window"
+        ],
+        "raw_answer": "4 [Front door window, Side window, Rear window]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image84",
+        "image_type": "REAL",
+        "question_id": "Q1",
+        "question": "How many vehicles are visible?",
+        "ground_truth": "3",
+        "model_answer": "3",
+        "model_reasoning": [],
+        "raw_answer": "<3> [SUV, Sedan, Sedan]",
+        "property_category": "taxonomic"
+    },
+    {
+        "image_id": "image84",
+        "image_type": "REAL",
+        "question_id": "Q2",
+        "question": "How many objects hang from the street lamp?",
+        "ground_truth": "2",
+        "model_answer": "0",
+        "model_reasoning": [
+            ""
+        ],
+        "raw_answer": "0 []",
+        "property_category": "relational"
+    },
+    {
+        "image_id": "image84",
+        "image_type": "REAL",
+        "question_id": "Q3",
+        "question": "If the black car were to leave, how many objects would be present that could be used for transportation?",
+        "ground_truth": "2",
+        "model_answer": "4",
+        "model_reasoning": [
+            "black car",
+            "silver car",
+            "red car",
+            "street lamp"
+        ],
+        "raw_answer": "4 [black car, silver car, red car, street lamp]",
+        "property_category": "functional"
+    }
+]

@@ -1,5 +1,0 @@
-Starting at Mon Jul 28 12:24:05 CEST 2025
-Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-gemma3-27b-it.ipynb
-Output Notebook: gemma3-27b-it_output.ipynb
-Executing:   0%|          | 0/12 [00:00<?, ?cell/s]Executing notebook with kernel: op_bench
-Executing:   8%|▊         | 1/12 [00:01<00:17,  1.56s/cell]Executing:  33%|███▎      | 4/12 [00:03<00:05,  1.39cell/s]Executing:  42%|████▏     | 5/12 [00:08<00:14,  2.14s/cell]Executing:  83%|████████▎ | 10/12 [00:09<00:01,  1.37cell/s]Executing:  92%|█████████▏| 11/12 [00:19<00:00,  1.37cell/s]
