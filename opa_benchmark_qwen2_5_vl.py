@@ -12,7 +12,8 @@ python opa_benchmark_qwen2_5_vl.py \
     --output_file results.json \
     --batch_size 5
 
-All arguments are required except batch_size (default=5).
+To run the entire dataset in one pass, keep batch size as 360.
+All arguments are required except batch_size (default=360).
 """
 import argparse
 import torch
@@ -269,7 +270,7 @@ if __name__ == '__main__':
     parser.add_argument('--benchmark_json', type=str, required=True, help='Path to the benchmark JSON file')
     parser.add_argument('--data_dir', type=str, required=True, help='Directory containing the images')
     parser.add_argument('--output_file', type=str, required=True, help='Output file for results')
-    parser.add_argument('--batch_size', type=int, default=5, help='Batch size (default: 5)')
+    parser.add_argument('--batch_size', type=int, default=360, help='Batch size (default: 360)')
     args = parser.parse_args()
     test_Qwen2_5VL(
         args.model_path,
