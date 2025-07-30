@@ -1,24 +1,20 @@
-# VLM Benchmark for Object Property Abstraction
-#
-# This script implements a benchmark for evaluating Vision Language Models (VLMs) on object property abstraction and visual question answering (VQA) tasks.
-# The benchmark includes three types of questions:
-# 1. Direct Recognition
-# 2. Property Inference
-# 3. Counterfactual Reasoning
-#
-# And three types of images:
-# - REAL
-# - ANIMATED
-# - AI GENERATED
+"""
+VLM Benchmark for Object Property Abstraction
 
-# =====================
-# Setup and Imports
-# =====================
+This script evaluates Vision Language Models (VLMs) on object property abstraction and VQA tasks.
 
-# Install required packages (commented out, handled by environment)
-# %pip install transformers torch Pillow tqdm bitsandbytes accelerate
-# %pip install qwen-vl-utils flash-attn #--no-build-isolation
+USAGE EXAMPLE:
+python opa_benchmark_qwen2_5_vl.py \
+    --model_path /path/to/model \
+    --processor_path /path/to/model \
+    --benchmark_json /path/to/benchmark.json \
+    --data_dir /path/to/images \
+    --output_file results.json \
+    --batch_size 5
 
+All arguments are required except batch_size (default=5).
+"""
+import argparse
 import torch
 import json
 from pathlib import Path
@@ -27,45 +23,29 @@ import gc
 import re
 from tqdm import tqdm
 from typing import List, Dict, Any
-from qwen_vl_utils import process_vision_info
+# from qwen_vl_utils import process_vision_info
 import time
 
-# Check if CUDA is available
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Using device: {device}")
-
-# =====================
-# Benchmark Tester Class
-# =====================
-
 class BenchmarkTester:
-    def __init__(self, benchmark_path="/var/scratch/ave303/OP_bench/benchmark.json", data_dir="/var/scratch/ave303/OP_bench/"):
+    def __init__(self, benchmark_path, data_dir):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         with open(benchmark_path, 'r') as f:
             self.benchmark = json.load(f)
         self.data_dir = data_dir
 
     def clean_answer(self, answer):
-        """Extract number and reasoning from the model's answer."""
         import re
         pattern = r'(\d+)\s*\[(.*?)\]'
         match = re.search(pattern, answer)
         if match:
             number = match.group(1)
             objects = [obj.strip() for obj in match.group(2).split(',')]
-            return {
-                "count": number,
-                "reasoning": objects
-            }
+            return {"count": number, "reasoning": objects}
         else:
             numbers = re.findall(r'\d+', answer)
-            return {
-                "count": numbers[0] if numbers else "0",
-                "reasoning": []
-            }
+            return {"count": numbers[0] if numbers else "0", "reasoning": []}
 
     def model_generation(self, model_name, model, inputs, processor):
-        """Generate answer and decode with greedy decoding."""
         outputs = None
         if model_name == "Qwen2.5-VL":
             outputs = model.generate(
@@ -143,7 +123,7 @@ class BenchmarkTester:
                                 videos=None,
                                 padding=True,
                                 return_tensors="pt",
-                            ).to("cuda")
+                            ).to(self.device)
                             with torch.no_grad():
                                 answer, outputs = self.model_generation(model_name, model, inputs, processor)
                             cleaned_answer = self.clean_answer(answer)
@@ -258,46 +238,44 @@ class BenchmarkTester:
                     print(f"     - {failure['image_id']} ({failure['error_type']})")
         print(f"{'='*60}\n")
 
-# =====================
-# Test Qwen2.5-VL
-# =====================
-
-def test_Qwen2_5VL():
+def test_Qwen2_5VL(model_path, processor_path, benchmark_json, data_dir, output_file, batch_size):
     from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
-    # model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-    #     "Qwen/Qwen2.5-VL-3B-Instruct", 
-    #     load_in_8bit=True, # throws error when .to() is added
-    #     torch_dtype=torch.bfloat16, 
-    #     device_map="auto",
-    #     low_cpu_mem_usage=True
-    # )
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-        "/var/scratch/ave303/models/qwen2-5-vl-32b",
-        torch_dtype=torch.float16,
-        device_map="auto",
+        model_path,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        device_map="auto" if torch.cuda.is_available() else None,
         low_cpu_mem_usage=True,
         trust_remote_code=True
     )
-    processor = AutoProcessor.from_pretrained("/var/scratch/ave303/models/qwen2-5-vl-32b")
+    processor = AutoProcessor.from_pretrained(processor_path)
     if hasattr(model.config, 'use_memory_efficient_attention'):
         model.config.use_memory_efficient_attention = True
-    tester = BenchmarkTester()
-    Qwen2_5VL_results = tester.evaluate_model(
+    tester = BenchmarkTester(benchmark_json, data_dir)
+    tester.evaluate_model(
         "Qwen2.5-VL",
         model, 
         processor, 
-        "Qwen2-5-vl-32b_results.json",
-        batch_size=360
+        output_file,
+        batch_size=batch_size
     )
     del model, processor
     torch.cuda.empty_cache()
     gc.collect()
 
-# =====================
-# Main Execution
-# =====================
-
 if __name__ == '__main__':
-    # Uncomment the following line to run the Qwen2.5-VL evaluation
-    test_Qwen2_5VL()
-    # To run SmolVLM2 evaluation, implement and call test_smolVLM2() as needed. 
+    parser = argparse.ArgumentParser(description="VLM Benchmark for Object Property Abstraction")
+    parser.add_argument('--model_path', type=str, required=True, help='Path to the model directory or HuggingFace repo')
+    parser.add_argument('--processor_path', type=str, required=True, help='Path to the processor directory or HuggingFace repo')
+    parser.add_argument('--benchmark_json', type=str, required=True, help='Path to the benchmark JSON file')
+    parser.add_argument('--data_dir', type=str, required=True, help='Directory containing the images')
+    parser.add_argument('--output_file', type=str, required=True, help='Output file for results')
+    parser.add_argument('--batch_size', type=int, default=5, help='Batch size (default: 5)')
+    args = parser.parse_args()
+    test_Qwen2_5VL(
+        args.model_path,
+        args.processor_path,
+        args.benchmark_json,
+        args.data_dir,
+        args.output_file,
+        args.batch_size
+    ) 
