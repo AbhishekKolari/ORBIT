@@ -6,15 +6,15 @@ from dotenv import load_dotenv
 # load_dotenv()
 
 # Configuration
-model_name = "remyxai/SpaceThinker-Qwen2.5VL-3B"  # Change this if needed
+model_name = "Qwen/Qwen2.5-VL-32B-Instruct"  # Change this if needed
 # local_model_dir = "/var/scratch/ave303/models/qwen-7b-instruct"  # Where to save
 # local_model_dir = "/var/scratch/ave303/models/internvl3-8b"
 # local_model_dir = "/var/scratch/ave303/models/internvl2.5-8b"
 # local_model_dir = "/var/scratch/ave303/models/internvl3-14b"
 # local_model_dir = "/var/scratch/ave303/models/internvl3-38b"
-# local_model_dir = "/var/scratch/ave303/models/qwen2-5-vl-32b"
+local_model_dir = "/var/scratch/ave303/models/qwen2-5-vl-32b"
 # local_model_dir = "/var/scratch/ave303/models/qwen2-5-vl-3b"
-local_model_dir = "/var/scratch/ave303/models/spacethinker-qwen2-5-vl-3b"  # remyxai/SpaceThinker-Qwen2.5VL-3B
+# local_model_dir = "/var/scratch/ave303/models/spacethinker-qwen2-5-vl-3b"  # remyxai/SpaceThinker-Qwen2.5VL-3B
 # local_model_dir = "/var/scratch/ave303/models/spaceom"  # remyxai/SpaceOm
 # local_model_dir = "/var/scratch/ave303/models/spaceqwen2-5-vl-3b-instruct"  # remyxai/SpaceQwen2.5-VL-3B-Instruct
 # local_model_dir = "/var/scratch/ave303/models/sail-vl-8b"
