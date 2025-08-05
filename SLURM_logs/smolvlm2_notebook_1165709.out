@@ -1,7 +1,0 @@
-Starting at Wed Apr 30 01:05:36 CEST 2025
-Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-smolvlm2-qwen2-5-vl.ipynb
-Output Notebook: smolvlm2_output.ipynb
-Executing:   0%|          | 0/15 [00:00<?, ?cell/s]Executing notebook with kernel: op_bench
-Executing:   7%|▋         | 1/15 [00:01<00:21,  1.52s/cell]Executing:  27%|██▋       | 4/15 [00:03<00:10,  1.07cell/s]Executing:  33%|███▎      | 5/15 [00:09<00:23,  2.33s/cell]Executing:  73%|███████▎  | 11/15 [00:09<00:02,  1.43cell/s]Executing:  80%|████████  | 12/15 [00:19<00:02,  1.43cell/s]Executing:  87%|████████▋ | 13/15 [01:06<00:15,  7.63s/cell]Executing: 100%|██████████| 15/15 [01:09<00:00,  4.63s/cell]
-Finished at Wed Apr 30 01:06:46 CEST 2025
-Total execution time: 1 minutes and 10 seconds
