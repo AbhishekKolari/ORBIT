@@ -31,7 +31,7 @@
                 "image_id": "image01",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image01.jpg",
+                "path": "data/REAL/image01.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -60,7 +60,7 @@
                 "image_id": "image02",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image02.jpg",
+                "path": "data/REAL/image02.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -87,7 +87,7 @@
                 "image_id": "image03",
                 "image_type": "REAL",
                 "theme": "biking",
-                "path": "merged_data/REAL/image03.jpg",
+                "path": "data/REAL/image03.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -113,7 +113,7 @@
                 "image_id": "image04",
                 "image_type": "REAL",
                 "theme": "tools",
-                "path": "merged_data/REAL/image04.jpg",
+                "path": "data/REAL/image04.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -139,7 +139,7 @@
                 "image_id": "image05",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image05.jpg",
+                "path": "data/REAL/image05.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -167,7 +167,7 @@
                 "image_id": "image06",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image06.jpg",
+                "path": "data/REAL/image06.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -194,7 +194,7 @@
                 "image_id": "image07",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image07.jpg",
+                "path": "data/REAL/image07.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -220,7 +220,7 @@
                 "image_id": "image08",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image08.jpg",
+                "path": "data/REAL/image08.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -246,7 +246,7 @@
                 "image_id": "image09",
                 "image_type": "REAL",
                 "theme": "market",
-                "path": "merged_data/REAL/image09.jpg",
+                "path": "data/REAL/image09.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -273,7 +273,7 @@
                 "image_id": "image10",
                 "image_type": "REAL",
                 "theme": "tech",
-                "path": "merged_data/REAL/image10.jpg",
+                "path": "data/REAL/image10.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -300,7 +300,7 @@
                 "image_id": "image11",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image11.jpg",
+                "path": "data/REAL/image11.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -328,7 +328,7 @@
                 "image_id": "image12",
                 "image_type": "REAL",
                 "theme": "gym",
-                "path": "merged_data/REAL/image12.jpg",
+                "path": "data/REAL/image12.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -355,7 +355,7 @@
                 "image_id": "image13",
                 "image_type": "REAL",
                 "theme": "bedroom",
-                "path": "merged_data/REAL/image13.jpg",
+                "path": "data/REAL/image13.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -384,7 +384,7 @@
                 "image_id": "image14",
                 "image_type": "REAL",
                 "theme": "classroom",
-                "path": "merged_data/REAL/image14.jpg",
+                "path": "data/REAL/image14.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -412,7 +412,7 @@
                 "image_id": "image15",
                 "image_type": "REAL",
                 "theme": "garage",
-                "path": "merged_data/REAL/image15.jpg",
+                "path": "data/REAL/image15.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -441,7 +441,7 @@
                 "image_id": "image16",
                 "image_type": "REAL",
                 "theme": "garage",
-                "path": "merged_data/REAL/image16.jpg",
+                "path": "data/REAL/image16.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -470,7 +470,7 @@
                 "image_id": "image17",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image17.jpg",
+                "path": "data/REAL/image17.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -496,7 +496,7 @@
                 "image_id": "image18",
                 "image_type": "REAL",
                 "theme": "camping",
-                "path": "merged_data/REAL/image18.jpg",
+                "path": "data/REAL/image18.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -524,7 +524,7 @@
                 "image_id": "image19",
                 "image_type": "REAL",
                 "theme": "gardening",
-                "path": "merged_data/REAL/image19.jpg",
+                "path": "data/REAL/image19.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -553,7 +553,7 @@
                 "image_id": "image20",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image20.jpg",
+                "path": "data/REAL/image20.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -582,7 +582,7 @@
                 "image_id": "image21",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image21.jpg",
+                "path": "data/REAL/image21.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -611,7 +611,7 @@
                 "image_id": "image22",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image22.jpg",
+                "path": "data/REAL/image22.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -640,7 +640,7 @@
                 "image_id": "image23",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image23.jpg",
+                "path": "data/REAL/image23.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -669,7 +669,7 @@
                 "image_id": "image24",
                 "image_type": "REAL",
                 "theme": "home setup",
-                "path": "merged_data/REAL/image24.jpg",
+                "path": "data/REAL/image24.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -698,7 +698,7 @@
                 "image_id": "image25",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image25.jpg",
+                "path": "data/REAL/image25.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -727,7 +727,7 @@
                 "image_id": "image26",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image26.jpg",
+                "path": "data/REAL/image26.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -755,7 +755,7 @@
                 "image_id": "image27",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image27.jpg",
+                "path": "data/REAL/image27.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -784,7 +784,7 @@
                 "image_id": "image28",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image28.jpg",
+                "path": "data/REAL/image28.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -813,7 +813,7 @@
                 "image_id": "image29",
                 "image_type": "REAL",
                 "theme": "home setup",
-                "path": "merged_data/REAL/image29.jpg",
+                "path": "data/REAL/image29.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -842,7 +842,7 @@
                 "image_id": "image30",
                 "image_type": "REAL",
                 "theme": "wardrobe",
-                "path": "merged_data/REAL/image30.jpg",
+                "path": "data/REAL/image30.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -871,7 +871,7 @@
                 "image_id": "image31",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image31.jpg",
+                "path": "data/REAL/image31.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -900,7 +900,7 @@
                 "image_id": "image32",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image32.jpg",
+                "path": "data/REAL/image32.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -929,7 +929,7 @@
                 "image_id": "image33",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image33.jpg",
+                "path": "data/REAL/image33.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -958,7 +958,7 @@
                 "image_id": "image34",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image34.jpg",
+                "path": "data/REAL/image34.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -987,7 +987,7 @@
                 "image_id": "image35",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image35.jpg",
+                "path": "data/REAL/image35.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1016,7 +1016,7 @@
                 "image_id": "image36",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image36.jpg",
+                "path": "data/REAL/image36.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1045,7 +1045,7 @@
                 "image_id": "image37",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image37.jpg",
+                "path": "data/REAL/image37.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1074,7 +1074,7 @@
                 "image_id": "image38",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image38.jpg",
+                "path": "data/REAL/image38.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1103,7 +1103,7 @@
                 "image_id": "image39",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image39.jpg",
+                "path": "data/REAL/image39.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1132,7 +1132,7 @@
                 "image_id": "image40",
                 "image_type": "REAL",
                 "theme": "salon",
-                "path": "merged_data/REAL/image40.jpg",
+                "path": "data/REAL/image40.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1160,7 +1160,7 @@
                 "image_id": "image41",
                 "image_type": "REAL",
                 "theme": "gym",
-                "path": "merged_data/REAL/image41.jpg",
+                "path": "data/REAL/image41.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1189,7 +1189,7 @@
                 "image_id": "image42",
                 "image_type": "REAL",
                 "theme": "gym",
-                "path": "merged_data/REAL/image42.jpg",
+                "path": "data/REAL/image42.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1218,7 +1218,7 @@
                 "image_id": "image43",
                 "image_type": "REAL",
                 "theme": "gym",
-                "path": "merged_data/REAL/image43.jpg",
+                "path": "data/REAL/image43.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1247,7 +1247,7 @@
                 "image_id": "image44",
                 "image_type": "REAL",
                 "theme": "gym",
-                "path": "merged_data/REAL/image44.jpg",
+                "path": "data/REAL/image44.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1276,7 +1276,7 @@
                 "image_id": "image45",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image45.jpg",
+                "path": "data/REAL/image45.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1305,7 +1305,7 @@
                 "image_id": "image46",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image46.jpg",
+                "path": "data/REAL/image46.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1334,7 +1334,7 @@
                 "image_id": "image47",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image47.jpg",
+                "path": "data/REAL/image47.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1363,7 +1363,7 @@
                 "image_id": "image48",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image48.jpg",
+                "path": "data/REAL/image48.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1392,7 +1392,7 @@
                 "image_id": "image49",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image49.jpg",
+                "path": "data/REAL/image49.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1421,7 +1421,7 @@
                 "image_id": "image50",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image50.jpg",
+                "path": "data/REAL/image50.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1449,7 +1449,7 @@
                 "image_id": "image51",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image51.jpg",
+                "path": "data/REAL/image51.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1478,7 +1478,7 @@
                 "image_id": "image52",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image52.jpg",
+                "path": "data/REAL/image52.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1507,7 +1507,7 @@
                 "image_id": "image53",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image53.jpg",
+                "path": "data/REAL/image53.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1536,7 +1536,7 @@
                 "image_id": "image54",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image54.jpg",
+                "path": "data/REAL/image54.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1565,7 +1565,7 @@
                 "image_id": "image55",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image55.jpg",
+                "path": "data/REAL/image55.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1594,7 +1594,7 @@
                 "image_id": "image56",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image56.jpg",
+                "path": "data/REAL/image56.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1623,7 +1623,7 @@
                 "image_id": "image57",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image57.jpg",
+                "path": "data/REAL/image57.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1652,7 +1652,7 @@
                 "image_id": "image58",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image58.jpg",
+                "path": "data/REAL/image58.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1681,7 +1681,7 @@
                 "image_id": "image59",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image59.jpg",
+                "path": "data/REAL/image59.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1710,7 +1710,7 @@
                 "image_id": "image60",
                 "image_type": "REAL",
                 "theme": "home setup",
-                "path": "merged_data/REAL/image60.jpg",
+                "path": "data/REAL/image60.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1739,7 +1739,7 @@
                 "image_id": "image61",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image61.jpg",
+                "path": "data/REAL/image61.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1768,7 +1768,7 @@
                 "image_id": "image62",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image62.jpg",
+                "path": "data/REAL/image62.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1797,7 +1797,7 @@
                 "image_id": "image63",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image63.jpg",
+                "path": "data/REAL/image63.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1826,7 +1826,7 @@
                 "image_id": "image64",
                 "image_type": "REAL",
                 "theme": "meeting room",
-                "path": "merged_data/REAL/image64.jpg",
+                "path": "data/REAL/image64.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1855,7 +1855,7 @@
                 "image_id": "image65",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image65.jpg",
+                "path": "data/REAL/image65.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1884,7 +1884,7 @@
                 "image_id": "image66",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image66.jpg",
+                "path": "data/REAL/image66.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1913,7 +1913,7 @@
                 "image_id": "image67",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image67.jpg",
+                "path": "data/REAL/image67.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1942,7 +1942,7 @@
                 "image_id": "image68",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image68.jpg",
+                "path": "data/REAL/image68.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -1971,7 +1971,7 @@
                 "image_id": "image69",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image69.jpg",
+                "path": "data/REAL/image69.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2000,7 +2000,7 @@
                 "image_id": "image70",
                 "image_type": "REAL",
                 "theme": "beach cleanup",
-                "path": "merged_data/REAL/image70.jpg",
+                "path": "data/REAL/image70.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2029,7 +2029,7 @@
                 "image_id": "image71",
                 "image_type": "REAL",
                 "theme": "garage",
-                "path": "merged_data/REAL/image71.jpg",
+                "path": "data/REAL/image71.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2058,7 +2058,7 @@
                 "image_id": "image72",
                 "image_type": "REAL",
                 "theme": "garage",
-                "path": "merged_data/REAL/image72.jpg",
+                "path": "data/REAL/image72.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2087,7 +2087,7 @@
                 "image_id": "image73",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image73.jpg",
+                "path": "data/REAL/image73.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2116,7 +2116,7 @@
                 "image_id": "image74",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image74.jpg",
+                "path": "data/REAL/image74.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2145,7 +2145,7 @@
                 "image_id": "image75",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image75.jpg",
+                "path": "data/REAL/image75.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2174,7 +2174,7 @@
                 "image_id": "image76",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image76.jpg",
+                "path": "data/REAL/image76.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2203,7 +2203,7 @@
                 "image_id": "image77",
                 "image_type": "REAL",
                 "theme": "library",
-                "path": "merged_data/REAL/image77.jpg",
+                "path": "data/REAL/image77.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2232,7 +2232,7 @@
                 "image_id": "image78",
                 "image_type": "REAL",
                 "theme": "tools",
-                "path": "merged_data/REAL/image78.jpg",
+                "path": "data/REAL/image78.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2261,7 +2261,7 @@
                 "image_id": "image79",
                 "image_type": "REAL",
                 "theme": "tools",
-                "path": "merged_data/REAL/image79.jpg",
+                "path": "data/REAL/image79.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2290,7 +2290,7 @@
                 "image_id": "image80",
                 "image_type": "REAL",
                 "theme": "construction",
-                "path": "merged_data/REAL/image80.jpg",
+                "path": "data/REAL/image80.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2319,7 +2319,7 @@
                 "image_id": "image81",
                 "image_type": "REAL",
                 "theme": "driveway",
-                "path": "merged_data/REAL/image81.jpg",
+                "path": "data/REAL/image81.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2348,7 +2348,7 @@
                 "image_id": "image82",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image82.jpg",
+                "path": "data/REAL/image82.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2377,7 +2377,7 @@
                 "image_id": "image83",
                 "image_type": "REAL",
                 "theme": "driveway",
-                "path": "merged_data/REAL/image83.jpg",
+                "path": "data/REAL/image83.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2406,7 +2406,7 @@
                 "image_id": "image84",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image84.jpg",
+                "path": "data/REAL/image84.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2435,7 +2435,7 @@
                 "image_id": "image85",
                 "image_type": "REAL",
                 "theme": "driveway",
-                "path": "merged_data/REAL/image85.jpg",
+                "path": "data/REAL/image85.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2464,7 +2464,7 @@
                 "image_id": "image86",
                 "image_type": "REAL",
                 "theme": "driveway",
-                "path": "merged_data/REAL/image86.jpg",
+                "path": "data/REAL/image86.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2493,7 +2493,7 @@
                 "image_id": "image87",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image87.jpg",
+                "path": "data/REAL/image87.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2522,7 +2522,7 @@
                 "image_id": "image88",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image88.jpg",
+                "path": "data/REAL/image88.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2551,7 +2551,7 @@
                 "image_id": "image89",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image89.jpg",
+                "path": "data/REAL/image89.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2580,7 +2580,7 @@
                 "image_id": "image90",
                 "image_type": "REAL",
                 "theme": "driveway",
-                "path": "merged_data/REAL/image90.jpg",
+                "path": "data/REAL/image90.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2609,7 +2609,7 @@
                 "image_id": "image91",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image91.jpg",
+                "path": "data/REAL/image91.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2638,7 +2638,7 @@
                 "image_id": "image92",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image92.jpg",
+                "path": "data/REAL/image92.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2667,7 +2667,7 @@
                 "image_id": "image93",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image93.jpg",
+                "path": "data/REAL/image93.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2696,7 +2696,7 @@
                 "image_id": "image94",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image94.jpg",
+                "path": "data/REAL/image94.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2725,7 +2725,7 @@
                 "image_id": "image95",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image95.jpg",
+                "path": "data/REAL/image95.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2754,7 +2754,7 @@
                 "image_id": "image96",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image96.jpg",
+                "path": "data/REAL/image96.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2783,7 +2783,7 @@
                 "image_id": "image97",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image97.jpg",
+                "path": "data/REAL/image97.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2812,7 +2812,7 @@
                 "image_id": "image98",
                 "image_type": "REAL",
                 "theme": "zoo",
-                "path": "merged_data/REAL/image98.jpg",
+                "path": "data/REAL/image98.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2841,7 +2841,7 @@
                 "image_id": "image99",
                 "image_type": "REAL",
                 "theme": "laboratory",
-                "path": "merged_data/REAL/image99.jpg",
+                "path": "data/REAL/image99.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2870,7 +2870,7 @@
                 "image_id": "image100",
                 "image_type": "REAL",
                 "theme": "laboratory",
-                "path": "merged_data/REAL/image100.jpg",
+                "path": "data/REAL/image100.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2899,7 +2899,7 @@
                 "image_id": "image101",
                 "image_type": "REAL",
                 "theme": "laboratory",
-                "path": "merged_data/REAL/image101.jpg",
+                "path": "data/REAL/image101.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2928,7 +2928,7 @@
                 "image_id": "image102",
                 "image_type": "REAL",
                 "theme": "laboratory",
-                "path": "merged_data/REAL/image102.jpg",
+                "path": "data/REAL/image102.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2957,7 +2957,7 @@
                 "image_id": "image103",
                 "image_type": "REAL",
                 "theme": "market",
-                "path": "merged_data/REAL/image103.jpg",
+                "path": "data/REAL/image103.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -2986,7 +2986,7 @@
                 "image_id": "image104",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image104.jpg",
+                "path": "data/REAL/image104.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3015,7 +3015,7 @@
                 "image_id": "image105",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image105.jpg",
+                "path": "data/REAL/image105.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3044,7 +3044,7 @@
                 "image_id": "image106",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image106.jpg",
+                "path": "data/REAL/image106.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3073,7 +3073,7 @@
                 "image_id": "image107",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image107.jpg",
+                "path": "data/REAL/image107.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3102,7 +3102,7 @@
                 "image_id": "image108",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image108.jpg",
+                "path": "data/REAL/image108.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3131,7 +3131,7 @@
                 "image_id": "image109",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image109.jpg",
+                "path": "data/REAL/image109.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3160,7 +3160,7 @@
                 "image_id": "image110",
                 "image_type": "REAL",
                 "theme": "kitchen",
-                "path": "merged_data/REAL/image110.jpg",
+                "path": "data/REAL/image110.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3189,7 +3189,7 @@
                 "image_id": "image111",
                 "image_type": "REAL",
                 "theme": "tech",
-                "path": "merged_data/REAL/image111.jpg",
+                "path": "data/REAL/image111.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3218,7 +3218,7 @@
                 "image_id": "image112",
                 "image_type": "REAL",
                 "theme": "tools",
-                "path": "merged_data/REAL/image112.jpg",
+                "path": "data/REAL/image112.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3247,7 +3247,7 @@
                 "image_id": "image113",
                 "image_type": "REAL",
                 "theme": "gardening",
-                "path": "merged_data/REAL/image113.jpg",
+                "path": "data/REAL/image113.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3276,7 +3276,7 @@
                 "image_id": "image114",
                 "image_type": "REAL",
                 "theme": "bedroom",
-                "path": "merged_data/REAL/image114.jpg",
+                "path": "data/REAL/image114.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3305,7 +3305,7 @@
                 "image_id": "image115",
                 "image_type": "REAL",
                 "theme": "biking",
-                "path": "merged_data/REAL/image115.jpg",
+                "path": "data/REAL/image115.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3334,7 +3334,7 @@
                 "image_id": "image116",
                 "image_type": "REAL",
                 "theme": "biking",
-                "path": "merged_data/REAL/image116.jpg",
+                "path": "data/REAL/image116.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3363,7 +3363,7 @@
                 "image_id": "image117",
                 "image_type": "REAL",
                 "theme": "urban",
-                "path": "merged_data/REAL/image117.jpg",
+                "path": "data/REAL/image117.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3392,7 +3392,7 @@
                 "image_id": "image118",
                 "image_type": "REAL",
                 "theme": "garage",
-                "path": "merged_data/REAL/image118.jpg",
+                "path": "data/REAL/image118.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3421,7 +3421,7 @@
                 "image_id": "image119",
                 "image_type": "REAL",
                 "theme": "classroom",
-                "path": "merged_data/REAL/image119.jpg",
+                "path": "data/REAL/image119.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3450,7 +3450,7 @@
                 "image_id": "image120",
                 "image_type": "REAL",
                 "theme": "home setup",
-                "path": "merged_data/REAL/image120.jpg",
+                "path": "data/REAL/image120.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3479,7 +3479,7 @@
                 "image_id": "image01",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image01.jpg",
+                "path": "data/ANIMATED/image01.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3505,7 +3505,7 @@
                 "image_id": "image02",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image02.jpg",
+                "path": "data/ANIMATED/image02.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3533,7 +3533,7 @@
                 "image_id": "image03",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image03.jpg",
+                "path": "data/ANIMATED/image03.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3560,7 +3560,7 @@
                 "image_id": "image04",
                 "image_type": "ANIMATED",
                 "theme": "biking",
-                "path": "merged_data/ANIMATED/image04.jpg",
+                "path": "data/ANIMATED/image04.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3587,7 +3587,7 @@
                 "image_id": "image05",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image05.jpg",
+                "path": "data/ANIMATED/image05.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3614,7 +3614,7 @@
                 "image_id": "image06",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image06.jpg",
+                "path": "data/ANIMATED/image06.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3640,7 +3640,7 @@
                 "image_id": "image07",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image07.jpg",
+                "path": "data/ANIMATED/image07.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3667,7 +3667,7 @@
                 "image_id": "image08",
                 "image_type": "ANIMATED",
                 "theme": "meeting room",
-                "path": "merged_data/ANIMATED/image08.jpg",
+                "path": "data/ANIMATED/image08.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3695,7 +3695,7 @@
                 "image_id": "image09",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image09.jpg",
+                "path": "data/ANIMATED/image09.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3721,7 +3721,7 @@
                 "image_id": "image10",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image10.jpg",
+                "path": "data/ANIMATED/image10.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3750,7 +3750,7 @@
                 "image_id": "image11",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image11.jpg",
+                "path": "data/ANIMATED/image11.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3779,7 +3779,7 @@
                 "image_id": "image12",
                 "image_type": "ANIMATED",
                 "theme": "gardening",
-                "path": "merged_data/ANIMATED/image12.jpg",
+                "path": "data/ANIMATED/image12.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3808,7 +3808,7 @@
                 "image_id": "image13",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image13.jpg",
+                "path": "data/ANIMATED/image13.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3837,7 +3837,7 @@
                 "image_id": "image14",
                 "image_type": "ANIMATED",
                 "theme": "salon",
-                "path": "merged_data/ANIMATED/image14.jpg",
+                "path": "data/ANIMATED/image14.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3866,7 +3866,7 @@
                 "image_id": "image15",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image15.jpg",
+                "path": "data/ANIMATED/image15.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3895,7 +3895,7 @@
                 "image_id": "image16",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image16.jpg",
+                "path": "data/ANIMATED/image16.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3924,7 +3924,7 @@
                 "image_id": "image17",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image17.jpg",
+                "path": "data/ANIMATED/image17.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3953,7 +3953,7 @@
                 "image_id": "image18",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image18.jpg",
+                "path": "data/ANIMATED/image18.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -3982,7 +3982,7 @@
                 "image_id": "image19",
                 "image_type": "ANIMATED",
                 "theme": "gym",
-                "path": "merged_data/ANIMATED/image19.jpg",
+                "path": "data/ANIMATED/image19.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4011,7 +4011,7 @@
                 "image_id": "image20",
                 "image_type": "ANIMATED",
                 "theme": "meeting room",
-                "path": "merged_data/ANIMATED/image20.jpg",
+                "path": "data/ANIMATED/image20.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4040,7 +4040,7 @@
                 "image_id": "image21",
                 "image_type": "ANIMATED",
                 "theme": "wardrobe",
-                "path": "merged_data/ANIMATED/image21.jpg",
+                "path": "data/ANIMATED/image21.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4069,7 +4069,7 @@
                 "image_id": "image22",
                 "image_type": "ANIMATED",
                 "theme": "wardrobe",
-                "path": "merged_data/ANIMATED/image22.jpg",
+                "path": "data/ANIMATED/image22.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4098,7 +4098,7 @@
                 "image_id": "image23",
                 "image_type": "ANIMATED",
                 "theme": "wardrobe",
-                "path": "merged_data/ANIMATED/image23.jpg",
+                "path": "data/ANIMATED/image23.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4127,7 +4127,7 @@
                 "image_id": "image24",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image24.jpg",
+                "path": "data/ANIMATED/image24.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4156,7 +4156,7 @@
                 "image_id": "image25",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image25.jpg",
+                "path": "data/ANIMATED/image25.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4185,7 +4185,7 @@
                 "image_id": "image26",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image26.jpg",
+                "path": "data/ANIMATED/image26.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4214,7 +4214,7 @@
                 "image_id": "image27",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image27.jpg",
+                "path": "data/ANIMATED/image27.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4243,7 +4243,7 @@
                 "image_id": "image28",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image28.jpg",
+                "path": "data/ANIMATED/image28.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4272,7 +4272,7 @@
                 "image_id": "image29",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image29.jpg",
+                "path": "data/ANIMATED/image29.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4301,7 +4301,7 @@
                 "image_id": "image30",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image30.jpg",
+                "path": "data/ANIMATED/image30.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4330,7 +4330,7 @@
                 "image_id": "image31",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image31.jpg",
+                "path": "data/ANIMATED/image31.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4359,7 +4359,7 @@
                 "image_id": "image32",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image32.jpg",
+                "path": "data/ANIMATED/image32.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4388,7 +4388,7 @@
                 "image_id": "image33",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image33.jpg",
+                "path": "data/ANIMATED/image33.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4417,7 +4417,7 @@
                 "image_id": "image34",
                 "image_type": "ANIMATED",
                 "theme": "laboratory",
-                "path": "merged_data/ANIMATED/image34.jpg",
+                "path": "data/ANIMATED/image34.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4446,7 +4446,7 @@
                 "image_id": "image35",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image35.jpg",
+                "path": "data/ANIMATED/image35.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4475,7 +4475,7 @@
                 "image_id": "image36",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image36.jpg",
+                "path": "data/ANIMATED/image36.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4504,7 +4504,7 @@
                 "image_id": "image37",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image37.jpg",
+                "path": "data/ANIMATED/image37.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4533,7 +4533,7 @@
                 "image_id": "image38",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image38.jpg",
+                "path": "data/ANIMATED/image38.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4562,7 +4562,7 @@
                 "image_id": "image39",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image39.jpg",
+                "path": "data/ANIMATED/image39.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4591,7 +4591,7 @@
                 "image_id": "image40",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image40.jpg",
+                "path": "data/ANIMATED/image40.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4620,7 +4620,7 @@
                 "image_id": "image41",
                 "image_type": "ANIMATED",
                 "theme": "wardrobe",
-                "path": "merged_data/ANIMATED/image41.jpg",
+                "path": "data/ANIMATED/image41.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4649,7 +4649,7 @@
                 "image_id": "image42",
                 "image_type": "ANIMATED",
                 "theme": "market",
-                "path": "merged_data/ANIMATED/image42.jpg",
+                "path": "data/ANIMATED/image42.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4678,7 +4678,7 @@
                 "image_id": "image43",
                 "image_type": "ANIMATED",
                 "theme": "salon",
-                "path": "merged_data/ANIMATED/image43.jpg",
+                "path": "data/ANIMATED/image43.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4707,7 +4707,7 @@
                 "image_id": "image44",
                 "image_type": "ANIMATED",
                 "theme": "salon",
-                "path": "merged_data/ANIMATED/image44.jpg",
+                "path": "data/ANIMATED/image44.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4736,7 +4736,7 @@
                 "image_id": "image45",
                 "image_type": "ANIMATED",
                 "theme": "salon",
-                "path": "merged_data/ANIMATED/image45.jpg",
+                "path": "data/ANIMATED/image45.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4765,7 +4765,7 @@
                 "image_id": "image46",
                 "image_type": "ANIMATED",
                 "theme": "salon",
-                "path": "merged_data/ANIMATED/image46.jpg",
+                "path": "data/ANIMATED/image46.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4794,7 +4794,7 @@
                 "image_id": "image47",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image47.jpg",
+                "path": "data/ANIMATED/image47.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4823,7 +4823,7 @@
                 "image_id": "image48",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image48.jpg",
+                "path": "data/ANIMATED/image48.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4852,7 +4852,7 @@
                 "image_id": "image49",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image49.jpg",
+                "path": "data/ANIMATED/image49.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4881,7 +4881,7 @@
                 "image_id": "image50",
                 "image_type": "ANIMATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/ANIMATED/image50.jpg",
+                "path": "data/ANIMATED/image50.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4910,7 +4910,7 @@
                 "image_id": "image51",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image51.jpg",
+                "path": "data/ANIMATED/image51.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4939,7 +4939,7 @@
                 "image_id": "image52",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image52.jpg",
+                "path": "data/ANIMATED/image52.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4968,7 +4968,7 @@
                 "image_id": "image53",
                 "image_type": "ANIMATED",
                 "theme": "biking",
-                "path": "merged_data/ANIMATED/image53.jpg",
+                "path": "data/ANIMATED/image53.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -4997,7 +4997,7 @@
                 "image_id": "image54",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image54.jpg",
+                "path": "data/ANIMATED/image54.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5026,7 +5026,7 @@
                 "image_id": "image55",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image55.jpg",
+                "path": "data/ANIMATED/image55.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5055,7 +5055,7 @@
                 "image_id": "image56",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image56.jpg",
+                "path": "data/ANIMATED/image56.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5084,7 +5084,7 @@
                 "image_id": "image57",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image57.jpg",
+                "path": "data/ANIMATED/image57.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5113,7 +5113,7 @@
                 "image_id": "image58",
                 "image_type": "ANIMATED",
                 "theme": "construction",
-                "path": "merged_data/ANIMATED/image58.jpg",
+                "path": "data/ANIMATED/image58.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5142,7 +5142,7 @@
                 "image_id": "image59",
                 "image_type": "ANIMATED",
                 "theme": "construction",
-                "path": "merged_data/ANIMATED/image59.jpg",
+                "path": "data/ANIMATED/image59.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5171,7 +5171,7 @@
                 "image_id": "image60",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image60.jpg",
+                "path": "data/ANIMATED/image60.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5200,7 +5200,7 @@
                 "image_id": "image61",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image61.jpg",
+                "path": "data/ANIMATED/image61.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5229,7 +5229,7 @@
                 "image_id": "image62",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image62.jpg",
+                "path": "data/ANIMATED/image62.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5258,7 +5258,7 @@
                 "image_id": "image63",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image63.jpg",
+                "path": "data/ANIMATED/image63.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5287,7 +5287,7 @@
                 "image_id": "image64",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image64.jpg",
+                "path": "data/ANIMATED/image64.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5316,7 +5316,7 @@
                 "image_id": "image65",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image65.jpg",
+                "path": "data/ANIMATED/image65.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5345,7 +5345,7 @@
                 "image_id": "image66",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image66.jpg",
+                "path": "data/ANIMATED/image66.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5374,7 +5374,7 @@
                 "image_id": "image67",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image67.jpg",
+                "path": "data/ANIMATED/image67.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5403,7 +5403,7 @@
                 "image_id": "image68",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image68.jpg",
+                "path": "data/ANIMATED/image68.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5432,7 +5432,7 @@
                 "image_id": "image69",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image69.jpg",
+                "path": "data/ANIMATED/image69.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5461,7 +5461,7 @@
                 "image_id": "image70",
                 "image_type": "ANIMATED",
                 "theme": "farm",
-                "path": "merged_data/ANIMATED/image70.jpg",
+                "path": "data/ANIMATED/image70.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5490,7 +5490,7 @@
                 "image_id": "image71",
                 "image_type": "ANIMATED",
                 "theme": "farm",
-                "path": "merged_data/ANIMATED/image71.jpg",
+                "path": "data/ANIMATED/image71.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5519,7 +5519,7 @@
                 "image_id": "image72",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image72.jpg",
+                "path": "data/ANIMATED/image72.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5548,7 +5548,7 @@
                 "image_id": "image73",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image73.jpg",
+                "path": "data/ANIMATED/image73.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5577,7 +5577,7 @@
                 "image_id": "image74",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image74.jpg",
+                "path": "data/ANIMATED/image74.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5606,7 +5606,7 @@
                 "image_id": "image75",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image75.jpg",
+                "path": "data/ANIMATED/image75.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5635,7 +5635,7 @@
                 "image_id": "image76",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image76.jpg",
+                "path": "data/ANIMATED/image76.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5664,7 +5664,7 @@
                 "image_id": "image77",
                 "image_type": "ANIMATED",
                 "theme": "tools",
-                "path": "merged_data/ANIMATED/image77.jpg",
+                "path": "data/ANIMATED/image77.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5693,7 +5693,7 @@
                 "image_id": "image78",
                 "image_type": "ANIMATED",
                 "theme": "tools",
-                "path": "merged_data/ANIMATED/image78.jpg",
+                "path": "data/ANIMATED/image78.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5722,7 +5722,7 @@
                 "image_id": "image79",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image79.jpg",
+                "path": "data/ANIMATED/image79.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5751,7 +5751,7 @@
                 "image_id": "image80",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image80.jpg",
+                "path": "data/ANIMATED/image80.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5780,7 +5780,7 @@
                 "image_id": "image81",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image81.jpg",
+                "path": "data/ANIMATED/image81.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5809,7 +5809,7 @@
                 "image_id": "image82",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image82.jpg",
+                "path": "data/ANIMATED/image82.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5838,7 +5838,7 @@
                 "image_id": "image83",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image83.jpg",
+                "path": "data/ANIMATED/image83.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5867,7 +5867,7 @@
                 "image_id": "image84",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image84.jpg",
+                "path": "data/ANIMATED/image84.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5896,7 +5896,7 @@
                 "image_id": "image85",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image85.jpg",
+                "path": "data/ANIMATED/image85.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5925,7 +5925,7 @@
                 "image_id": "image86",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image86.jpg",
+                "path": "data/ANIMATED/image86.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5954,7 +5954,7 @@
                 "image_id": "image87",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image87.jpg",
+                "path": "data/ANIMATED/image87.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -5983,7 +5983,7 @@
                 "image_id": "image88",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image88.jpg",
+                "path": "data/ANIMATED/image88.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6012,7 +6012,7 @@
                 "image_id": "image89",
                 "image_type": "ANIMATED",
                 "theme": "laboratory",
-                "path": "merged_data/ANIMATED/image89.jpg",
+                "path": "data/ANIMATED/image89.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6041,7 +6041,7 @@
                 "image_id": "image90",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image90.jpg",
+                "path": "data/ANIMATED/image90.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6070,7 +6070,7 @@
                 "image_id": "image91",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image91.jpg",
+                "path": "data/ANIMATED/image91.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6099,7 +6099,7 @@
                 "image_id": "image92",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image92.jpg",
+                "path": "data/ANIMATED/image92.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6128,7 +6128,7 @@
                 "image_id": "image93",
                 "image_type": "ANIMATED",
                 "theme": "bedroom",
-                "path": "merged_data/ANIMATED/image93.jpg",
+                "path": "data/ANIMATED/image93.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6157,7 +6157,7 @@
                 "image_id": "image94",
                 "image_type": "ANIMATED",
                 "theme": "home setup",
-                "path": "merged_data/ANIMATED/image94.jpg",
+                "path": "data/ANIMATED/image94.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6186,7 +6186,7 @@
                 "image_id": "image95",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image95.jpg",
+                "path": "data/ANIMATED/image95.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6215,7 +6215,7 @@
                 "image_id": "image96",
                 "image_type": "ANIMATED",
                 "theme": "meeting room",
-                "path": "merged_data/ANIMATED/image96.jpg",
+                "path": "data/ANIMATED/image96.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6244,7 +6244,7 @@
                 "image_id": "image97",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image97.jpg",
+                "path": "data/ANIMATED/image97.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6273,7 +6273,7 @@
                 "image_id": "image98",
                 "image_type": "ANIMATED",
                 "theme": "laboratory",
-                "path": "merged_data/ANIMATED/image98.jpg",
+                "path": "data/ANIMATED/image98.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6302,7 +6302,7 @@
                 "image_id": "image99",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image99.jpg",
+                "path": "data/ANIMATED/image99.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6331,7 +6331,7 @@
                 "image_id": "image100",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image100.jpg",
+                "path": "data/ANIMATED/image100.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6360,7 +6360,7 @@
                 "image_id": "image101",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image101.jpg",
+                "path": "data/ANIMATED/image101.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6389,7 +6389,7 @@
                 "image_id": "image102",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image102.jpg",
+                "path": "data/ANIMATED/image102.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6418,7 +6418,7 @@
                 "image_id": "image103",
                 "image_type": "ANIMATED",
                 "theme": "classroom",
-                "path": "merged_data/ANIMATED/image103.jpg",
+                "path": "data/ANIMATED/image103.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6447,7 +6447,7 @@
                 "image_id": "image104",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image104.jpg",
+                "path": "data/ANIMATED/image104.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6476,7 +6476,7 @@
                 "image_id": "image105",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image105.jpg",
+                "path": "data/ANIMATED/image105.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6505,7 +6505,7 @@
                 "image_id": "image106",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image106.jpg",
+                "path": "data/ANIMATED/image106.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6534,7 +6534,7 @@
                 "image_id": "image107",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image107.jpg",
+                "path": "data/ANIMATED/image107.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6561,7 +6561,7 @@
                 "image_id": "image108",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image108.jpg",
+                "path": "data/ANIMATED/image108.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6588,7 +6588,7 @@
                 "image_id": "image109",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image109.jpg",
+                "path": "data/ANIMATED/image109.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6615,7 +6615,7 @@
                 "image_id": "image110",
                 "image_type": "ANIMATED",
                 "theme": "garage",
-                "path": "merged_data/ANIMATED/image110.jpg",
+                "path": "data/ANIMATED/image110.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6641,7 +6641,7 @@
                 "image_id": "image111",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image111.jpg",
+                "path": "data/ANIMATED/image111.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6667,7 +6667,7 @@
                 "image_id": "image112",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image112.jpg",
+                "path": "data/ANIMATED/image112.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6694,7 +6694,7 @@
                 "image_id": "image113",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image113.jpg",
+                "path": "data/ANIMATED/image113.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6722,7 +6722,7 @@
                 "image_id": "image114",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image114.jpg",
+                "path": "data/ANIMATED/image114.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6749,7 +6749,7 @@
                 "image_id": "image115",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image115.jpg",
+                "path": "data/ANIMATED/image115.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6777,7 +6777,7 @@
                 "image_id": "image116",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image116.jpg",
+                "path": "data/ANIMATED/image116.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6806,7 +6806,7 @@
                 "image_id": "image117",
                 "image_type": "ANIMATED",
                 "theme": "park",
-                "path": "merged_data/ANIMATED/image117.jpg",
+                "path": "data/ANIMATED/image117.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6834,7 +6834,7 @@
                 "image_id": "image118",
                 "image_type": "ANIMATED",
                 "theme": "kitchen",
-                "path": "merged_data/ANIMATED/image118.jpg",
+                "path": "data/ANIMATED/image118.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6862,7 +6862,7 @@
                 "image_id": "image119",
                 "image_type": "ANIMATED",
                 "theme": "urban",
-                "path": "merged_data/ANIMATED/image119.jpg",
+                "path": "data/ANIMATED/image119.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6890,7 +6890,7 @@
                 "image_id": "image120",
                 "image_type": "ANIMATED",
                 "theme": "zoo",
-                "path": "merged_data/ANIMATED/image120.jpg",
+                "path": "data/ANIMATED/image120.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6917,7 +6917,7 @@
                 "image_id": "image01",
                 "image_type": "AI_GENERATED",
                 "theme": "driveway",
-                "path": "merged_data/AI_GENERATED/image01.jpg",
+                "path": "data/AI_GENERATED/image01.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6944,7 +6944,7 @@
                 "image_id": "image02",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image02.jpg",
+                "path": "data/AI_GENERATED/image02.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6971,7 +6971,7 @@
                 "image_id": "image03",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image03.jpg",
+                "path": "data/AI_GENERATED/image03.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -6997,7 +6997,7 @@
                 "image_id": "image04",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image04.jpg",
+                "path": "data/AI_GENERATED/image04.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7025,7 +7025,7 @@
                 "image_id": "image05",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image05.jpg",
+                "path": "data/AI_GENERATED/image05.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7051,7 +7051,7 @@
                 "image_id": "image06",
                 "image_type": "AI_GENERATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/AI_GENERATED/image06.jpg",
+                "path": "data/AI_GENERATED/image06.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7078,7 +7078,7 @@
                 "image_id": "image07",
                 "image_type": "AI_GENERATED",
                 "theme": "camping",
-                "path": "merged_data/AI_GENERATED/image07.jpg",
+                "path": "data/AI_GENERATED/image07.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7107,7 +7107,7 @@
                 "image_id": "image08",
                 "image_type": "AI_GENERATED",
                 "theme": "gym",
-                "path": "merged_data/AI_GENERATED/image08.jpg",
+                "path": "data/AI_GENERATED/image08.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7136,7 +7136,7 @@
                 "image_id": "image09",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image09.jpg",
+                "path": "data/AI_GENERATED/image09.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7165,7 +7165,7 @@
                 "image_id": "image10",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image10.jpg",
+                "path": "data/AI_GENERATED/image10.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7194,7 +7194,7 @@
                 "image_id": "image11",
                 "image_type": "AI_GENERATED",
                 "theme": "bedroom",
-                "path": "merged_data/AI_GENERATED/image11.jpg",
+                "path": "data/AI_GENERATED/image11.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7222,7 +7222,7 @@
                 "image_id": "image12",
                 "image_type": "AI_GENERATED",
                 "theme": "classroom",
-                "path": "merged_data/AI_GENERATED/image12.jpg",
+                "path": "data/AI_GENERATED/image12.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7249,7 +7249,7 @@
                 "image_id": "image13",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image13.jpg",
+                "path": "data/AI_GENERATED/image13.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7278,7 +7278,7 @@
                 "image_id": "image14",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image14.jpg",
+                "path": "data/AI_GENERATED/image14.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7304,7 +7304,7 @@
                 "image_id": "image15",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image15.jpg",
+                "path": "data/AI_GENERATED/image15.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7332,7 +7332,7 @@
                 "image_id": "image16",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image16.jpg",
+                "path": "data/AI_GENERATED/image16.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7360,7 +7360,7 @@
                 "image_id": "image17",
                 "image_type": "AI_GENERATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/AI_GENERATED/image17.jpg",
+                "path": "data/AI_GENERATED/image17.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7388,7 +7388,7 @@
                 "image_id": "image18",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image18.jpg",
+                "path": "data/AI_GENERATED/image18.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7416,7 +7416,7 @@
                 "image_id": "image19",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image19.jpg",
+                "path": "data/AI_GENERATED/image19.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7444,7 +7444,7 @@
                 "image_id": "image20",
                 "image_type": "AI_GENERATED",
                 "theme": "biking",
-                "path": "merged_data/AI_GENERATED/image20.jpg",
+                "path": "data/AI_GENERATED/image20.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7471,7 +7471,7 @@
                 "image_id": "image21",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image21.jpg",
+                "path": "data/AI_GENERATED/image21.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7499,7 +7499,7 @@
                 "image_id": "image22",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image22.jpg",
+                "path": "data/AI_GENERATED/image22.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7528,7 +7528,7 @@
                 "image_id": "image23",
                 "image_type": "AI_GENERATED",
                 "theme": "biking",
-                "path": "merged_data/AI_GENERATED/image23.jpg",
+                "path": "data/AI_GENERATED/image23.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7557,7 +7557,7 @@
                 "image_id": "image24",
                 "image_type": "AI_GENERATED",
                 "theme": "laboratory",
-                "path": "merged_data/AI_GENERATED/image24.jpg",
+                "path": "data/AI_GENERATED/image24.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7583,7 +7583,7 @@
                 "image_id": "image25",
                 "image_type": "AI_GENERATED",
                 "theme": "laboratory",
-                "path": "merged_data/AI_GENERATED/image25.jpg",
+                "path": "data/AI_GENERATED/image25.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7610,7 +7610,7 @@
                 "image_id": "image26",
                 "image_type": "AI_GENERATED",
                 "theme": "classroom",
-                "path": "merged_data/AI_GENERATED/image26.jpg",
+                "path": "data/AI_GENERATED/image26.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7639,7 +7639,7 @@
                 "image_id": "image27",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image27.jpg",
+                "path": "data/AI_GENERATED/image27.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7667,7 +7667,7 @@
                 "image_id": "image28",
                 "image_type": "AI_GENERATED",
                 "theme": "market",
-                "path": "merged_data/AI_GENERATED/image28.jpg",
+                "path": "data/AI_GENERATED/image28.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7693,7 +7693,7 @@
                 "image_id": "image29",
                 "image_type": "AI_GENERATED",
                 "theme": "tools",
-                "path": "merged_data/AI_GENERATED/image29.jpg",
+                "path": "data/AI_GENERATED/image29.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7721,7 +7721,7 @@
                 "image_id": "image30",
                 "image_type": "AI_GENERATED",
                 "theme": "tools",
-                "path": "merged_data/AI_GENERATED/image30.jpg",
+                "path": "data/AI_GENERATED/image30.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7749,7 +7749,7 @@
                 "image_id": "image31",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image31.jpg",
+                "path": "data/AI_GENERATED/image31.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7777,7 +7777,7 @@
                 "image_id": "image32",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image32.jpg",
+                "path": "data/AI_GENERATED/image32.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7804,7 +7804,7 @@
                 "image_id": "image33",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image33.jpg",
+                "path": "data/AI_GENERATED/image33.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7831,7 +7831,7 @@
                 "image_id": "image34",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image34.jpg",
+                "path": "data/AI_GENERATED/image34.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7858,7 +7858,7 @@
                 "image_id": "image35",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image35.jpg",
+                "path": "data/AI_GENERATED/image35.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7887,7 +7887,7 @@
                 "image_id": "image36",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image36.jpg",
+                "path": "data/AI_GENERATED/image36.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7916,7 +7916,7 @@
                 "image_id": "image37",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image37.jpg",
+                "path": "data/AI_GENERATED/image37.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7944,7 +7944,7 @@
                 "image_id": "image38",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image38.jpg",
+                "path": "data/AI_GENERATED/image38.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -7973,7 +7973,7 @@
                 "image_id": "image39",
                 "image_type": "AI_GENERATED",
                 "theme": "laboratory",
-                "path": "merged_data/AI_GENERATED/image39.jpg",
+                "path": "data/AI_GENERATED/image39.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8002,7 +8002,7 @@
                 "image_id": "image40",
                 "image_type": "AI_GENERATED",
                 "theme": "bedroom",
-                "path": "merged_data/AI_GENERATED/image40.jpg",
+                "path": "data/AI_GENERATED/image40.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8031,7 +8031,7 @@
                 "image_id": "image41",
                 "image_type": "AI_GENERATED",
                 "theme": "bedroom",
-                "path": "merged_data/AI_GENERATED/image41.jpg",
+                "path": "data/AI_GENERATED/image41.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8060,7 +8060,7 @@
                 "image_id": "image42",
                 "image_type": "AI_GENERATED",
                 "theme": "bedroom",
-                "path": "merged_data/AI_GENERATED/image42.jpg",
+                "path": "data/AI_GENERATED/image42.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8088,7 +8088,7 @@
                 "image_id": "image43",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image43.jpg",
+                "path": "data/AI_GENERATED/image43.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8117,7 +8117,7 @@
                 "image_id": "image44",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image44.jpg",
+                "path": "data/AI_GENERATED/image44.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8146,7 +8146,7 @@
                 "image_id": "image45",
                 "image_type": "AI_GENERATED",
                 "theme": "zoo",
-                "path": "merged_data/AI_GENERATED/image45.jpg",
+                "path": "data/AI_GENERATED/image45.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8175,7 +8175,7 @@
                 "image_id": "image46",
                 "image_type": "AI_GENERATED",
                 "theme": "zoo",
-                "path": "merged_data/AI_GENERATED/image46.jpg",
+                "path": "data/AI_GENERATED/image46.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8204,7 +8204,7 @@
                 "image_id": "image47",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image47.jpg",
+                "path": "data/AI_GENERATED/image47.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8232,7 +8232,7 @@
                 "image_id": "image48",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image48.jpg",
+                "path": "data/AI_GENERATED/image48.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8261,7 +8261,7 @@
                 "image_id": "image49",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image49.jpg",
+                "path": "data/AI_GENERATED/image49.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8290,7 +8290,7 @@
                 "image_id": "image50",
                 "image_type": "AI_GENERATED",
                 "theme": "camping",
-                "path": "merged_data/AI_GENERATED/image50.jpg",
+                "path": "data/AI_GENERATED/image50.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8318,7 +8318,7 @@
                 "image_id": "image51",
                 "image_type": "AI_GENERATED",
                 "theme": "gym",
-                "path": "merged_data/AI_GENERATED/image51.jpg",
+                "path": "data/AI_GENERATED/image51.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8346,7 +8346,7 @@
                 "image_id": "image52",
                 "image_type": "AI_GENERATED",
                 "theme": "beach cleanup",
-                "path": "merged_data/AI_GENERATED/image52.jpg",
+                "path": "data/AI_GENERATED/image52.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8374,7 +8374,7 @@
                 "image_id": "image53",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image53.jpg",
+                "path": "data/AI_GENERATED/image53.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8401,7 +8401,7 @@
                 "image_id": "image54",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image54.jpg",
+                "path": "data/AI_GENERATED/image54.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8430,7 +8430,7 @@
                 "image_id": "image55",
                 "image_type": "AI_GENERATED",
                 "theme": "classroom",
-                "path": "merged_data/AI_GENERATED/image55.jpg",
+                "path": "data/AI_GENERATED/image55.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8459,7 +8459,7 @@
                 "image_id": "image56",
                 "image_type": "AI_GENERATED",
                 "theme": "classroom",
-                "path": "merged_data/AI_GENERATED/image56.jpg",
+                "path": "data/AI_GENERATED/image56.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8487,7 +8487,7 @@
                 "image_id": "image57",
                 "image_type": "AI_GENERATED",
                 "theme": "classroom",
-                "path": "merged_data/AI_GENERATED/image57.jpg",
+                "path": "data/AI_GENERATED/image57.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8516,7 +8516,7 @@
                 "image_id": "image58",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image58.jpg",
+                "path": "data/AI_GENERATED/image58.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8544,7 +8544,7 @@
                 "image_id": "image59",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image59.jpg",
+                "path": "data/AI_GENERATED/image59.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8573,7 +8573,7 @@
                 "image_id": "image60",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image60.jpg",
+                "path": "data/AI_GENERATED/image60.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8602,7 +8602,7 @@
                 "image_id": "image61",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image61.jpg",
+                "path": "data/AI_GENERATED/image61.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8631,7 +8631,7 @@
                 "image_id": "image62",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image62.jpg",
+                "path": "data/AI_GENERATED/image62.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8660,7 +8660,7 @@
                 "image_id": "image63",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image63.jpg",
+                "path": "data/AI_GENERATED/image63.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8689,7 +8689,7 @@
                 "image_id": "image64",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image64.jpg",
+                "path": "data/AI_GENERATED/image64.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8718,7 +8718,7 @@
                 "image_id": "image65",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image65.jpg",
+                "path": "data/AI_GENERATED/image65.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8747,7 +8747,7 @@
                 "image_id": "image66",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image66.jpg",
+                "path": "data/AI_GENERATED/image66.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8776,7 +8776,7 @@
                 "image_id": "image67",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image67.jpg",
+                "path": "data/AI_GENERATED/image67.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8805,7 +8805,7 @@
                 "image_id": "image68",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image68.jpg",
+                "path": "data/AI_GENERATED/image68.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8834,7 +8834,7 @@
                 "image_id": "image69",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image69.jpg",
+                "path": "data/AI_GENERATED/image69.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8863,7 +8863,7 @@
                 "image_id": "image70",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image70.jpg",
+                "path": "data/AI_GENERATED/image70.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8892,7 +8892,7 @@
                 "image_id": "image71",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image71.jpg",
+                "path": "data/AI_GENERATED/image71.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8921,7 +8921,7 @@
                 "image_id": "image72",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image72.jpg",
+                "path": "data/AI_GENERATED/image72.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8950,7 +8950,7 @@
                 "image_id": "image73",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image73.jpg",
+                "path": "data/AI_GENERATED/image73.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -8979,7 +8979,7 @@
                 "image_id": "image74",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image74.jpg",
+                "path": "data/AI_GENERATED/image74.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9008,7 +9008,7 @@
                 "image_id": "image75",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image75.jpg",
+                "path": "data/AI_GENERATED/image75.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9037,7 +9037,7 @@
                 "image_id": "image76",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image76.jpg",
+                "path": "data/AI_GENERATED/image76.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9066,7 +9066,7 @@
                 "image_id": "image77",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image77.jpg",
+                "path": "data/AI_GENERATED/image77.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9095,7 +9095,7 @@
                 "image_id": "image78",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image78.jpg",
+                "path": "data/AI_GENERATED/image78.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9124,7 +9124,7 @@
                 "image_id": "image79",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image79.jpg",
+                "path": "data/AI_GENERATED/image79.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9153,7 +9153,7 @@
                 "image_id": "image80",
                 "image_type": "AI_GENERATED",
                 "theme": "farm",
-                "path": "merged_data/AI_GENERATED/image80.jpg",
+                "path": "data/AI_GENERATED/image80.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9182,7 +9182,7 @@
                 "image_id": "image81",
                 "image_type": "AI_GENERATED",
                 "theme": "camping",
-                "path": "merged_data/AI_GENERATED/image81.jpg",
+                "path": "data/AI_GENERATED/image81.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9211,7 +9211,7 @@
                 "image_id": "image82",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image82.jpg",
+                "path": "data/AI_GENERATED/image82.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9240,7 +9240,7 @@
                 "image_id": "image83",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image83.jpg",
+                "path": "data/AI_GENERATED/image83.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9269,7 +9269,7 @@
                 "image_id": "image84",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image84.jpg",
+                "path": "data/AI_GENERATED/image84.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9298,7 +9298,7 @@
                 "image_id": "image85",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image85.jpg",
+                "path": "data/AI_GENERATED/image85.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9327,7 +9327,7 @@
                 "image_id": "image86",
                 "image_type": "AI_GENERATED",
                 "theme": "zoo",
-                "path": "merged_data/AI_GENERATED/image86.jpg",
+                "path": "data/AI_GENERATED/image86.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9356,7 +9356,7 @@
                 "image_id": "image87",
                 "image_type": "AI_GENERATED",
                 "theme": "zoo",
-                "path": "merged_data/AI_GENERATED/image87.jpg",
+                "path": "data/AI_GENERATED/image87.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9385,7 +9385,7 @@
                 "image_id": "image88",
                 "image_type": "AI_GENERATED",
                 "theme": "bustop",
-                "path": "merged_data/AI_GENERATED/image88.jpg",
+                "path": "data/AI_GENERATED/image88.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9414,7 +9414,7 @@
                 "image_id": "image89",
                 "image_type": "AI_GENERATED",
                 "theme": "bustop",
-                "path": "merged_data/AI_GENERATED/image89.jpg",
+                "path": "data/AI_GENERATED/image89.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9443,7 +9443,7 @@
                 "image_id": "image90",
                 "image_type": "AI_GENERATED",
                 "theme": "bustop",
-                "path": "merged_data/AI_GENERATED/image90.jpg",
+                "path": "data/AI_GENERATED/image90.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9472,7 +9472,7 @@
                 "image_id": "image91",
                 "image_type": "AI_GENERATED",
                 "theme": "driveway",
-                "path": "merged_data/AI_GENERATED/image91.jpg",
+                "path": "data/AI_GENERATED/image91.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9501,7 +9501,7 @@
                 "image_id": "image92",
                 "image_type": "AI_GENERATED",
                 "theme": "driveway",
-                "path": "merged_data/AI_GENERATED/image92.jpg",
+                "path": "data/AI_GENERATED/image92.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9530,7 +9530,7 @@
                 "image_id": "image93",
                 "image_type": "AI_GENERATED",
                 "theme": "driveway",
-                "path": "merged_data/AI_GENERATED/image93.jpg",
+                "path": "data/AI_GENERATED/image93.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9559,7 +9559,7 @@
                 "image_id": "image94",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image94.jpg",
+                "path": "data/AI_GENERATED/image94.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9588,7 +9588,7 @@
                 "image_id": "image95",
                 "image_type": "AI_GENERATED",
                 "theme": "library",
-                "path": "merged_data/AI_GENERATED/image95.jpg",
+                "path": "data/AI_GENERATED/image95.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9617,7 +9617,7 @@
                 "image_id": "image96",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image96.jpg",
+                "path": "data/AI_GENERATED/image96.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9646,7 +9646,7 @@
                 "image_id": "image97",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image97.jpg",
+                "path": "data/AI_GENERATED/image97.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9675,7 +9675,7 @@
                 "image_id": "image98",
                 "image_type": "AI_GENERATED",
                 "theme": "picnic",
-                "path": "merged_data/AI_GENERATED/image98.jpg",
+                "path": "data/AI_GENERATED/image98.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9704,7 +9704,7 @@
                 "image_id": "image99",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image99.jpg",
+                "path": "data/AI_GENERATED/image99.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9733,7 +9733,7 @@
                 "image_id": "image100",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image100.jpg",
+                "path": "data/AI_GENERATED/image100.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9762,7 +9762,7 @@
                 "image_id": "image101",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image101.jpg",
+                "path": "data/AI_GENERATED/image101.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9791,7 +9791,7 @@
                 "image_id": "image102",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image102.jpg",
+                "path": "data/AI_GENERATED/image102.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9820,7 +9820,7 @@
                 "image_id": "image103",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image103.jpg",
+                "path": "data/AI_GENERATED/image103.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9849,7 +9849,7 @@
                 "image_id": "image104",
                 "image_type": "AI_GENERATED",
                 "theme": "market",
-                "path": "merged_data/AI_GENERATED/image104.jpg",
+                "path": "data/AI_GENERATED/image104.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9878,7 +9878,7 @@
                 "image_id": "image105",
                 "image_type": "AI_GENERATED",
                 "theme": "market",
-                "path": "merged_data/AI_GENERATED/image105.jpg",
+                "path": "data/AI_GENERATED/image105.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9907,7 +9907,7 @@
                 "image_id": "image106",
                 "image_type": "AI_GENERATED",
                 "theme": "market",
-                "path": "merged_data/AI_GENERATED/image106.jpg",
+                "path": "data/AI_GENERATED/image106.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9936,7 +9936,7 @@
                 "image_id": "image107",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image107.jpg",
+                "path": "data/AI_GENERATED/image107.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9965,7 +9965,7 @@
                 "image_id": "image108",
                 "image_type": "AI_GENERATED",
                 "theme": "construction",
-                "path": "merged_data/AI_GENERATED/image108.jpg",
+                "path": "data/AI_GENERATED/image108.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -9994,7 +9994,7 @@
                 "image_id": "image109",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image109.jpg",
+                "path": "data/AI_GENERATED/image109.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10023,7 +10023,7 @@
                 "image_id": "image110",
                 "image_type": "AI_GENERATED",
                 "theme": "biking",
-                "path": "merged_data/AI_GENERATED/image110.jpg",
+                "path": "data/AI_GENERATED/image110.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10052,7 +10052,7 @@
                 "image_id": "image111",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image111.jpg",
+                "path": "data/AI_GENERATED/image111.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10081,7 +10081,7 @@
                 "image_id": "image112",
                 "image_type": "AI_GENERATED",
                 "theme": "garage",
-                "path": "merged_data/AI_GENERATED/image112.jpg",
+                "path": "data/AI_GENERATED/image112.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10110,7 +10110,7 @@
                 "image_id": "image113",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image113.jpg",
+                "path": "data/AI_GENERATED/image113.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10139,7 +10139,7 @@
                 "image_id": "image114",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image114.jpg",
+                "path": "data/AI_GENERATED/image114.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10168,7 +10168,7 @@
                 "image_id": "image115",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image115.jpg",
+                "path": "data/AI_GENERATED/image115.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10197,7 +10197,7 @@
                 "image_id": "image116",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image116.jpg",
+                "path": "data/AI_GENERATED/image116.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10226,7 +10226,7 @@
                 "image_id": "image117",
                 "image_type": "AI_GENERATED",
                 "theme": "home setup",
-                "path": "merged_data/AI_GENERATED/image117.jpg",
+                "path": "data/AI_GENERATED/image117.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10255,7 +10255,7 @@
                 "image_id": "image118",
                 "image_type": "AI_GENERATED",
                 "theme": "park",
-                "path": "merged_data/AI_GENERATED/image118.jpg",
+                "path": "data/AI_GENERATED/image118.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10284,7 +10284,7 @@
                 "image_id": "image119",
                 "image_type": "AI_GENERATED",
                 "theme": "tech",
-                "path": "merged_data/AI_GENERATED/image119.jpg",
+                "path": "data/AI_GENERATED/image119.jpg",
                 "questions": [
                     {
                         "id": "Q1",
@@ -10313,7 +10313,7 @@
                 "image_id": "image120",
                 "image_type": "AI_GENERATED",
                 "theme": "kitchen",
-                "path": "merged_data/AI_GENERATED/image120.jpg",
+                "path": "data/AI_GENERATED/image120.jpg",
                 "questions": [
                     {
                         "id": "Q1",
