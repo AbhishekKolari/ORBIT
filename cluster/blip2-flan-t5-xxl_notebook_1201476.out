@@ -1,7 +1,0 @@
-Starting at Tue Jul 29 00:10:38 CEST 2025
-Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-fuyu-blip2.ipynb
-Output Notebook: blip2-flan-t5-xxl_output.ipynb
-Executing:   0%|          | 0/16 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▋         | 1/16 [00:01<00:23,  1.55s/cell]Executing:  19%|█▉        | 3/16 [00:03<00:13,  1.06s/cell]Executing:  25%|██▌       | 4/16 [00:06<00:23,  1.92s/cell]Executing:  56%|█████▋    | 9/16 [00:06<00:03,  1.75cell/s]Executing:  88%|████████▊ | 14/16 [00:19<00:01,  1.75cell/s]Executing:  94%|█████████▍| 15/16 [04:27<00:24, 24.14s/cell]Executing: 100%|██████████| 16/16 [04:30<00:00, 16.91s/cell]
-Finished at Tue Jul 29 00:15:09 CEST 2025
-Total execution time: 0 hours 4 minutes and 31 seconds

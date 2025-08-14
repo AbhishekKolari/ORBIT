@@ -1,7 +1,0 @@
-Starting at Mon Jul 28 22:32:37 CEST 2025
-Input Notebook:  /var/scratch/ave303/OP_bench/opa-benchmark-fuyu-blip2.ipynb
-Output Notebook: fuyu-8b_output.ipynb
-Executing:   0%|          | 0/16 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   6%|▋         | 1/16 [00:01<00:24,  1.62s/cell]Executing:  19%|█▉        | 3/16 [00:03<00:14,  1.10s/cell]Executing:  25%|██▌       | 4/16 [00:07<00:23,  1.98s/cell]Executing:  56%|█████▋    | 9/16 [00:07<00:04,  1.71cell/s]Executing:  75%|███████▌  | 12/16 [00:19<00:02,  1.71cell/s]Executing:  81%|████████▏ | 13/16 [19:21<06:29, 129.77s/cell]Executing:  94%|█████████▍| 15/16 [19:21<01:38, 98.29s/cell] Executing: 100%|██████████| 16/16 [19:24<00:00, 72.81s/cell]
-Finished at Mon Jul 28 22:52:03 CEST 2025
-Total execution time: 0 hours 19 minutes and 26 seconds
