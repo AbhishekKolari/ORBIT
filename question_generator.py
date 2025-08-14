@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Simple closed-source question generator -> writes benchmark-style JSON.
+Question generator -> writes benchmark-style JSON.
 
-- No retries/backoff, no unit tests.
 - Provider selection: gpt4o (OpenAI), claude (Anthropic), gemini (Google Generative AI).
 - Uses environment variables: OPENAI_API_KEY, ANTHROPIC_API_KEY, GOOGLE_API_KEY.
-- Writes output JSON matching your benchmark structure (includes image_types, question_types, property_categories).
+- Writes output JSON matching benchmark structure (includes image_types, question_types, property_categories).
 """
 
 import os
@@ -15,7 +14,7 @@ import json
 import base64
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Tuple, Optional
 
 from PIL import Image
@@ -40,7 +39,7 @@ except Exception:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# ---------- Fixed benchmark fields (kept to match your schema) ----------
+# ---------- Fixed benchmark fields (kept to match benchmark schema) ----------
 BENCH_IMAGE_TYPES = ["REAL", "ANIMATED", "AI_GENERATED"]
 BENCH_QUESTION_TYPES = {
     "Q1": "direct_recognition",
@@ -113,7 +112,7 @@ def encode_image_data_uri(image_path: str) -> str:
     b64 = base64.b64encode(b).decode("utf-8")
     return f"data:image/jpeg;base64,{b64}"
 
-# ---------- Parse simple VLM output into (question,count,property,objects) ----------
+# ---------- Parse VLM output into (question,count,property,objects) ----------
 def parse_vlm_output(output: Optional[str]) -> List[Tuple[str,str,str,str]]:
     if not output:
         return []
@@ -142,7 +141,7 @@ def parse_vlm_output(output: Optional[str]) -> List[Tuple[str,str,str,str]]:
             logger.warning(f"Incomplete parse for line: {s}")
     return questions
 
-# ---------- Provider wrappers (simple, no retries) ----------
+# ---------- Provider wrappers ----------
 def openai_generate(image_path: str, prompt: str, model_id: str = "gpt-4o-mini-2024-07-18") -> str:
     if openai is None:
         raise RuntimeError("openai package not installed")
@@ -311,7 +310,7 @@ def generate_benchmark_json(model_choice: str, data_dir: str, output_json: str, 
             "images": result_images,
             "metadata": {
                 "generated_by": model_choice,
-                "generated_at": datetime.utcnow().isoformat(timespec='seconds') + "Z",
+                "generated_at": datetime.now(timezone.utc).isoformat(timespec='seconds'),
                 "num_images": len(result_images)
             }
         }
@@ -325,7 +324,7 @@ def generate_benchmark_json(model_choice: str, data_dir: str, output_json: str, 
 
 # ---------- CLI ----------
 def main():
-    parser = argparse.ArgumentParser(description="Closed-source question generator -> benchmark JSON (simple)")
+    parser = argparse.ArgumentParser(description="Question generator -> benchmark JSON")
     parser.add_argument('--model', required=True, choices=['gpt4o','claude','gemini'], help='Provider to use')
     parser.add_argument('--data_dir', required=True, help='Directory with images')
     parser.add_argument('--output_json', required=True, help='Output JSON path')
