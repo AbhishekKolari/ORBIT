@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import os
 import json
 
 from opensource import run_opensource
@@ -8,7 +7,7 @@ from closedsource import run_closedsource
 from utils import compute_metrics_from_results
 
 def main():
-    parser = argparse.ArgumentParser(description="VLM Benchmark runner (open & closed source)")
+    parser = argparse.ArgumentParser(description="ORBIT Benchmark runner (open & closed source)")
     parser.add_argument('--mode', choices=['opensource', 'closedsource'], required=True,
                         help='Choose "opensource" or "closedsource"')
     parser.add_argument('--model_name', type=str, required=True,
@@ -16,7 +15,7 @@ def main():
     parser.add_argument('--processor_path', type=str, default=None,
                         help='Processor path or HF repo id (for opensource). If omitted, model_name is used.')
     parser.add_argument('--benchmark_json', type=str, required=True, help='Path to benchmark.json')
-    parser.add_argument('--data_dir', type=str, required=True, help='Directory with images (paths in benchmark.json are relative to this)')
+    parser.add_argument('--data_dir', type=str, default=None, help='Optional root to prefix relative paths (if omitted use benchmark.json parent)')
     parser.add_argument('--output_file', type=str, required=True, help='Path to write results JSON')
     parser.add_argument('--batch_size', type=int, default=360, help='How many images to process (default=360)')
     parser.add_argument('--analyze', action='store_true', help='Compute analysis metrics on the saved results after run')
