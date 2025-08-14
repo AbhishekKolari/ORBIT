@@ -1,18 +1,10 @@
-# beautifulsoup4==4.12.3
-# inflect==7.0.0
 matplotlib==3.8.0
-# networkx==3.2.1
-# nltk==3.8.1
 numpy<2.0.0
 pandas==2.2.2
 Pillow==10.3.0
-Requests==2.32.3
-# scikit_learn==1.4.1.post1
+requests==2.32.3
 scipy==1.14.0
 sentence_transformers==2.6.1
-# SoundsLike==0.0.11
-# spacy==3.7.4
-# statsmodels==0.14.2
 tiktoken==0.7.0
 #  --extra-index-url https://download.pytorch.org/whl/cu118
 # --extra-index-url https://download.pytorch.org/whl/cu121
@@ -22,22 +14,18 @@ torchaudio==2.2.1
 tqdm==4.66.2
 transformers==4.51.1
 umap==0.1.1
-# wordcloud==1.9.3
-# wordfreq==3.1.1
 openai~=0.28.0
 seaborn~=0.13.2
-# scikit-learn~=1.4.1.post1
 replicate~=0.31.0
-# pysat~=3.2.0
 accelerate==0.33.0
 google-generativeai==0.7.2
 anthropic==0.63.0
-# python-sat==1.8.dev9
 ipykernel==6.29.5
 papermill==2.6.0
 bitsandbytes
-# flash-attn
 triton
 num2words
 einops
 timm
+python-dotenv==1.0.0       # helpful for .env loading (optional)
+typing-extensions>=4.5.0
