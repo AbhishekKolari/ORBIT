@@ -26,7 +26,7 @@ MODEL_ALIAS_MAP = {
 def resolve_model_alias(user_input):
     user_input_lower = user_input.lower()
     for alias in MODEL_ALIAS_MAP.keys():
-        if user_input_lower.startswith(alias):  # detect variants like -7b or -32b
+        if user_input_lower.startswith(alias):  # detect model variants
             return user_input
     return user_input
 
@@ -42,7 +42,6 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
 
     # Hardcoded model branches for reproducibility
     if resolved_lower.startswith("qwen2.5-vl"):
-        # Qwen has its own model class & often requires trust_remote_code
         from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
         print(f"Loading hardcoded model Qwen2.5-VL from '{model_name}' (alias resolved to qwen2.5-vl)")
         model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
@@ -52,41 +51,45 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
             low_cpu_mem_usage=True,
             trust_remote_code=True
         )
-        processor = AutoProcessor.from_pretrained(processor_path or model_name)
+        min_pixels = 256*28*28
+        max_pixels = 1280*28*28
+        processor = AutoProcessor.from_pretrained(processor_path or model_name, trust_remote_code=True, min_pixels=min_pixels, max_pixels=max_pixels)
 
     elif resolved_lower.startswith("blip2"):
-        from transformers import Blip2ForConditionalGeneration, AutoProcessor
+        from transformers import Blip2ForConditionalGeneration, Blip2Processor
         print(f"Loading hardcoded model BLIP-2 from '{model_name}' (alias resolved to blip2)")
         model = Blip2ForConditionalGeneration.from_pretrained(
             model_name,
             torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-            device_map="auto" if torch.cuda.is_available() else None
+            device_map="auto" if torch.cuda.is_available() else None,
+            low_cpu_mem_usage=True,
+            trust_remote_code=True
         )
-        processor = AutoProcessor.from_pretrained(processor_path or model_name)
+        processor = Blip2Processor.from_pretrained(processor_path or model_name, trust_remote_code=True)
 
     elif resolved_lower.startswith("internvl3"):
-        # InternVL often provides a chat API and custom preprocessing (handled in utils.BenchmarkTester)
-        from transformers import AutoModelForCausalLM, AutoProcessor
+        from transformers import AutoModel, AutoTokenizer
         print(f"Loading hardcoded model InternVL3 from '{model_name}' (alias resolved to internvl3)")
-        model = AutoModelForCausalLM.from_pretrained(
+        model = AutoModel.from_pretrained(
             model_name,
             torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
             device_map="auto" if torch.cuda.is_available() else None,
+            low_cpu_mem_usage=True,
             trust_remote_code=True
         )
-        processor = AutoProcessor.from_pretrained(processor_path or model_name)
+        processor = AutoTokenizer.from_pretrained(processor_path or model_name, trust_remote_code=True, use_fast=False)
 
     elif resolved_lower.startswith("gemma3"):
-        # Gemma often uses AutoModelForCausalLM with bfloat16 for best perf on supported hw
-        from transformers import AutoModelForCausalLM, AutoProcessor
+        from transformers import Gemma3ForConditionalGeneration, AutoProcessor
         print(f"Loading hardcoded model Gemma3 from '{model_name}' (alias resolved to gemma3)")
-        model = AutoModelForCausalLM.from_pretrained(
+        model = Gemma3ForConditionalGeneration.from_pretrained(
             model_name,
             torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
             device_map="auto" if torch.cuda.is_available() else None,
+            low_cpu_mem_usage=True,
             trust_remote_code=True
         )
-        processor = AutoProcessor.from_pretrained(processor_path or model_name)
+        processor = AutoProcessor.from_pretrained(processor_path or model_name, trust_remote_code=True)
 
     else:
         # Generic HF fallback: attempt to load processor + AutoModelForCausalLM
@@ -96,10 +99,11 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
             model_name,
             torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
             device_map="auto" if torch.cuda.is_available() else None,
+            low_cpu_mem_usage=True,
             trust_remote_code=True
         )
         # processor_path default fallback to model_name (repo id or local path)
-        processor = AutoProcessor.from_pretrained(processor_path or model_name)
+        processor = AutoProcessor.from_pretrained(processor_path or model_name, trust_remote_code=True)
 
     # optional small tweak if model supports memory efficient attention
     if hasattr(model.config, 'use_memory_efficient_attention'):
