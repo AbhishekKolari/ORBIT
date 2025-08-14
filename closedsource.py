@@ -54,7 +54,7 @@ def _looks_like_model_id(s: str) -> bool:
 
 def resolve_closed_model(user_input: str):
     """
-    Resolve user_input (alias or full id) into (provider, model_id).
+    Resolve user_input (alias or full id) into (provider, model_id)
     provider in {'gpt','claude','gemini'}.
     Returns: (provider_str, model_id)
     """
