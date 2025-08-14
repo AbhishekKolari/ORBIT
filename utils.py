@@ -5,6 +5,8 @@ import gc
 from pathlib import Path
 from collections import defaultdict
 from typing import List, Any, Dict
+from typing import Optional
+import pandas as pd
 
 from PIL import Image
 from tqdm import tqdm
@@ -15,38 +17,76 @@ from torchvision import transforms as T
 from torchvision.transforms import InterpolationMode
 
 # ----------------------------
-# Answer cleaning (BLIP-2 style)
+# Answer cleaning
 # ----------------------------
 import re
 def clean_answer_blip2(answer: str):
     """Robust cleaning: extract digits in canonical '<N> [a,b,..]' or fallbacks (words, roman)."""
-    if answer is None:
+    if not answer:
         return {"count": "0", "reasoning": []}
-    answer_lower = answer.lower().strip()
 
-    # canonical pattern
+    answer = str(answer).strip()
+    answer_lower = answer.lower()
+
     pattern = r'(\d+)\s*\[(.*?)\]'
     match = re.search(pattern, answer)
     if match:
         number = match.group(1)
-        objects = [o.strip() for o in match.group(2).split(',') if o.strip()]
+        objects = [obj.strip() for obj in match.group(2).split(',') if obj.strip()]
         return {"count": number, "reasoning": objects}
 
-    # numbers
     numbers = re.findall(r'\d+', answer)
     if numbers:
         return {"count": numbers[0], "reasoning": []}
 
-    # word to number
-    word_to_num = {
-        'zero': '0', 'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5',
-        'six': '6', 'seven': '7', 'eight': '8', 'nine': '9', 'ten': '10'
+    roman_to_num = {
+        'i': 1, 'ii': 2, 'iii': 3, 'iv': 4, 'v': 5, 'vi': 6, 'vii': 7,
+        'viii': 8, 'ix': 9, 'x': 10, 'xi': 11, 'xii': 12, 'xiii': 13,
+        'xiv': 14, 'xv': 15, 'xvi': 16, 'xvii': 17, 'xviii': 18, 'xix': 19,
+        'xx': 20
     }
-    for w, n in word_to_num.items():
-        if w in answer_lower:
-            return {"count": n, "reasoning": []}
 
-    # fallback
+    for roman in sorted(roman_to_num.keys(), key=len, reverse=True):
+        if re.search(r'\b' + re.escape(roman) + r'\b', answer_lower):
+            return {"count": str(roman_to_num[roman]), "reasoning": []}
+
+    units = {
+        'zero':0, 'one':1, 'two':2, 'three':3, 'four':4, 'five':5,
+        'six':6, 'seven':7, 'eight':8, 'nine':9
+    }
+    teens = {
+        'ten':10, 'eleven':11, 'twelve':12, 'thirteen':13, 'fourteen':14, 'fifteen':15,
+        'sixteen':16, 'seventeen':17, 'eighteen':18, 'nineteen':19
+    }
+    tens = {
+        'twenty':20, 'thirty':30, 'forty':40, 'fifty':50,
+        'sixty':60, 'seventy':70, 'eighty':80, 'ninety':90
+    }
+
+    for w, n in {**teens, **units}.items():
+        if re.search(r'\b' + re.escape(w) + r'\b', answer_lower):
+            return {"count": str(n), "reasoning": []}
+
+    tens_pattern = r'\b(' + '|'.join(re.escape(k) for k in tens.keys()) + r')(?:[\s-]+(' + '|'.join(re.escape(k) for k in units.keys()) + r'))?\b'
+    tens_match = re.search(tens_pattern, answer_lower)
+    if tens_match:
+        tens_word = tens_match.group(1)
+        unit_word = tens_match.group(2)
+        value = tens.get(tens_word, 0)
+        if unit_word:
+            value += units.get(unit_word, 0)
+        return {"count": str(value), "reasoning": []}
+
+    tokenized = re.findall(r"[a-zA-Z]+", answer_lower)
+    for tok in tokenized:
+        if tok in units:
+            return {"count": str(units[tok]), "reasoning": []}
+        if tok in teens:
+            return {"count": str(teens[tok]), "reasoning": []}
+        if tok in tens:
+            return {"count": str(tens[tok]), "reasoning": []}
+
+    # fallback -> zero
     return {"count": "0", "reasoning": []}
 
 
@@ -122,6 +162,19 @@ def load_image_internvl(image_file, input_size=448, max_num=12):
     pixel_values = torch.stack(pixel_values)
     return pixel_values
 
+# ------------------ robust path resolution ------------------
+def resolve_image_path(image_path_str: str, data_dir: Optional[str], benchmark_json_path: Optional[str]) -> Path:
+    """
+    Resolve an image path from benchmark.json robustly (absolute / data_dir / benchmark parent).
+    """
+    img_p = Path(image_path_str)
+    if img_p.is_absolute():
+        return img_p
+    if data_dir:
+        return Path(data_dir) / image_path_str
+    if benchmark_json_path:
+        return Path(benchmark_json_path).parent / image_path_str
+    return Path(image_path_str)
 
 # ----------------------------
 # BenchmarkTester (per-model branches)
@@ -129,12 +182,12 @@ def load_image_internvl(image_file, input_size=448, max_num=12):
 class BenchmarkTester:
     def __init__(self, benchmark_path: str, data_dir: str, device: str = None):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+        self.benchmark_path = benchmark_path
         with open(benchmark_path, 'r') as f:
             self.benchmark = json.load(f)
         self.data_dir = data_dir
 
     def clean_answer(self, answer: str):
-        # Use BLIP-2–style parser as canonical
         return clean_answer_blip2(answer)
 
     def _print_evaluation_summary(self, model_name, total_images, successful_images, failed_images,
@@ -205,7 +258,7 @@ class BenchmarkTester:
             cur_failed = 0
             cur_total = 0
             try:
-                image_path = Path(self.data_dir) / image_data['path']
+                image_path = resolve_image_path(image_data['path'], self.data_dir, self.benchmark_path)
                 if not image_path.exists():
                     failed_images.append({
                         'image_id': image_data['image_id'],
@@ -297,7 +350,7 @@ class BenchmarkTester:
 
                         # BLIP-2 special path
                         elif "blip2" in model_key:
-                            prompt = f"{question['question']} Your response MUST be in the following format and nothing else:\n <NUMBER> [<OBJECT1>, <OBJECT2>, <OBJECT3>, ...]"
+                            prompt = f"Question: {question['question']} Answer(total number):"
                             torch.cuda.empty_cache()
                             inputs = processor(images=pil_image, text=prompt, return_tensors="pt").to(self.device)
                             with torch.no_grad():
@@ -431,7 +484,7 @@ class BenchmarkTester:
 
 
 # ----------------------------
-# Metrics utilities (only requested pieces)
+# Metrics utilities
 # ----------------------------
 def _safe_int(x):
     if x is None:
@@ -486,8 +539,6 @@ def mean_error(predictions: List[Any], ground_truths: List[Any]) -> float:
     errors = [(p - t) for p, t in pairs]
     return sum(errors) / len(errors)
 
-# convenience: load results json into dataframe and compute metrics
-import pandas as pd
 def load_results_to_dataframe(results_path: str) -> pd.DataFrame:
     with open(results_path, 'r') as f:
         data = json.load(f)
