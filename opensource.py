@@ -12,6 +12,7 @@ Function:
 
 import gc
 import torch
+import os
 from pathlib import Path
 from utils import BenchmarkTester
 
@@ -81,15 +82,19 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
 
     elif resolved_lower.startswith("gemma3"):
         from transformers import Gemma3ForConditionalGeneration, AutoProcessor
+        """
+        HF_TOKEN is set in the environment variables, e.g. HF_TOKEN="hf_..."
+        """
         print(f"Loading hardcoded model Gemma3 from '{model_name}' (alias resolved to gemma3)")
         model = Gemma3ForConditionalGeneration.from_pretrained(
             model_name,
+            token=os.getenv("HF_TOKEN"),
             torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
             device_map="auto" if torch.cuda.is_available() else None,
             low_cpu_mem_usage=True,
             trust_remote_code=True
         )
-        processor = AutoProcessor.from_pretrained(processor_path or model_name, trust_remote_code=True)
+        processor = AutoProcessor.from_pretrained(processor_path or model_name, token=os.getenv("HF_TOKEN"), trust_remote_code=True)
 
     else:
         # Generic HF fallback: attempt to load processor + AutoModelForCausalLM
