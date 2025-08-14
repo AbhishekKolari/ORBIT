@@ -21,6 +21,7 @@ from typing import Optional
 
 import torch
 from utils import BenchmarkTester
+from utils import resolve_image_path
 
 # Attempt SDK imports; raise error if missing
 try:
@@ -88,20 +89,6 @@ def resolve_closed_model(user_input: str):
 
     # Last resort: default to GPT branch with default model id
     return "gpt", os.getenv("OPENAI_MODEL", DEFAULT_MODELS["gpt"])
-
-# ------------------ robust path resolution ------------------
-def resolve_image_path(image_path_str: str, data_dir: Optional[str], benchmark_json_path: Optional[str]) -> Path:
-    """
-    Resolve an image path from benchmark.json robustly (absolute / data_dir / benchmark parent).
-    """
-    img_p = Path(image_path_str)
-    if img_p.is_absolute():
-        return img_p
-    if data_dir:
-        return Path(data_dir) / image_path_str
-    if benchmark_json_path:
-        return Path(benchmark_json_path).parent / image_path_str
-    return Path(image_path_str)
 
 
 def _image_to_base64_str(image_path: str) -> str:
