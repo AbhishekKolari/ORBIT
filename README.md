@@ -3,6 +3,10 @@
 This repository contains the codebase and resources for the thesis experiments on 'ORBIT: An Object Property Reasoning
 Benchmark for Visual Inference Tasks' involving object property counting and reasoning with vision-language models.
 
+A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions, three reasoning complexity levels and three visual domains. 
+
+![alt-text](images/orbit-tax-500.pdf)
+
 ## Project Structure
 
 - **benchmark.json**: The main benchmark dataset containing annotated questions and ground truth answers for real, animated, and AI-generated images.
