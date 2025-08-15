@@ -96,7 +96,7 @@ def _image_to_base64_str(image_path: str) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 
-def run_closedsource(model_name: str, benchmark_json: str, data_dir: str, output_file: str, batch_size: int = 360):
+def run_closedsource(model_name: str, benchmark_json: str, data_dir: str, output_file: str, start_idx: int = 0, batch_size: int = 360):
     """
     Run closed-source vendor multimodal models on the benchmark.
     - model_name: alias or full vendor model id (see resolve_closed_model)
@@ -149,7 +149,7 @@ def run_closedsource(model_name: str, benchmark_json: str, data_dir: str, output
         genai_client = genai.Client(api_key=google_key)
 
     results = []
-    images = tester.benchmark['benchmark']['images'][:batch_size]
+    images = tester.benchmark['benchmark']['images'][start_idx:start_idx + batch_size]
     total_images = len(images)
 
     for idx, image_data in enumerate(tqdm(images, desc="Processing images")):
