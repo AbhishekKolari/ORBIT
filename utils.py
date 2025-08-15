@@ -20,7 +20,7 @@ from torchvision.transforms import InterpolationMode
 # Answer cleaning
 # ----------------------------
 import re
-def clean_answer_blip2(answer: str):
+def clean_answer_improved(answer: str):
     """Robust cleaning: extract digits in canonical '<N> [a,b,..]' or fallbacks (words, roman)."""
     if not answer:
         return {"count": "0", "reasoning": []}
@@ -188,7 +188,7 @@ class BenchmarkTester:
         self.data_dir = data_dir
 
     def clean_answer(self, answer: str):
-        return clean_answer_blip2(answer)
+        return clean_answer_improved(answer)
 
     def _print_evaluation_summary(self, model_name, total_images, successful_images, failed_images,
                                   total_questions_processed, total_questions_failed, total_results):
