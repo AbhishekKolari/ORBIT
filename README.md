@@ -5,7 +5,33 @@ three reasoning complexity levels and three visual domains.
 
 <h1 align="center"><img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" /></h1>
 
-## Project Structure
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AbhishekKolari/ORBIT.git
+   cd ORBIT
+   ```
+
+2. **Install the Framework**:
+   Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site once.
+   ```bash
+   # create the environment
+   conda create -n [env_name] python=3.12
+
+   # activate
+   conda activate [env_name]
+
+   # install dependencies
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+
+
+<!-- ## Project Structure
 
 - **benchmark.json**: The main benchmark dataset containing annotated questions and ground truth answers for real, animated, and AI-generated images.
 - **merged_data/**: Contains subfolders for different image types (`REAL/`, `ANIMATED/`, `AI_GENERATED/`) used in the benchmark.
@@ -16,7 +42,7 @@ three reasoning complexity levels and three visual domains.
 - **ORBIT_analysis_plots/** and **ORBIT_model_plots/**: Contain figures generated from the analysis notebook, including accuracy curves, error distributions, and model comparison plots. These are directly used in the thesis to illustrate findings.
 - **ORBIT_notebooks/opa-benchmark-<model-names>.ipynb**: Contains wrappers and utility functions for running open-source models on the benchmark.
 <!-- - **pdf2bench.py**: Utility for converting PDF-based datasets into the benchmark format. -->
-<!-- - **create_notebook.py**: Script to auto-generate Jupyter notebooks for new experiments or model evaluations. -->
+- **create_notebook.py**: Script to auto-generate Jupyter notebooks for new experiments or model evaluations. -->
 
 ## How This Supports the Thesis Experiments
 
