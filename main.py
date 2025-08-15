@@ -17,6 +17,7 @@ def main():
     parser.add_argument('--benchmark_json', type=str, required=True, help='Path to benchmark.json')
     parser.add_argument('--data_dir', type=str, default=None, help='Optional root to prefix relative paths (if omitted use benchmark.json parent)')
     parser.add_argument('--output_file', type=str, required=True, help='Path to write results JSON')
+    parser.add_argument('--start_idx', type=int, default=0, help='Start index for batch processing')
     parser.add_argument('--batch_size', type=int, default=360, help='How many images to process (default=360)')
     parser.add_argument('--analyze', action='store_true', help='Compute analysis metrics on the saved results after run')
     parser.add_argument('--off_by_n', type=int, default=1, help='Tolerance for off-by-n analysis (analysis only)')
@@ -29,6 +30,7 @@ def main():
             benchmark_json=args.benchmark_json,
             data_dir=args.data_dir,
             output_file=args.output_file,
+            start_idx=args.start_idx,
             batch_size=args.batch_size
         )
     else:
@@ -38,6 +40,7 @@ def main():
             benchmark_json=args.benchmark_json,
             data_dir=args.data_dir,
             output_file=args.output_file,
+            start_idx=args.start_idx,
             batch_size=args.batch_size
         )
 
