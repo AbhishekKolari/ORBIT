@@ -32,7 +32,7 @@ def resolve_model_alias(user_input):
     return user_input
 
 
-def run_opensource(model_name: str, processor_path: str, benchmark_json: str, data_dir: str, output_file: str, batch_size: int = 360):
+def run_opensource(model_name: str, processor_path: str, benchmark_json: str, data_dir: str, output_file: str, start_idx: int = 0, batch_size: int = 360):
     """
     Load either a hardcoded tested model (alias) or any HF model by repo id/local path.
     Calls BenchmarkTester.evaluate_model(...) which contains per-model generation/preproc branches.
@@ -115,7 +115,7 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
         model.config.use_memory_efficient_attention = True
 
     try:
-        tester.evaluate_model(model_name, model, processor, output_file, batch_size=batch_size)
+        tester.evaluate_model(model_name, model, processor, output_file, start_idx=start_idx, batch_size=batch_size)
     finally:
         # cleanup
         del model, processor
