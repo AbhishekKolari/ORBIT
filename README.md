@@ -15,6 +15,7 @@ three reasoning complexity levels and three visual domains.
    ```
 
 2. **Install the Framework**:
+   
    Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site once.
    ```bash
    # create the environment
