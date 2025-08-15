@@ -4,8 +4,7 @@ This repository contains the codebase and resources for the thesis experiments o
 Benchmark for Visual Inference Tasks' involving object property counting and reasoning with vision-language models.
 
 A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions, three reasoning complexity levels and three visual domains. 
-
-![alt-text](images/orbit-tax-500.pdf)
+<img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" />
 
 ## Project Structure
 
