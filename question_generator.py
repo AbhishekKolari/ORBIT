@@ -325,7 +325,7 @@ def generate_benchmark_json(model_choice: str, data_dir: str, output_json: str, 
 # ---------- CLI ----------
 def main():
     parser = argparse.ArgumentParser(description="Question generator -> benchmark JSON")
-    parser.add_argument('--model', required=True, choices=['gpt4o','claude','gemini'], help='Provider to use')
+    parser.add_argument('--model', required=True, choices=['gpt','claude','gemini'], help='Provider to use')
     parser.add_argument('--data_dir', required=True, help='Directory with images')
     parser.add_argument('--output_json', required=True, help='Output JSON path')
     parser.add_argument('--image_type', default='REAL', choices=['REAL','ANIMATED','AI_GENERATED'], help='Image type tag for produced entries')
@@ -334,7 +334,7 @@ def main():
     args = parser.parse_args()
 
     # API key checks
-    if args.model == 'gpt4o' and not os.getenv('OPENAI_API_KEY'):
+    if args.model == 'gpt' and not os.getenv('OPENAI_API_KEY'):
         logger.error("OPENAI_API_KEY must be set for GPT-4o")
         return
     if args.model == 'claude' and not os.getenv('ANTHROPIC_API_KEY'):
