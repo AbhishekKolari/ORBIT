@@ -44,7 +44,7 @@ Create .env file
 
 ## Execution
 
-   # Evaluate models on benchmark
+   ### Evaluate models on benchmark
 
    1. **Open-source models**:
       CLI 
@@ -52,7 +52,7 @@ Create .env file
    2. **Closed-source models**:
       CLI 
 
-   # ORBIT MLLMs based question generation
+   ### ORBIT MLLMs based question generation
 
    CLI
 
@@ -80,15 +80,15 @@ Create .env file
 4. **Analysis & Visualization**: `analyse_results.ipynb` computes all key metrics reported in the thesis (accuracy, off-by-N, MAE, RMSE, error clustering, etc.) and produces publication-ready plots found in `ORBIT_analysis_plots/` and `ORBIT_model_plots/`.
 5. **Reproducibility**: Scripts and notebooks are organized to allow any researcher to reproduce the thesis experiments from model download to final analysis. -->
 
-## Getting Started
+<!-- ## Getting Started
 
 1. **Setup and Dependencies**:  
    Install Anaconda or Miniconda distribution based on Python3+ from their downloads' site.
    ```bash 
    conda create -n [env_name] python=3.12
    ```
-   Activate it and install all necessary libraries:  
-   ```bash 
+   Activate it and install all necessary libraries:   -->
+   <!-- ```bash 
    pip install -r requirements.txt
    ```
    Create ipykernel for the use of Jupyter Notebooks:
@@ -112,6 +112,6 @@ Create .env file
    Tweak `analyse_results.ipynb` and run  
    ```bash
    sbatch analyse.sh
-   ```
+   ``` -->
 
  
