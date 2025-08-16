@@ -102,22 +102,22 @@ For closed-source models, also include default model versions used as `*_MODEL`.
    --analyze \
    --off_by_n 2
    ```
-   To display the results, include the `--analyze` argument and the `--off_by_n` argument, which calculates the off_by_n accuracy with a default tolerance set at 1. This will display results similar to the tables shown in the paper.
+   To display the results, include the `--analyze` argument and the `--off_by_n` argument, which calculates the accuracy, RMSE, mean error and off_by_n accuracy with a default tolerance set at 1. This will display results similar to the tables shown in the paper.
 
    ### ORBIT MLLMs based question generation
    
    To generate questions on ORBIT's images or a set of new images run the command:
 
-      ```bash
-      python question_generator.py \
-      --model gpt \
-      --data_dir ./data/ANIMATED \
-      --image_type ANIMATED
-      --output_json generated.json \
-      --test_mode \
-      --max_images 2
-      ```
-   By default, `--image_type` is set to 'REAL'. The questions in output JSON file `generated.json` can be manually refined and then evaluated on by running the commands given above using either the opensource or closedsource mode. 
+   ```bash
+   python question_generator.py \
+   --model gpt \
+   --data_dir ./data/ANIMATED \
+   --image_type ANIMATED
+   --output_json generated.json \
+   --test_mode \
+   --max_images 2
+   ```
+   By default, `--image_type` is set to 'REAL'. The questions in the output JSON file `generated.json` can be manually refined and then evaluated on by running the commands given above using `--mode` as either opensource or closedsource. 
 
 
 <!-- ## Project Structure
