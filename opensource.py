@@ -21,13 +21,13 @@ MODEL_ALIAS_MAP = {
     "qwen2.5-vl": ["qwen/qwen2.5-vl-7b-instruct", "qwen/qwen2.5-vl-32b-instruct"],
     "blip2": ["salesforce/blip2-flan-t5-xxl", "salesforce/blip2-opt-2.7b", "salesforce/blip2-opt-6.7b"],
     "internvl3": ["opengvlab/internvl3-8b", "opengvlab/internvl3-14b"],
-    "gemma3": ["google/gemma-3-27b-it"]
+    "gemma-3": ["google/gemma-3-27b-it"]
 }
 
 def resolve_model_alias(user_input):
     user_input_lower = user_input.lower()
     for alias in MODEL_ALIAS_MAP.keys():
-        if user_input_lower.startswith(alias):  # detect model variants
+        if alias in user_input_lower:  # detect model variants
             return user_input
     return user_input
 
@@ -42,7 +42,7 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
     tester = BenchmarkTester(benchmark_json, data_dir)
 
     # Hardcoded model branches for reproducibility
-    if resolved_lower.startswith("qwen2.5-vl"):
+    if "qwen2.5-vl" in resolved_lower:
         from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
         print(f"Loading hardcoded model Qwen2.5-VL from '{model_name}' (alias resolved to qwen2.5-vl)")
         model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
@@ -56,7 +56,7 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
         max_pixels = 1280*28*28
         processor = AutoProcessor.from_pretrained(processor_path or model_name, trust_remote_code=True, min_pixels=min_pixels, max_pixels=max_pixels)
 
-    elif resolved_lower.startswith("blip2"):
+    elif "blip2" in resolved_lower:
         from transformers import Blip2ForConditionalGeneration, Blip2Processor
         print(f"Loading hardcoded model BLIP-2 from '{model_name}' (alias resolved to blip2)")
         model = Blip2ForConditionalGeneration.from_pretrained(
@@ -68,7 +68,7 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
         )
         processor = Blip2Processor.from_pretrained(processor_path or model_name, trust_remote_code=True)
 
-    elif resolved_lower.startswith("internvl3"):
+    elif "internvl3" in resolved_lower:
         from transformers import AutoModel, AutoTokenizer
         print(f"Loading hardcoded model InternVL3 from '{model_name}' (alias resolved to internvl3)")
         model = AutoModel.from_pretrained(
@@ -80,7 +80,7 @@ def run_opensource(model_name: str, processor_path: str, benchmark_json: str, da
         )
         processor = AutoTokenizer.from_pretrained(processor_path or model_name, trust_remote_code=True, use_fast=False)
 
-    elif resolved_lower.startswith("gemma3"):
+    elif "gemma-3" in resolved_lower:
         from transformers import Gemma3ForConditionalGeneration, AutoProcessor
         """
         HF_TOKEN is set in the environment variables, e.g. HF_TOKEN="hf_..."
