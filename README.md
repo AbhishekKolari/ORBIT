@@ -173,6 +173,6 @@ For closed-source models, also include default model versions used as `*_MODEL`.
    Tweak `analyse_results.ipynb` and run  
    ```bash
    sbatch analyse.sh
-   ``` -->
+   ```
 
  
