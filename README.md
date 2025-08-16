@@ -1,7 +1,6 @@
 <h1 align="center"> ORBIT: An <ins>O</ins>bject Property <ins>R</ins>easoning <ins>B</ins>enchmark for Visual <ins>I</ins>nference <ins>T</ins>asks</h1>
 
-A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions, 
-three reasoning complexity levels and three visual domains.
+A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions (physical, taxonomic, functional, relational), three reasoning complexity levels (direct recognition, property inference, counterfactual) and three visual domains (photographic/real, animated, AI-generated).
 
 <h1 align="center"><img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" /></h1>
 
@@ -40,23 +39,85 @@ ORBIT provides scripts to reproduce and evaluate multiple open-source and closed
 
 ## Environment Variables
 
-Create .env file
+Create a `.env` file to store the keys and token in the same manner as given in the template:
+
+   ```bash
+   # API keys
+   OPENAI_API_KEY="sk-..."
+   ANTHROPIC_API_KEY="claude-..."
+   GOOGLE_API_KEY="ya29..."
+
+   # Gemma 3
+   HF_TOKEN="hf_..."
+
+   # default model ids (used when --model is an alias)
+   OPENAI_MODEL=gpt-4o-mini-2024-07-18
+   ANTHROPIC_MODEL=claude-3.7-sonnet
+   GOOGLE_MODEL=gemini-2.0-pro
+   ```
+
+For closed-source models, also include default model versions used as `*_MODEL`.
 
 ## Execution
 
    ### Evaluate models on benchmark
 
    1. **Open-source models**:
-      CLI 
+      
+      ```bash
+      python main.py \
+      --mode opensource \
+      --model_name qwen/qwen2.5-vl-7b-instruct \
+      --processor_path qwen/qwen2.5-vl-7b-instruct \
+      --benchmark_json ./benchmark.json \
+      --data_dir . \
+      --output_file qwen_results.json \
+      --start_idx 0 \
+      --batch_size 5
+      ```
 
    2. **Closed-source models**:
-      CLI 
+      
+      ```bash
+      python main.py \
+      --mode closedsource \
+      --model_name gpt \
+      --benchmark_json ./benchmark.json \
+      --data_dir . \
+      --output_file closed_results.json \
+      --start_idx 0 \
+      --batch_size 10
+      ```
+
+   By default, the `start_idx` and `batch_size` arguments are set at values 0 and 360 (total num of images in ORBIT) respectively. The arguments can be used to evaluate on a smaller subset of images (e.g., image 21 to 26).
+
+   ### Results
+
+      ```bash
+      python main.py \
+      --mode closedsource \
+      --model_name gpt \
+      --benchmark_json benchmark.json \
+      --output_file closed_results.json \
+      --analyze \
+      --off_by_n 2
+      ```
+   To display the results, include the `--analyze` argument and the `--off_by_n` argument, which calculates the off_by_n accuracy with a default tolerance set at 1. This will display results similar to the tables shown in the paper.
 
    ### ORBIT MLLMs based question generation
+   
+   To generate questions on ORBIT's images or a set of new images run the command:
 
-   CLI
-
-## Disclaimer
+      ```bash
+      python question_generator.py \
+      --model gpt \
+      --data_dir ./data/ANIMATED \
+      --image_type ANIMATED
+      --output_json generated.json \
+      --test_mode \
+      --max_images 2
+      ```
+   By default, `--image_type` is set to 'REAL'. The questions in output JSON file `generated.json` can be manually refined and then evaluated on by running the commands given above using either the opensource or closedsource mode. 
 
 
 <!-- ## Project Structure
