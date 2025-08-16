@@ -93,15 +93,15 @@ For closed-source models, also include default model versions used as `*_MODEL`.
 
    ### Results
 
-      ```bash
-      python main.py \
-      --mode closedsource \
-      --model_name gpt \
-      --benchmark_json benchmark.json \
-      --output_file closed_results.json \
-      --analyze \
-      --off_by_n 2
-      ```
+   ```bash
+   python main.py \
+   --mode closedsource \
+   --model_name gpt \
+   --benchmark_json benchmark.json \
+   --output_file closed_results.json \
+   --analyze \
+   --off_by_n 2
+   ```
    To display the results, include the `--analyze` argument and the `--off_by_n` argument, which calculates the off_by_n accuracy with a default tolerance set at 1. This will display results similar to the tables shown in the paper.
 
    ### ORBIT MLLMs based question generation
