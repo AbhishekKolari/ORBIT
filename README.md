@@ -131,7 +131,7 @@ For closed-source models, also include default model versions used as `*_MODEL`.
 - **ORBIT_analysis_plots/** and **ORBIT_model_plots/**: Contain figures generated from the analysis notebook, including accuracy curves, error distributions, and model comparison plots. These are directly used in the thesis to illustrate findings.
 - **ORBIT_notebooks/opa-benchmark-<model-names>.ipynb**: Contains wrappers and utility functions for running open-source models on the benchmark.
 <!-- - **pdf2bench.py**: Utility for converting PDF-based datasets into the benchmark format. -->
-<!-- - **create_notebook.py**: Script to auto-generate Jupyter notebooks for new experiments or model evaluations. --> -->
+<!-- - **create_notebook.py**: Script to auto-generate Jupyter notebooks for new experiments or model evaluations. -->
 
 <!-- ## How This Supports the Thesis Experiments
 
