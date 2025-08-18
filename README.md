@@ -117,7 +117,23 @@ For closed-source models, also include default model versions used as `*_MODEL`.
    --test_mode \
    --max_images 2
    ```
-   By default, `--image_type` is set to 'REAL'. The questions in the output JSON file `generated.json` can be manually refined and then evaluated on by running the commands given above using `--mode` as either opensource or closedsource. 
+   By default, `--image_type` is set to 'REAL'. The questions in the output JSON file `generated.json` can be manually refined and then evaluated on by running the commands given above using `--mode` as either opensource or closedsource.
+
+## Citation (BibTeX)
+
+If you found ORBIT useful, please cite us:
+
+```bash
+@misc{kolari2025orbitobjectpropertyreasoning,
+      title={ORBIT: An Object Property Reasoning Benchmark for Visual Inference Tasks}, 
+      author={Abhishek Kolari and Mohammadhossein Khojasteh and Yifan Jiang and Floris den Hengst and Filip Ilievski},
+      year={2025},
+      eprint={2508.10956},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.10956}, 
+}
+```
 
 
 <!-- ## Project Structure
