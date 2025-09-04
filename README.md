@@ -1,8 +1,23 @@
 <h1 align="center"> ORBIT: An <ins>O</ins>bject Property <ins>R</ins>easoning <ins>B</ins>enchmark for Visual <ins>I</ins>nference <ins>T</ins>asks</h1>
 
-A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions (physical, taxonomic, functional, relational), three reasoning complexity levels (direct recognition, property inference, counterfactual) and three visual domains (photographic/real, animated, AI-generated).
+<!-- A novel comprehensive benchmark, ORBIT, evaluates Vision-Language Models (VLMs) abilities to reason about abstract object properties across four object property dimensions (physical, taxonomic, functional, relational), three reasoning complexity levels (direct recognition, property inference, counterfactual) and three visual domains (photographic/real, animated, AI-generated). -->
 
-<h1 align="center"><img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" /></h1>
+<div align="center">
+  
+Inspired by human object categorization, this repository introduces ORBIT, a comprehensive benchmark designed to evaluate the abilities of Vision–Language Models (VLMs) to reason about abstract object properties. ORBIT spans four object property dimensions (physical, taxonomic, functional, relational), three levels of reasoning complexity (direct recognition, property inference, counterfactual reasoning), and three visual domains (photographic/real, animated, AI-generated).
+
+📄 [Paper](https://arxiv.org/pdf/2508.10956) | 
+📚 [arXiv](https://arxiv.org/abs/2508.10956) | 
+🤗 [Dataset](https://huggingface.co/datasets/Abk802/ORBIT)  
+<!-- 💻 [Code](https://github.com/AbhishekKolari/ORBIT.git) | -->
+<!-- 📓 [Notebooks](https://colab.research.google.com/github/yourname/yourrepo/blob/main/notebook.ipynb) |  -->
+<!-- 🌐 [Website](https://yourprojectwebsite.com) -->
+
+<img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" />
+
+</div>
+
+<!-- <h1 align="center"><img width="584" height="400" alt="orbit-tax-500-1" src="https://github.com/user-attachments/assets/52bd4e19-ca8f-45ab-aa44-0992726c3897" /></h1> -->
 
 
 
@@ -124,7 +139,7 @@ For closed-source models, also include default model versions used as `*_MODEL`.
 
 If you found ORBIT useful, please cite us:
 
-```bash
+```bibtex
 @misc{kolari2025orbitobjectpropertyreasoning,
       title={ORBIT: An Object Property Reasoning Benchmark for Visual Inference Tasks}, 
       author={Abhishek Kolari and Mohammadhossein Khojasteh and Yifan Jiang and Floris den Hengst and Filip Ilievski},
